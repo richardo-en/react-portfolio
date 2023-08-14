@@ -1,0 +1,140 @@
+/* OVERALL SETTINGS */
+
+html,
+body {
+  background-color: rgba(31, 41, 55);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar{
+  width: 6px;           
+  background-color: none;      
+}
+
+*::-webkit-scrollbar-track{
+  background-color: none;       
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: #c7eaff;   
+  border-radius: 20px;     
+}
+/* HOME PAGE */
+
+#background_image {
+  width: 100%;
+  height: 100%;
+  background-image: url("../static/images/leafs_background.jpg");
+  background-size: cover;
+}
+
+/* ABOUT PAGE */
+
+#personal_image {
+  background-position: 0% 30%;
+  background-image: url("../static/images/test_photo.jpg");
+  background-size: cover;
+}
+
+/* PROJECT PAGE */
+
+.sticky_parent{
+  height: 400vh;
+}
+
+.sticky_el{
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.scroll_section{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 400vw;
+  will-change: transform;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+}
+
+.project_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+  width: 70vw;
+  border-radius: 10px;
+  height: 60%;
+  text-align: center;
+}
+
+.project_card>h1{
+  margin-bottom: 20px;
+}
+
+.project_card>p{
+  width: 80%;
+}
+
+.project_card>img{
+  max-width: 200px;
+  transform: rotate(-45deg);
+  position: fixed;
+  margin-right: 70vw;
+  top: 100px;
+}
+
+/* FUTURE SECTION */
+#future{
+  padding-left: 25vw;
+  background-image: url('./images/abstract_bg.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .section {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+
+.section:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+.section h2 {
+  font-size: 2rem;
+} */
+
+/* .slide {
+  flex: 0 0 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  scroll-snap-align: start;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+} */
+
+/* .slider::-webkit-scrollbar {
+  width: 0;
+  color: transparent;
+  background-color: transparent;
+} */

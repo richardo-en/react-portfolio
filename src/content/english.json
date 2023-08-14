@@ -1,0 +1,73 @@
+{
+  "welcome": "Welcome to my presonal portfolio",
+  "about": "About Me",
+  "contact": "Contact Me",
+  "cardsOne": [
+    {
+      "title": "A Little Bit About Me",
+      "description": "Hi, my name is Richard. I'm a 21-year-old student at the Slovak Technical University. Before coming to the university, I was a semi-professional athlete competing in canoe-sprint and participating in multiple international events."
+    },
+    {
+      "title": "Why I Chose to Study Computer Science",
+      "description": "I chose to study computer science and technology because I have a passion for this field. I'm interested in the process of creating software, websites, and other computer assets. What I love about this field is that I can learn logical patterns and use them to build complex projects."
+    },
+    {
+      "title": "From Sports to Computer Science",
+      "description": "My interest in computer science started when I was 15 years old. I came across 3D modeling software called Blender while watching videos about games. While I didn't end up writing code in Blender, I became curious about the process of making games. I started learning the C# programming language and discovered the Unity software. This led me to create a game called 'Mark Ball,' which is available for download on the Google Play Store."
+    }
+  ],
+  "cardsTwo": [
+    {
+      "title": "Early Experiences",
+      "description": "In high school, I specialized in informatics. During that time, I studied the Python programming language and worked on several projects. I used Flask and learned basic web technologies like HTML and CSS, as well as experimented with various frameworks. After high school, I had a summer job and later an internship at Slovanet, where I worked on custom modules for the Odoo (ERP) system. I also worked on SEO optimization and website performance improvement projects."
+    },
+    {
+      "title": "My latest experience",
+      "description": "During first year in university i gained a lot of new knowledge from practice and also teoretical information. We learned for example how bigger projects are made, we did discuss OOP deeper, and more abstract part of bigger projects. What i learned in school i was able to see in company that i worked for. In work i practiced my skills of python where i have met first time xml. During school we worked on multiple projects where we used C, JavaScript, Shell Scripting and i worked with one lecturer on special project that was aimed on SEO."
+    }
+  ],
+  "projects" : [
+    {
+      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    },
+    {
+      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    },
+    {
+      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    },
+    {
+      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    }
+  ],
+  "future" : [
+    {
+      "title" : "link atd...",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    },
+    {
+      "title" : "new link a",
+      "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
+    },
+    {
+      "title" : "link atd...",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    },
+    {
+      "title" : "new link a",
+      "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
+    },
+    {
+      "title" : "link atd...",
+      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+    },
+    {
+      "title" : "new link a",
+      "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
+    }
+  ]
+}
