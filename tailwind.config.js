@@ -15,7 +15,9 @@ module.exports = {
       colors: {
         "white-lighter": "#e3f5ff",
         "extrawhite": "#c7eaff",
-        "testcolor" : "#cf8d41"
+        "testcolor" : "#cf8d41",
+        "green-custom" : "#129874",
+        "mainelement" : "#beab9c"
 
       },
     },

@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       const stickyEl = sectionRef.current.querySelector('.sticky_el');
       const scrollSection = stickyEl.querySelector('.scroll_section');
       const slides = scrollSection.querySelectorAll('.project_card');
-      let percentage = (((window.scrollY - offsetTop) / window.innerHeight) * 100) - 10;
+      let percentage = (((window.scrollY - offsetTop - (window.innerHeight/4)) / window.innerHeight) * 100) - 10;
       scrollSection.style.transform = `translate3d(${-(percentage)}vw, 0, 0)`;
 
       slides.forEach((slide, index) => {
@@ -57,14 +57,14 @@ const ProjectsSection = () => {
         <div className="sticky_el">
           <div className='scroll_section'>
             {projectContent.map((card, index) => (
-              <div key={index} className="bg-gray-400 project_card">
+              <div key={index} className="bg-gray-700 project_card">
                 <img src={ilustrativeImages[index]} className='image' />
                 <h1 className='text-3xl mt-24 text-white'>{card.title}</h1>
                 <p>{card.description}</p>
               </div>
             ))}
           </div>
-          <span className='absolute right-0 flex-1 h-screen w-1/4 bg-gray-100 z-10 top-0' id='cover-right' />
+          <span className='absolute right-0 flex-1 h-screen w-1/4 z-10 top-0' id='cover-right' />
         </div>
       </div>
     </section>

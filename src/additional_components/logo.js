@@ -61,7 +61,7 @@ const LogoAnimation = () => {
             <div className='sticky top-12'>
                 <span className={`flex text-9xl text-extrawhite ${Typing}`}>
                     {displayText}
-                    <Cursor />
+                    <Cursor className="text-9xl"/>
                 </span>
                 <div className={`flex ${Transition}`}>
                     <h1 className='text-9xl text-extrawhite' >RI
