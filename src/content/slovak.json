@@ -47,26 +47,32 @@
   "future" : [
     {
       "title" : "article -a",
+      "command_des" : "Veniam proident laboris officia",
       "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
     },
     {
       "title" : "article -b",
+      "command_des" : "Veniam proident laboris officia",
       "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
     },
     {
       "title" : "article -c",
+      "command_des" : "Veniam proident laboris officia",
       "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
     },
     {
       "title" : "article -d",
+      "command_des" : "Veniam proident laboris officia",
       "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
     },
     {
       "title" : "article -e",
+      "command_des" : "Veniam proident laboris officia",
       "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
     },
     {
       "title" : "article -f",
+      "command_des" : "Veniam proident laboris officia",
       "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
     }
   ]

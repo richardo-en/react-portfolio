@@ -52,6 +52,8 @@ body {
   background-size: cover;
 }
 
+/* STICKY SNAPPING OF CARDS */
+
 .sticky_parent {
   height: 450vh;
 }
@@ -75,15 +77,17 @@ body {
   padding: 0 5vw;
 }
 
+/* MAIN CARD DESIGN */
 .project_card {
+  background-color: rgba(55, 65, 81, 0.9);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   width: 70vw;
   border-radius: 10px;
   height: 60%;
   text-align: center;
+  color: #433f3c;
 }
 
 .project_card>h1 {
@@ -100,6 +104,14 @@ body {
   position: fixed;
   margin-right: 70vw;
   top: 100px;
+}
+
+.link_card{
+  background-color: #648c7c;
+}
+
+.project_content_card{
+  background-color: #310826;
 }
 
 /* FUTURE SECTION */
@@ -140,31 +152,14 @@ body {
 
 #cmd_input {
   background-color: #310826;
-  width: auto;
-  border: none;
-  outline: none;
+  width: 100%;
 }
 
-@keyframes blink {
-  0%{
-    opacity: 0;
-  }
-  100% {
-    opacity: 100;
-  }
-}
-
-.cursor {
-  animation: blink 0.7s ease-out infinite;
-  width: 3px;
-  height: 1.2em;
-  background-color: #c7eaff;
-  margin-right: -40px;
-}
 #cmd_input{
   outline: none;
   border: none;
 }
+
 /* CONTACT SECTION */
 #contact {
   scroll-snap-align: start;

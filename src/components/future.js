@@ -14,6 +14,8 @@ const FutureSection = () => {
   const [userCommand, setUserCommand] = useState("");
   const [Cursor, setCursor] = useState(false);
   const cursorRef = useRef(null);
+  const [processing, setProcessing] = useState(false);
+  const [dots, setDots] = useState(0);
 
   useEffect(() => {
     /* LANGUAGE SETTINGS */
@@ -79,26 +81,69 @@ const FutureSection = () => {
 
   /* BUTTON CLICK */
   const handleButtonClick = (content, index) => {
-    setChangeText([content.title, content.description]);
+    swapTextEffect();
+    setProcessing(true);
     setButtonClickedIndex(index);
+    setTimeout(() => {
+      setChangeText([content.title, content.description]);     
+      setProcessing(false);
+    }, 4000);
   }
-
+  
   /* COMMAND LINE */
   const handleUserCommand = (command) => {
+    const commandList = ["a", "b", "c", "d", "e", "f"];
+    const letter = command[9];
     const matchingContent = futureContent.find(
       (content) => content.title === command
     );
 
     if (matchingContent) {
-      setChangeText([matchingContent.title, matchingContent.description]);
+      swapTextEffect();
+      setProcessing(true);
+      setButtonClickedIndex(commandList.indexOf(letter));
+      setTimeout(() => {
+        setChangeText([matchingContent.title, matchingContent.description]);
+        setProcessing(false);
+      }, 4000);
+      
     } else {
-      console.log("wrong input")
+      const warningMessage = document.getElementById("warning_message");
+      warningMessage.style.animation = "disappear 4s ease";
+      setTimeout(() => {
+        warningMessage.style.animation = "";
+      }, 4000);
     }
+    setUserCommand("");
   };
+  
+  /* SWAPPING TEXT EFFECT */
+  
+  const swapTextEffect = () => {
+    const futureDisplay = document.querySelectorAll(".future_article_display")
+    futureDisplay.forEach(element => {
+      element.style.opacity = 0;
+      setTimeout(() => {
+        element.style.opacity = 1;
+      }, 4000);
+    });
+  }
+
+  useEffect(() => {
+    if (processing) {
+      const intervalId = setInterval(() => {
+        setDots((prevDots) => (prevDots === 3 ? 0 : prevDots + 1));
+      }, 500);
+
+      return () => {
+        clearInterval(intervalId);
+      };
+    }
+  }, [processing]);
 
   return (
     <section id="future" className="min-h-screen bg-gray-800 flex justify-between p-10 ">
-      <div className='w-2/3 flex flex-col justify-around text-extrawhite'>
+      <div className='w-4/6 flex flex-col justify-around text-extrawhite'>
         <div className='text-center p-14 bg-gray-700 future_card'>
           <h1 className='text-2xl'>Do do proident nisi Lorem deserunt commodo irure officia ad consectetur nulla ullamco.</h1>
           <p>Consequat duis sint anim mollit sunt commodo pariatur cupidatat magna. Exercitation do proident laboris labore sint. Sit ipsum laboris sit excepteur. Proident eu pariatur non id ipsum ipsum esse cupidatat. Lorem enim magna cillum deserunt velit velit sunt minim enim aliquip magna ex velit aute.</p>
@@ -106,23 +151,26 @@ const FutureSection = () => {
         <div className='text-center p-14 bg-white rounded-xl text-black relative future_card' id='future_display'>
           <p className='absolute top-0 left-1/2 text-black window_title'>Text Editor</p>
           <span className='text-red-700 absolute right-0 top-0 text-xl font-bold'>X</span>
-          <h1 className='text-2xl'>{ChangeText[0]}</h1>
-          <p>{ChangeText[1]}</p>
+          <h1 className='text-2xl future_article_display'>{ChangeText[0]}</h1>
+          {processing && <h1 className="text-black text-3xl font-bold">Processing{'.'.repeat(dots)}</h1>}
+          <p className='future_article_display'>{ChangeText[1]}</p>
         </div>
       </div>
-      <div className='text-center text-extrawhite w-1/4 flex flex-col h-3/4 my-auto future_card relative rounded-xl' id='future_selection'>
-        <p className='absolute top-0 left-1/4 text-black'>User@portfolio:~</p>
+      <div className='text-center text-extrawhite w-2/5 mx-5 flex flex-col h-3/4 my-auto future_card relative rounded-xl' id='future_selection'>
+        <p className='absolute top-0 left-1/4 text-extrawhite'>User@portfolio:~</p>
         <span className='text-gray-300 absolute right-0 top-0 text-xl font-bold'>X</span>
-        <div className='flex flex-col text-xl p-2 h-full'>
-          <p className='text-left text-sm'><span className='text-green-custom'>User@portfolio:~$</span> help article</p>
-          <p className='text-left text-sm'>article: article -[type]</p>
-          <p className='text-left text-sm mt-4'>&nbsp;Displays system chosen article of projects that are being worked on or that are planned to be done in the future</p>
+        <div className='flex flex-col p-2 h-full text-sm'>
+          <p className='text-left'><span className='text-green-custom'>User@portfolio:~$</span> help article</p>
+          <p className='text-left'>article: article -[type]</p>
+          <p className='text-left mt-4'>&nbsp;&nbsp;&nbsp;Displays system chosen article of projects that are being worked on or that are planned to be done in the future</p>
           {futureContent.map((content, index) => (
-            <button key={index} className={`text-base text-left my-1 ${buttonClickedIndex === index ? 'selected' : ''}`} onClick={() => handleButtonClick(content, index)} >{content.title}</button>
+            <button key={index} className={`text-base text-left my-1 ${buttonClickedIndex === index ? 'selected' : ''}`} onClick={() => handleButtonClick(content, index)} >{content.title}&nbsp;&nbsp;&nbsp;{content.command_des}</button>
           ))}
+          <p className='text-left' id='warning_message'>Your input is spelled wrongly! Only possible option is article -[type]</p>
           <div className='flex relative'>
+            <span className='text-green-custom mr-1'>User@portfolio:~$</span>
             <input type="text" value={userCommand} onChange={(e) => setUserCommand(e.target.value)} onKeyPress={(e) => { if (e.key === 'Enter') { handleUserCommand(userCommand); } }} size={userCommand.length + 1} className=' text-white' id='cmd_input' />
-            <span className='cursor absolute' ref={cursorRef} />
+            <span className='cursor absolute left-1/4' ref={cursorRef} />
           </div>
         </div>
       </div>

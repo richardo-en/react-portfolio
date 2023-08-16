@@ -3,8 +3,12 @@ import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
 import Card from '../additional_components/cards';
-import './../static/App.css'
 import { ReactComponent as MyIcon } from '../static/images/xmark-solid.svg'
+import LetterN from '../static/images/letter_n.png'
+import LetterE from '../static/images/letter_e.jpg'
+import LetterC from '../static/images/letter_c.jpg'
+
+import {ReactComponent as LetterR } from '../static/images/letter_r.avif'
 
 const AboutSection = () => {
 
@@ -13,6 +17,10 @@ const AboutSection = () => {
     cardsOne: [],
     cardsTwo: []
   });
+
+  const backgroundImages =[LetterN, LetterE, LetterC, LetterN, LetterE, LetterC]
+
+
 
   useLayoutEffect(() => {
     const setCoverPositionsAndSizes = () => {
@@ -95,7 +103,7 @@ const AboutSection = () => {
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container'>
               {combinedCards.map((card, index) => (
-                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)}>
+                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{backgroundImage: `url(${backgroundImages[index]})`}}>
                   <Card key={index} title={card.title} description={card.description} />
                 </button>
               ))}
@@ -107,7 +115,7 @@ const AboutSection = () => {
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container_right'>
               {combinedCards.map((card, index) => (
-                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)}>
+                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{backgroundImage: `url(${backgroundImages[index]})`}}>
                   <Card key={index} title={card.title} description={card.description} />
                 </button>
               ))}
