@@ -6,9 +6,12 @@ import Card from '../additional_components/cards';
 import { ReactComponent as MyIcon } from '../static/images/xmark-solid.svg'
 import LetterN from '../static/images/letter_n.png'
 import LetterE from '../static/images/letter_e.jpg'
+import LetterM from '../static/images/letter_m.jpg'
 import LetterC from '../static/images/letter_c.jpg'
+import LetterA from '../static/images/letter_a.jpg'
+import LetterD from '../static/images/letter_d.jpg'
 
-import {ReactComponent as LetterR } from '../static/images/letter_r.avif'
+import { ReactComponent as LetterR } from '../static/images/letter_r.avif'
 
 const AboutSection = () => {
 
@@ -18,7 +21,8 @@ const AboutSection = () => {
     cardsTwo: []
   });
 
-  const backgroundImages =[LetterN, LetterE, LetterC, LetterN, LetterE, LetterC]
+  const backgroundImages = [LetterE, LetterN, LetterM, LetterE, LetterN, LetterM]
+  const backgroundImagesTwo = [LetterA, LetterC, LetterD, LetterA, LetterC, LetterD]
 
 
 
@@ -27,21 +31,21 @@ const AboutSection = () => {
       const CoverList = []
       CoverList.push(document.getElementById("cover-left"))
       CoverList.push(document.getElementById("cover-right"))
-  
+
       const initialContainer = document.getElementById("about_animation_container");
-  
+
       for (let index = 0; index < CoverList.length; index++) {
         CoverList[index].style.top = initialContainer.offsetTop + "px";
         CoverList[index].style.height = initialContainer.clientHeight + "px";
       }
     };
-  
+
     setTimeout(() => {
       setCoverPositionsAndSizes();
     }, 100);
     setTextContent(language === 'Slovak' ? slovakText : englishText);
   }, [language]);
-  
+
 
   const [OnClickAnimation, setOnClickAnimation] = useState(false)
   const [ExpandedText, setExpandedText] = useState([null, null]);
@@ -103,8 +107,10 @@ const AboutSection = () => {
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container'>
               {combinedCards.map((card, index) => (
-                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{backgroundImage: `url(${backgroundImages[index]})`}}>
-                  <Card key={index} title={card.title} description={card.description} />
+                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImages[index]})` }}>
+                  <div className='about_text_background'>
+                    <Card key={index} title={card.title} description={card.description} />
+                  </div>
                 </button>
               ))}
             </div>
@@ -115,8 +121,10 @@ const AboutSection = () => {
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container_right'>
               {combinedCards.map((card, index) => (
-                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{backgroundImage: `url(${backgroundImages[index]})`}}>
-                  <Card key={index} title={card.title} description={card.description} />
+                <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImagesTwo[index]})` }}>
+                  <div className='about_text_background'>
+                    <Card key={index} title={card.title} description={card.description} />
+                  </div>
                 </button>
               ))}
             </div>

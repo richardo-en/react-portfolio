@@ -56,7 +56,7 @@ const ProjectsSection = () => {
         <div className="sticky_el">
           <div className='scroll_section'>
             {projectContent.map((card, index) => (
-              <div key={index} className="project_card flex p-0">
+              <div key={index} className={`project_card flex p-0 ${index % 2 === 0 ? "card_bg_1" : "card_bg_2"}`}>
                 <img src={ilustrativeImages[index]} className='image -ml-32' />
                 <div className='w-1/2 mx-20 project_content_card p-10 border-l-4 border-b-4 border-r-4 border-extrawhite mb-10 text-extrawhite'>
                   <h1 className='text-xl mb-10'>{card.title}</h1>

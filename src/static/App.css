@@ -52,6 +52,11 @@ body {
   background-size: cover;
 }
 
+.about_text_background{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
 /* STICKY SNAPPING OF CARDS */
 
 .sticky_parent {
@@ -79,7 +84,7 @@ body {
 
 /* MAIN CARD DESIGN */
 .project_card {
-  background-color: rgba(55, 65, 81, 0.9);
+  background-color: rgb(55, 65, 81);
   display: flex;
   padding-left: 50px;
   padding-right: 50px;
@@ -88,6 +93,16 @@ body {
   height: 60%;
   text-align: center;
   color: #433f3c;
+  background-repeat: no-repeat;
+}
+.card_bg_1{
+  background-image: url('./images/card_background_1.png');
+  background-size:contain;
+}
+
+.card_bg_2{
+  background-image: url('./images/card_background_2.png');
+  background-size:cover;
 }
 
 .project_card>h1 {
@@ -107,11 +122,11 @@ body {
 }
 
 .link_card{
-  background-color: #648c7c;
+  background-color: #8bf2c5;
 }
 
 .project_content_card{
-  background-color: #310826;
+  background-color: #010101;
 }
 
 /* FUTURE SECTION */
