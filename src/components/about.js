@@ -11,8 +11,6 @@ import LetterC from '../static/images/letter_c.jpg'
 import LetterA from '../static/images/letter_a.jpg'
 import LetterD from '../static/images/letter_d.jpg'
 
-import { ReactComponent as LetterR } from '../static/images/letter_r.avif'
-
 const AboutSection = () => {
 
   const { language } = useContext(LanguageContext);
@@ -52,7 +50,8 @@ const AboutSection = () => {
   const padding_top_value = (window.innerHeight / 4)
   const margin_left_value = (window.innerWidth / 4)
   const [isHovered, setIsHovered] = useState(false);
-  const combinedCards = [...textContent.cardsOne, ...textContent.cardsOne];
+  const combinedCardsOne = [...textContent.cardsOne, ...textContent.cardsOne];
+  const combinedCardsTwo = [...textContent.cardsTwo, ...textContent.cardsTwo];
 
   const handleMouse = () => {
     setIsHovered(!isHovered);
@@ -106,7 +105,7 @@ const AboutSection = () => {
         <div className='flex overflow-hidden relative'>
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container'>
-              {combinedCards.map((card, index) => (
+              {combinedCardsOne.map((card, index) => (
                 <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImages[index]})` }}>
                   <div className='about_text_background'>
                     <Card key={index} title={card.title} description={card.description} />
@@ -120,7 +119,7 @@ const AboutSection = () => {
         <div className='flex overflow-hidden relative'>
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container_right'>
-              {combinedCards.map((card, index) => (
+              {combinedCardsTwo.map((card, index) => (
                 <button className={`w-80 h-60 mx-5 py-2 px-10 rounded-md card`} onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImagesTwo[index]})` }}>
                   <div className='about_text_background'>
                     <Card key={index} title={card.title} description={card.description} />

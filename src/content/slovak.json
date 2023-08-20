@@ -5,73 +5,71 @@
   "cardsOne": [
     {
       "title": "Kúsok o mne",
-      "description": "Ahojte, volám sa Richard. Som 21-ročný študent na Slovenskej technickej univerzite. Predtým, než som prišiel na univerzitu, som bol poloprofesionálny športovec súťažiaci v kanoe-sprinte a účastniť sa viacerých medzinárodných podujatí."
-    },
-    {
-      "title": "Prečo som si vybral štúdium informatiky",
-      "description": "Vybral som si štúdium informatiky a technológií, pretože mám k tomuto oboru vášeň. Zaujíma ma proces tvorby softvéru, webov a ďalších počítačových prostriedkov. Čo ma na tomto obore baví je, že sa môžem učiť logické vzory a používať ich na tvorbu komplexných projektov."
+      "description": "Ahojte, volám sa Richard. Som 21-ročný študent Slovenskej technickej univerzity. Rád sa učim novým schopnostiam a naberám nové znalosti. Som schopný prispôsobiť sa pracovním prostrediam z rôznych oborov. Brigádoval som na stavbe, ako čašník alebo pracoval som ako programátor v Slovanete."
     },
     {
       "title": "Od športu k informatike",
-      "description": "Moje záujem o informatiku sa začal, keď mi bolo 15 rokov. Narazil som na 3D modelovací softvér Blender, keď som sledoval videá o hrách. Hoci som nakoniec nepísal kód v Blenderi, stal som sa zvedavým na proces tvorby hier. Začal som sa učiť programovací jazyk C# a objavil som softvér Unity. To ma priviedlo k vytvoreniu hry s názvom „Mark Ball“, ktorá je dostupná na stiahnutie v obchode Google Play."
+      "description": "Môj záujem o informatiku sa začal, keď som mal 17 rokov. Narazil som na 3D modelovací softvér Blender, počas sledovania videii o hrách. Kód v Blenderi som nepísal, ale začal ma zaujímať proces tvorby hier. Začal som sa učiť programovací jazyk C# a objavil som softvér Unity. To ma priviedlo k vytvoreniu hry s názvom „Mark Ball“, ktorá je dostupná na stiahnutie v obchode Google Play."
+    },
+    {
+      "title": "Prečo som si vybral štúdium informatiky",
+      "description": "Vybral som si štúdium informatiky a technológií, pretože mám k tomuto oboru vášeň. Zaujíma ma proces tvorby softvéru, webov a ďalších počítačových prostriedkov. Čo ma na tomto obore baví je, že sa stačí naučiť logické vzory a postupy, ktoré následne môžem používať na tvorbu komplexných projektov."
     }
   ],
   "cardsTwo": [
     {
+      "title": "Vzdelanie",
+      "description": "Ako malý som navštevoval základnú školu Tilgnerovú. Neskôr som prestúpil na Zš Svätej Uršule. Po základnej škole som sa rozhodol svoje vzdelanie smerovať na šport. Na Strednej Športovej škole v Ružinove som zmaturoval z povinných predmetov, angličtiny, trénerstva, matematiky. Maturoval som aj z informatiky ako dodatočný dobrovoľný predmet. Následne som nastúpil na STU FIIT, na ktorú som chcel nastúpiť už od tretieho ročníka strednej školy."
+    },
+    {
       "title": "Rané skúsenosti",
-      "description": "V strednej škole som sa špecializoval na informatiku. V tom čase som študoval programovací jazyk Python a pracoval na niekoľkých projektoch. Používal som Flask a učil sa základným webovým technológiám ako HTML a CSS a experimentoval s rôznymi rámci. Po strednej škole som mal letnú prácu a neskôr stáž v Slovanete, kde som pracoval na vlastných moduloch pre systém Odoo (ERP). Taktiež som sa venoval optimalizácii SEO a zlepšovaniu výkonu webových stránok."
+      "description": "Na strednej škole som sa začal zaujímať trocha viac o informatiku. V tom čase som študoval programovací jazyk Python a pracoval na niekoľkých projektoch. Používal som Flask a učil sa základným webovým technológiám ako HTML a CSS a experimentoval s rôznymi frameworkami."
     },
     {
       "title": "Moje najnovšie skúsenosti",
-      "description": "Počas prvého roku na univerzite som získal veľa nových poznatkov z praxe a aj teoretických informácií. Učili sme sa napríklad, ako sa tvoria väčšie projekty, hlbšie sme sa venovali OOP a abstraktnejším častiam väčších projektov. To, čo som sa naučil na škole, som mohol vidieť v spoločnosti, kde som pracoval. Prax som si získal v oblasti pythonu, kde som sa prvýkrát stretol s xml. Počas školy sme pracovali na viacerých projektoch, kde sme používali C, JavaScript, Shell Scripting a spolupracoval som s jedným vyučujúcim na špeciálnom projekte zameranom na SEO."
+      "description": "Počas prvého roku na univerzite som získal veľa nových poznatkov z praxe a aj teoretických informácií. Učili sme sa napríklad, ako sa tvoria väčšie projekty, hlbšie sme sa venovali OOP a abstraktnejším častiam väčších projektov. To, čo som sa naučil na škole, som mohol vidieť v spoločnosti, kde som pracoval. Prax som si získal v oblasti pythonu, kde som sa prvýkrát stretol s xml. Počas školy sme pracovali na viacerých projektoch, kde sme používali C, JavaScript, Shell Scripting a spolupracoval som s jedným prednášajúcim na doplnkovom projekte zameranom na SEO."
     }
   ],
   "projects" : [
     {
-      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+      "title" : "Python",
+      "description" : "Programovací jazyk python som si obľúbil najviac zo všetkých pretože je jednoduchý a multifunkčný. Tomuto jazyku som sa začal venovať na strednej škole kde som robil jednoduché zadania na hodinách informatiky alebo doma. Následne som si vyskúšal tvorbu stránky za pomoci tohoto jazyka kde som sa naučil aj deskriptívne jazyky. Python som používal aj pri maturite z informatiky. Po strednej Škole som používal python v Slovanete kde som pracoval v internom systéme Odoo.",
+      "links" : [
+        {"link - 1 " : "https://google.com"},
+        {"link - 1 " : "https://google.com"},
+        {"link - 1 " : "https://google.com"},
+        {"link - 1 " : "https://google.com"}
+      ]
     },
     {
-      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+      "title" : "C - Sharp",
+      "description" : "Jazyk C# momentálne neovládam a ani sa mu aktívne nevenujem. Tento jazyk som sa naučil ešte predtým než som sa stretol s pythonom. Svoje skúsenosti z blenderu som chcel nejako využíť. Rozhodol som sa vytvoriť hru pre mobilné zariadenia. Tu som sa stretol s programom Unity a programovacím jazykom C#. Hru som následne pridal na google store kde je stále dostupná na stiahnutie. Hra sa volá Mark ball a je to jednoduchá indie hra kde hráč musí prejsť niekoľko levelov bez kolízie do iných objektov. Skúsenosť v tomto jazyku by som mohol uviesť ako môj vstup do sveta informatiky."
     },
     {
-      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+      "title" : "C",
+      "description" : "Tento jazyk sme sa učili počas prvých dvoch semestrov na Vysokej škole. Vypracovali sme v ňom veľa projektov a zadaní z cvičení. Vďaka tomuto jazyku lepšie chápem na čom sú postavané iné programovacie jazyky, ako fungujú alebo napríklad proces spracovania programu. Tento jazyk mi teda dal hlbšie nahliadnutie do sveta programovania."
     },
     {
-      "title" : "Non adipisicing est voluptate nostrud pariatur laborum anim amet est eiusmod nostrud.",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+      "title" : "Webové technológie",
+      "description" : "K webovým technológiam ako mojim znalostiam by som zaradil to že ovládam deskriptívne jazyky ako html,css alebo že som sa ponoril trochu do sveta SEO. Taktiež som sa stertol v systéme Odoo s jazykom XML. Zaradil by som sem aj prácu na viacerých wordpresových webstránkach, kde som menil pár vecí na mieru. SEO optimalizáciu som vykonával hlavne na wordpresových stránkach, ale ako som už spomínal spolupracoval som aj s Doktorom z fakulty na jednom projekte zameranom na SEO."
+    },
+    {
+      "title" : "Javascript",
+      "description" : "Počas druhého semestra sme mali predmet kde sme sa venovali OOP. Učili sme sa teóriu, ktorú sme neskôr využili v praxi na cvvičeniach. Pracovali sme na projekte webovej hry spracovanej čisto v Javascripte. Projekt musel mať určitú štruktúru a musel splňovať isté podmienky. Tento jazyk sa mi veľmi zapáčil, keďže sa veľmi podobá Pythonu. Rád by som sa Javascriptu venovaľ naďalej preto som sa rozhodol toto portfólio založiť pomocou Reactu."
+    },
+    {
+      "title" : "Pracovné skúsenosti",
+      "description" : "Tesne po začiatku Vysokej školy som nastúpil do Slovanetu ako stážista. Pracovali sme na internom systéme Odoo, kde som získal svoju prvú prax vo firme. Naučil som ako fungujú tímy zamerané na informatiku v spoločnosti, stretol som sa s organizovaním úloh a vypracovavaním týchto úloh do určitých deadlinov. Mal som možnosť sledovať a učiť sa od skúsených vedúcich leaderov našich tímov alebo preberať určitú zodpovednosť za pracú ktorá mi bola pridelená. Táto pracovná pozícia mi dala mnoho skúsenosti za čo som vďačný."
     }
   ],
   "future" : [
     {
-      "title" : "article -a",
+      "title" : "MERN",
       "command_des" : "Veniam proident laboris officia",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
+      "description" : ""
     },
     {
-      "title" : "article -b",
-      "command_des" : "Veniam proident laboris officia",
-      "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
-    },
-    {
-      "title" : "article -c",
-      "command_des" : "Veniam proident laboris officia",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
-    },
-    {
-      "title" : "article -d",
-      "command_des" : "Veniam proident laboris officia",
-      "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
-    },
-    {
-      "title" : "article -e",
-      "command_des" : "Veniam proident laboris officia",
-      "description" : "In velit aliquip minim id veniam aute exercitation incididunt aliquip ullamco ea commodo consectetur duis. Nisi enim non quis deserunt voluptate irure. Cillum mollit ex nostrud ex anim ea labore esse laborum enim sit eiusmod. Commodo reprehenderit voluptate nisi ut magna. Sunt nostrud velit eu consectetur enim. In incididunt mollit magna non mollit fugiat proident nulla elit duis culpa in. Ipsum ipsum excepteur ex velit duis veniam irure."
-    },
-    {
-      "title" : "article -f",
+      "title" : "Blog",
       "command_des" : "Veniam proident laboris officia",
       "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
     }
