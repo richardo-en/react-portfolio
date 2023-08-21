@@ -6,7 +6,7 @@ const Card = ({ title, description }) => {
 
     return (
         <>
-            <h2 className='text-base'>{title}</h2>
+            <h2 className='text-sm '>{title}</h2>
             <p className='text-xs mt-3'>{truncatedDescription + "..."}</p>
         </>
 

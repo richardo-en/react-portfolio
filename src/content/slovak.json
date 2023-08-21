@@ -1,7 +1,6 @@
 {
   "welcome": "Vitajte na mojom portfóliu!",
   "about": "O mne",
-  "contact": "Kontaktovať ma",
   "cardsOne": [
     {
       "title": "Kúsok o mne",
@@ -62,16 +61,47 @@
       "description" : "Tesne po začiatku Vysokej školy som nastúpil do Slovanetu ako stážista. Pracovali sme na internom systéme Odoo, kde som získal svoju prvú prax vo firme. Naučil som ako fungujú tímy zamerané na informatiku v spoločnosti, stretol som sa s organizovaním úloh a vypracovavaním týchto úloh do určitých deadlinov. Mal som možnosť sledovať a učiť sa od skúsených vedúcich leaderov našich tímov alebo preberať určitú zodpovednosť za pracú ktorá mi bola pridelená. Táto pracovná pozícia mi dala mnoho skúsenosti za čo som vďačný."
     }
   ],
+  "future_introduction_title" : "Moje plány do budúcnosti",
+  "future_introduction" : "Môžete si prečítať o projektoch na ktorých momentálne pracujem alebo čo plánujem podniknúť vo svojej budúcnosti. Článok prepnete kliknutím na odkaz alebo napísaním vhodného commandu. Príkazový riadok aktivujete kliknutím na kurzor.",
+  "future_command_help" : "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
+  "future_error_msg" : "Your input is spelled wrongly! Only possible option is article -[type]",
   "future" : [
     {
-      "title" : "MERN",
-      "command_des" : "Veniam proident laboris officia",
-      "description" : ""
+      "command" : "mern -r",
+      "title" : "Mern aplikácia ",
+      "command_des" : "Načítate si text opisujúci aplikáciu založenú na MERN tech stacku.",
+      "description" : "Tento projekt by mal byť dokončený v priebehu jedného až dvoch rokov. Vo finálnom výsledku by to mala byť aplikácia pre gastro podniky ktorá zjednoduchší organizáciu tímu v gastre. Taktiež bude použiteľná pre ľudí, ktorý si budú schopný objednať jedlo alebo rezervovať stôl. Aplikácia je založená hlavne na MERN tech stacku čo znamená Mongo databáza, Express js pre backend, React pre frontend a celá aplikácia beží za pomoci node js. Využívam pri tvorbe rôzne externé softwary ale spomínané technológie sú základ."
     },
     {
+      "command" : "blog -i",
       "title" : "Blog",
-      "command_des" : "Veniam proident laboris officia",
-      "description" : "Ea dolor tempor aute anim duis adipisicing sunt laborum tempor ipsum dolor ipsum eu anim. Amet pariatur amet commodo enim Lorem consequat qui culpa eiusmod. Officia non id excepteur non consequat dolore exercitation enim qui quis tempor consequat est exercitation. Ex non dolore eiusmod eiusmod Lorem elit eu incididunt exercitation ut et anim duis ullamco. Laboris aute consequat nostrud ut in tempor sit elit mollit culpa sint in. Reprehenderit ullamco in sint ad consequat esse. Reprehenderit veniam ex Lorem excepteur sunt voluptate excepteur do do cupidatat aliqua culpa."
+      "command_des" : "Zobrazí sa článok o naplánovanom projekte blogu.",
+      "description" : "Hlavný zámer blogu je rozšírť si znalosť v jazykoch, získať skúsenosť vo vedení tímu a opakovanie si tém preberaných v škole. V blogu by som chcel využiť materiály poskytované Fakultou a preskúmať preberané témy hlbšie o ktorých by som následne písal články. Články budú napísané aj v cudzích jazykoch čím by som si vylepšil slovník a upevnil základy cudzích jazykov."
+    },
+    {
+      "command" : "education -n",
+      "title" : "Vzdelávanie do budúcna",
+      "command_des" : "Článok vysvetlí na čo sa chcem do budúcna zamerať",
+      "description" : "Do budúcna sa plánujem naučiť plinulo rozprávať minimálne ďaľším jedným cudzím jazykom. Svoje vzdelanie by som chcel smerovať hlavne na inovatívnu časť informatiky ako AI, ML a podobné. Mojim cieľom je pomôcť ľudom zjednoduchšiť ich prácu."
+    }
+  ], 
+  "contact_titel" : "Kontaktujete ma!",
+  "contact_description" : "Ak Vás moje portfólio zaujalo neváhajte ma kontaktovať prostredníctvom mailu alebo formuláru. Rád Vám odpoviem na Vaše otázky alebo pomôžem s vašim projektom.",
+  "navigation" : [
+    {
+      "title" : "Domov"
+    },
+    {
+      "title" : "O mne"
+    },
+    {
+      "title" : "Moje projekty"
+    },
+    {
+      "title" : "Budúcnosť"
+    },
+    {
+      "title" : "Kontakt"
     }
   ]
 }

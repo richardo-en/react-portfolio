@@ -16,10 +16,11 @@ const FutureSection = () => {
   const cursorRef = useRef(null);
   const [processing, setProcessing] = useState(false);
   const [dots, setDots] = useState(0);
+  const [cursorWidth, setCursorWidth] = useState(0);
 
   useEffect(() => {
     /* LANGUAGE SETTINGS */
-    const content = language === 'slovak' ? slovakText : englishText;
+    const content = language === 'Slovak' ? slovakText : englishText;
     setTextContent(content);
 
     /* INITIAL SETTING */
@@ -36,6 +37,13 @@ const FutureSection = () => {
     };
 
     animationFrameId = requestAnimationFrame(animateCursor);
+
+    /* CURSOR OFFSET */
+    if (cursorRef.current) {
+      const cursorRect = cursorRef.current.length;
+      setCursorWidth(cursorRect);
+    }
+
 
     /* APPEAR EFFECT */
     const scrollHandle = () => {
@@ -92,16 +100,13 @@ const FutureSection = () => {
   
   /* COMMAND LINE */
   const handleUserCommand = (command) => {
-    const commandList = ["a", "b", "c", "d", "e", "f"];
-    const letter = command[9];
     const matchingContent = futureContent.find(
-      (content) => content.title === command
+      (content) => content.command === command
     );
 
     if (matchingContent) {
       swapTextEffect();
       setProcessing(true);
-      setButtonClickedIndex(commandList.indexOf(letter));
       setTimeout(() => {
         setChangeText([matchingContent.title, matchingContent.description]);
         setProcessing(false);
@@ -142,35 +147,35 @@ const FutureSection = () => {
   }, [processing]);
 
   return (
-    <section id="future" className="min-h-screen bg-gray-800 flex justify-between p-10 ">
-      <div className='w-4/6 flex flex-col justify-around text-extrawhite'>
-        <div className='text-center p-14 bg-gray-700 future_card'>
-          <h1 className='text-2xl'>Do do proident nisi Lorem deserunt commodo irure officia ad consectetur nulla ullamco.</h1>
-          <p>Consequat duis sint anim mollit sunt commodo pariatur cupidatat magna. Exercitation do proident laboris labore sint. Sit ipsum laboris sit excepteur. Proident eu pariatur non id ipsum ipsum esse cupidatat. Lorem enim magna cillum deserunt velit velit sunt minim enim aliquip magna ex velit aute.</p>
+    <section id="future" className="min-h-screen bg-gray-800 flex flex-col lg:justify-between lg:flex-row p-2">
+      <div className=' md:w-4/5 mx-auto w-full lg:ml-5 lg:w-4/6 flex flex-col justify-around text-extrawhite mb-10'>
+        <div className='text-center p-2 lg:p-7 bg-gray-700 future_card mb-10'>
+          <h1 className='text-lg lg:text-xl mb-5'>{textContent.future_introduction_title}</h1>
+          <p className='text-sm'>{textContent.future_introduction}</p>
         </div>
-        <div className='text-center p-14 bg-white rounded-xl text-black relative future_card' id='future_display'>
+        <div className='text-center p-2 lg:p-7 bg-white rounded-xl text-black relative future_card' id='future_display'>
           <p className='absolute top-0 left-1/2 text-black window_title'>Text Editor</p>
           <span className='text-red-700 absolute right-0 top-0 text-xl font-bold'>X</span>
-          <h1 className='text-2xl future_article_display'>{ChangeText[0]}</h1>
+          <h1 className='text-lg lg:text-2xl future_article_display'>{ChangeText[0]}</h1>
           {processing && <h1 className="text-black text-3xl font-bold">Processing{'.'.repeat(dots)}</h1>}
-          <p className='future_article_display'>{ChangeText[1]}</p>
+          <p className='future_article_display text-sm'>{ChangeText[1]}</p>
         </div>
       </div>
-      <div className='text-center text-extrawhite w-2/5 mx-5 flex flex-col h-3/4 my-auto future_card relative rounded-xl' id='future_selection'>
+      <div className=' md:w-4/5 mx-auto text-center text-extrawhite w-full lg:w-1/2 lg:mx-5 flex flex-col h-3/4 my-auto future_card relative rounded-xl' id='future_selection'>
         <p className='absolute top-0 left-1/4 text-extrawhite'>User@portfolio:~</p>
         <span className='text-gray-300 absolute right-0 top-0 text-xl font-bold'>X</span>
         <div className='flex flex-col p-2 h-full text-sm'>
           <p className='text-left'><span className='text-green-custom'>User@portfolio:~$</span> help article</p>
           <p className='text-left'>article: article -[type]</p>
-          <p className='text-left mt-4'>&nbsp;&nbsp;&nbsp;Displays system chosen article of projects that are being worked on or that are planned to be done in the future</p>
+          <p className='text-left mt-4'>&nbsp;&nbsp;&nbsp;{textContent.future_command_help}</p>
           {futureContent.map((content, index) => (
-            <button key={index} className={`text-base text-left my-1 ${buttonClickedIndex === index ? 'selected' : ''}`} onClick={() => handleButtonClick(content, index)} >{content.title}&nbsp;&nbsp;&nbsp;{content.command_des}</button>
+            <button key={index} className={`text-sm text-left my-1 `} onClick={() => handleButtonClick(content, index)} ><span className={`${buttonClickedIndex === index ? 'selected' : ''} text-base`}>{content.command}</span>&nbsp;&nbsp;&nbsp;{content.command_des}</button>
           ))}
-          <p className='text-left' id='warning_message'>Your input is spelled wrongly! Only possible option is article -[type]</p>
+          <p className='text-left' id='warning_message'>{textContent.future_error_msg}</p>
           <div className='flex relative'>
             <span className='text-green-custom mr-1'>User@portfolio:~$</span>
             <input type="text" value={userCommand} onChange={(e) => setUserCommand(e.target.value)} onKeyPress={(e) => { if (e.key === 'Enter') { handleUserCommand(userCommand); } }} size={userCommand.length + 1} className=' text-white' id='cmd_input' />
-            <span className='cursor absolute left-1/4' ref={cursorRef} />
+            <span className='cursor absolute' ref={cursorRef} style={{left : cursorWidth + 2 + 'rem'}}/>
           </div>
         </div>
       </div>

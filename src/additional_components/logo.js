@@ -58,16 +58,16 @@ const LogoAnimation = () => {
 
     return (
         <>
-            <div className='sticky top-12'>
-                <span className={`flex text-9xl text-extrawhite ${Typing}`}>
+            <div className='sticky top-1/3'>
+                <span className={`flex text-5xl md:text-7xl lg:text-8xl text-extrawhite ${Typing}`}>
                     {displayText}
-                    <Cursor className="text-9xl"/>
+                    <Cursor className="text-5xl md:text-7xl lg:text-8xl"/>
                 </span>
                 <div className={`flex ${Transition}`}>
-                    <h1 className='text-9xl text-extrawhite' >RI
+                    <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' >RI
                         <span className='absolute' style={{ opacity: TextOpacity }}>CHARD</span>
                     </h1>
-                    <h1 className='text-9xl text-extrawhite' style={{ transform: 'translate(-' + Transform + 'px, ' + Transform + 'px)' }}>NE
+                    <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' style={{ transform: 'translate(-' + Transform + 'px, ' + Transform + 'px)' }}>NE
                         <span className='absolute' style={{ opacity: TextOpacity }}>METH</span>
                     </h1>
                 </div>

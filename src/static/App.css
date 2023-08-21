@@ -94,8 +94,51 @@ body {
   color: #433f3c;
   background-repeat: no-repeat;
 }
+
+.image{
+  width: 150px;
+  margin-left: -10px;
+}
+
+@media screen and (max-width: 640px) {
+  .project_card{
+    width: 90vw;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: small;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+
+  .image{
+    width: 100px;
+    margin-left: -80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project_card{
+    width: 80vw;
+    height: 70vh;
+  }
+  .image{
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .image{
+    width: 150px;
+    margin-left: -10px;
+  }
+}
+
+
 .card_bg_1{
-  background-image: url('./images/card_background_1.png');
+  background-image: url('./images/card_background_11.png');
   background-size:contain;
 }
 
@@ -121,17 +164,19 @@ body {
 }
 
 .link_card{
-  background-color: #00ff91;
+  background-color: #1d6fb7;
+  color: white;
 }
 
-/* .project_content_card{
-  background-color: #010101;
-} */
-
 /* FUTURE SECTION */
+@media screen and (min-width: 640px) {
+  #future{
+    padding-left: 25vw;
+  }
+}
+
 #future {
   scroll-snap-align: start;
-  padding-left: 25vw;
 }
 
 #future_selection {
