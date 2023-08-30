@@ -62,10 +62,11 @@ const AboutSection = () => {
 
   const handleButtonClick = (card) => {
     var container_list = []
+    var expanded_card = document.getElementById("expanded_card");
     container_list.push(document.getElementById('card_container'))
     container_list.push(document.getElementById('card_container_right'))
-    var expanded_card = document.getElementById("expanded_card");
-    if (OnClickAnimation === false && expanded_card.style.opacity === 0) {
+    if (OnClickAnimation === false && expanded_card) {
+      console.log("aaaaa")
       setOnClickAnimation(true);
       setExpandedText([card.title, card.description]);
       for (let index = 0; index < container_list.length; index++) {
@@ -77,7 +78,7 @@ const AboutSection = () => {
         })
         container_list[index].style.animationPlayState = "paused";
       }
-    } else if (OnClickAnimation === true && expanded_card.style.opacity === 1) {
+    } else if (OnClickAnimation === true && expanded_card) {
       setOnClickAnimation(false);
       for (let index = 0; index < container_list.length; index++) {
         container_list[index].addEventListener('mouseover', function () {
@@ -93,7 +94,7 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="min-h-screen bg-gray-800 flex flex-col overflow-hidden" style={{ paddingTop: padding_top_value }}>
-      <div className='w-3/4 h-1/2 flex flex-col sm:flex-row justify-around text-center items-center' style={{ marginLeft: margin_left_value }}>
+      <div className='w-3/4 h-1/2 flex flex-col md:flex-row justify-around text-center items-center' style={{ marginLeft: margin_left_value }}>
         <span id='personal_image' className='w-full mb-5 md:w-1/3 lg:w-1/4 h-96 rounded-lg' />
         {textContent.cardsOne.length > 0 && (
           <div className='max-w-3xl md:w-1/2 text-extrawhite bg-gray-700 py-5 rounded-lg'>
@@ -134,7 +135,7 @@ const AboutSection = () => {
         </div>
         <span className='w-1/4 absolute right-0 z-10 flex-1' id='cover-right' />
       </div>
-      <div className={`fixed top-10 mx-auto w-3/4 h-1/2 sm:top-1/4 sm:left-1/4 sm:w-1/2 sm:h-1/4 z-20 py-2 px-10 bg-white rounded-md hover:bg-gray-200 text-center ${OnClickAnimation === false ? "hidden" : ""}`} onMouseEnter={handleMouse} onMouseLeave={handleMouse} onClick={handleButtonClick}>
+      <div className={`fixed top-10 w-full text-sm mx-auto top-1/4 md:w-3/5 h-1/2 sm:top-1/4 sm:left-1/4 sm:w-1/2 sm:h-1/4 z-20 py-2 px-10 bg-white rounded-md hover:bg-gray-200 text-center ${OnClickAnimation === false ? "hidden" : ""}`} onMouseEnter={handleMouse} onMouseLeave={handleMouse} onClick={handleButtonClick}>
         <div className='flex justify-end text-center w-full h-5' style={{ opacity: (isHovered ? 1 : 0) }} id='expanded_card'>
           <MyIcon />
         </div>

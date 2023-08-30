@@ -40,7 +40,7 @@ const FutureSection = () => {
 
     /* CURSOR OFFSET */
     if (cursorRef.current) {
-      const cursorRect = cursorRef.current.length;
+      const cursorRect = document.getElementById("user_text").clientWidth;
       setCursorWidth(cursorRect);
     }
 
@@ -173,9 +173,9 @@ const FutureSection = () => {
           ))}
           <p className='text-left' id='warning_message'>{textContent.future_error_msg}</p>
           <div className='flex relative'>
-            <span className='text-green-custom mr-1'>User@portfolio:~$</span>
+            <span className='text-green-custom mr-1' id='user_text'>User@portfolio:~$</span>
             <input type="text" value={userCommand} onChange={(e) => setUserCommand(e.target.value)} onKeyPress={(e) => { if (e.key === 'Enter') { handleUserCommand(userCommand); } }} size={userCommand.length + 1} className=' text-white' id='cmd_input' />
-            <span className='cursor absolute' ref={cursorRef} style={{left : cursorWidth + 2 + 'rem'}}/>
+            <span className='cursor absolute' ref={cursorRef} style={{left : cursorWidth + 1 + 'px'}}/>
           </div>
         </div>
       </div>

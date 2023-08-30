@@ -222,13 +222,22 @@ body {
 /* CONTACT SECTION */
 #contact {
   scroll-snap-align: start;
-  padding-left: 18vw;
+  padding-left: auto;
+  padding-right: 0;
   background-image: url('./images/abstract_bg.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (min-width: 768px) {
+  #contact{
+    padding-left: 20vw;
+  }
+}
+
+
 
 
 /* .section {

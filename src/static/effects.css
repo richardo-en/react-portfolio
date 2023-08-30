@@ -12,6 +12,30 @@
     animation: rotateButton 1.5s;
 }
 
+.display_menu{
+    animation: PopUp 0.5s linear;
+}
+
+@keyframes PopUp{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+.hide_menu{
+    animation: PopDown 0.5s linear;
+}
+
+@keyframes PopDown{
+    from{
+        opacity: 1;
+    }to{
+        opacity: 0;
+    }
+}
+
 /* ABOUT PAGE */
 .card-background {
     width: 100%;
@@ -80,6 +104,12 @@
     width: 200vw;
     animation: scroll-right 20s linear infinite;
     overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    #card_container, #card_container_right{
+        width: 400vw;
+    }
 }
 
 /* Stop the animation on hover */

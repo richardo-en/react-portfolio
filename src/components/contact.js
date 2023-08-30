@@ -14,15 +14,15 @@ const ContactSection = () => {
     setTextContent(content)},[language]);
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-700 flex p-20 justify-around">
-      <div className='flex flex-col p-10 justify-around'>
+    <section id="contact" className="min-h-screen bg-gray-700 flex flex-col md:flex-row">
+      <div className='flex flex-col p-5 md:p-10 justify-around '>
         <div className='bg-mainelement text-center p-10 rounded-2xl'>
-          <h1 className='text-3xl'>{textContent.contact_titel}</h1>
-          <p>{textContent.contact_description}</p>
+          <h2 className='text-lg sm:text-xl md:text-2xl'>{textContent.contact_titel}</h2>
+          <p className='text-sm sm:text-base'>{textContent.contact_description}</p>
         </div>
       </div>
-      <div className='my-auto ml-20'>
-        <img src={Ilustration} alt="Illustration" className='w-1/2 rounded-2xl'/>
+      <div className='my-auto'>
+        <img src={Ilustration} alt="Illustration" className='rounded-2xl w-1/2'/>
       </div>
     </section>
   );
