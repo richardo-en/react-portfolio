@@ -5,7 +5,7 @@ body {
   background-color: rgba(31, 41, 55);
   scrollbar-width: none;
   -ms-overflow-style: none;
-  scroll-snap-type: y proximity;
+  /* scroll-snap-type: y proximity; */
 }
 
 *::-webkit-scrollbar {
@@ -33,9 +33,9 @@ body {
 
 /* ABOUT PAGE */
 
-#about {
+/* #about {
   scroll-snap-align: start;
-}
+} */
 
 #personal_image {
   background-position: 0% 30%;
@@ -178,9 +178,9 @@ body {
   }
 }
 
-#future {
+/* #future {
   scroll-snap-align: start;
-}
+} */
 
 #future_selection {
   background-color: #310826;
@@ -224,7 +224,7 @@ body {
 
 /* CONTACT SECTION */
 #contact {
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   padding-left: auto;
   padding-right: 0;
   background-image: url('./images/abstract_bg.webp');

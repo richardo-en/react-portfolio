@@ -5,8 +5,10 @@ import LanguageContext from '../additional_components/language_context';
 
 const MobileNavigationSelector = () => {
     const [selectedElement, setSelectedElement] = useState(null);
-    const { language } = useContext(LanguageContext);
+    const { language, dispatch } = useContext(LanguageContext);
     const links = ["home", "about", "project", "future", "contact"];
+    const [Rotation, setRotation] = useState('');
+
 
     useEffect(() => {
         const elements = ["home", "about", "project", "future", "contact"];
@@ -28,21 +30,34 @@ const MobileNavigationSelector = () => {
         };
     }, [language]);
 
-    
-    
-    
+
+    const handleButtonClick = () => {
+        setRotation('rotated');
+
+        setTimeout(function () {
+            dispatch({ type: 'TOGGLE_LANGUAGE' });
+        }, 500);
+
+        setTimeout(function () {
+            setRotation('');
+        }, 1000);
+    };
+
     const navigationData = language === 'Slovak' ? slovakText : englishText;
-    
+
     const getButtonClass = (index) => {
         return selectedElement === index ? 'text-white' : 'text-gray-400';
     };
-    
+
     return (
         <>
             <div className={`fixed h-1/2 top-1/4 flex flex-col justify-around items-center w-full`}>
                 {navigationData.navigation.map((item, index) => (
                     <a key={index} href={`http://localhost:3000#${links[index]}`} className={`text-4xl ${getButtonClass(index)}`} id={links[index] + `_selector`}><button aria-label={`${item.title} button`} >{item.title}</button></a>
                 ))}
+                <button className={`${Rotation} text-2xl underline text-gray-300`} aria-label={`language button`} onClick={handleButtonClick}>
+                    {language}
+                </button>
             </div>
         </>
     );
