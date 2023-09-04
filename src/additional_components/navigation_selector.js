@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext, useLayoutEffect } from 'react';
+import React, { useState, useEffect, useContext, useLayoutEffect, useMemo } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
@@ -33,7 +33,7 @@ function setNavigationTop(links, websiteHeight) {
 const NavigationSelector = () => {
     const [selectedElement, setSelectedElement] = useState(null);
     const { language } = useContext(LanguageContext);
-    const links = ["home", "about", "project", "future", "contact"];
+    const links = useMemo(() => ["home", "about", "project", "future", "contact"], []);
 
       
     
