@@ -32,7 +32,12 @@ const FutureSection = () => {
     let animationFrameId = null;
 
     const animateCursor = () => {
-      setCursor((prevCursor) => !prevCursor);
+      if (Cursor === "|") {
+        setCursor("")
+      } else {
+        setCursor("|")
+      }
+      // setCursor((prevCursor) => !prevCursor);
       animationFrameId = requestAnimationFrame(animateCursor);
     };
 
