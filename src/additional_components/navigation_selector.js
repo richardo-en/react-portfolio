@@ -71,7 +71,7 @@ const NavigationSelector = () => {
     return (
         <>
             {navigationData.navigation.map((item, index) => (
-                <a key={index} href={`http://localhost:3000#${links[index]}`} className={`p-3 md:p-4 border-2 border-testcolor text-center rounded-md text-white hover:bg-gray-700 text-xs absolute md:text-xs lg:text-base w-36 lg:w-40 left-5 ${getButtonClass(index)}`} id={links[index] + `_selector`}><button>{item.title}</button></a>
+                <a key={index} href={`http://localhost:3000#${links[index]}`} className={`p-3 md:p-4 border-2 border-testcolor text-center rounded-md text-white hover:bg-gray-700 text-xs absolute md:text-xs lg:text-base w-36 lg:w-40 left-5 ${getButtonClass(index)}`} id={links[index] + `_selector`}><button aria-label={`${item.title} button`}>{item.title}</button></a>
             ))}
         </>
     );

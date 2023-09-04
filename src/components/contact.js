@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
-import Ilustration from '../static/images/test_photo.jpg'
+import Ilustration from '../static/images/test_photo.webp'
 import LanguageContext from '../additional_components/language_context';
 
 const ContactSection = () => {
@@ -16,9 +16,9 @@ const ContactSection = () => {
   return (
     <section id="contact" className="min-h-screen bg-gray-700 flex flex-col md:flex-row">
       <div className='flex flex-col p-5 md:p-10 justify-around '>
-        <div className='bg-mainelement text-center p-10 rounded-2xl'>
+        <div className='bg-white text-center p-5'>
           <h2 className='text-lg sm:text-xl md:text-2xl'>{textContent.contact_titel}</h2>
-          <p className='text-sm sm:text-base'>{textContent.contact_description}</p>
+          <p className='text-sm lg:text-base'>{textContent.contact_description}</p>
         </div>
       </div>
       <div className='my-auto'>

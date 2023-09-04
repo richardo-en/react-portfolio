@@ -4,7 +4,7 @@ import SliderDot from '../additional_components/slider';
 import '../static/effects.css';
 import LanguageContext from '../additional_components/language_context';
 import MobileNavigationSelector from '../additional_components/mobile_navigation';
-import MobileIcon from '../static/images/mobile_menu.png'
+import MobileIcon from '../static/images/mobile_menu.webp'
 
 
 const Navbar = () => {
@@ -47,12 +47,12 @@ const Navbar = () => {
         </div>
         <span className="bg-gray-600 w-2 h-3/5 fixed rounded-lg" />
         <SliderDot />
-        <button className={`fixed bottom-20 bg-gray-600 py-2 px-3 rounded-md border-2 border-white hover:scale-110 ${Rotation} `} onClick={handleButtonClick} style={{ color: TextColor }}>
+        <button className={`fixed bottom-20 bg-gray-600 py-2 px-3 rounded-md border-2 border-white hover:scale-110 ${Rotation} `} aria-label={`language button`} onClick={handleButtonClick} style={{ color: TextColor }}>
           {language}
         </button>
       </div>
       <div className='md:hidden'>
-        <button className='fixed top-5 right-5 z-50 w-10 h-10' onClick={handleMobileButton} id='mobile_button_switch'><img className='z-60' src={MobileIcon} /></button>
+        <button className='fixed top-5 right-5 z-50 w-10 h-10' onClick={handleMobileButton} id='mobile_button_switch' aria-label='Mobile menu button' ><img className='z-60' src={MobileIcon} alt="Mobile navigation button" /></button>
         <div className={`bg-gray-800 z-40 fixed w-full h-full ${ButtonClick}`}>
           <MobileNavigationSelector />
         </div>

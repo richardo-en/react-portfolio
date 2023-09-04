@@ -1,15 +1,15 @@
-import React, { useLayoutEffect, useContext, useState, useEffect } from 'react';
+import React, { useLayoutEffect, useContext, useState } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
 import Card from '../additional_components/cards';
 import { ReactComponent as MyIcon } from '../static/images/xmark-solid.svg'
-import LetterN from '../static/images/letter_n.png'
-import LetterE from '../static/images/letter_e.jpg'
-import LetterM from '../static/images/letter_m.jpg'
-import LetterC from '../static/images/letter_c.jpg'
-import LetterA from '../static/images/letter_a.jpg'
-import LetterD from '../static/images/letter_d.jpg'
+import LetterN from '../static/images/letter_n.webp'
+import LetterE from '../static/images/letter_e.webp'
+import LetterM from '../static/images/letter_m.webp'
+import LetterC from '../static/images/letter_c.webp'
+import LetterA from '../static/images/letter_a.webp'
+import LetterD from '../static/images/letter_d.webp'
 
 const AboutSection = () => {
   const { language } = useContext(LanguageContext);
@@ -110,7 +110,7 @@ const AboutSection = () => {
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container'>
               {combinedCardsOne.map((card, index) => (
-                <button key={index} className={`lg:w-80 lg:h-60 h-40 mx-5 py-2 px-2 rounded-md card`} onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImages[index]})` }}>
+                <button key={index} className={`lg:w-80 lg:h-60 h-40 mx-5 py-2 px-2 rounded-md card`} aria-label='Card information' onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImages[index]})` }}>
                   <div className='about_text_background'>
                     <Card title={card.title} description={card.description} />
                   </div>
@@ -124,7 +124,7 @@ const AboutSection = () => {
           <div className=" w-1/2 my-10 h-1/2">
             <div className='w-screen flex justify-around h-full' id='card_container_right'>
               {combinedCardsTwo.map((card, index) => (
-                <button key={index} className={`lg:w-80 lg:h-60 h-40 mx-5 py-2 px-2 rounded-md card`} onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImagesTwo[index]})` }}>
+                <button key={index} className={`lg:w-80 lg:h-60 h-40 mx-5 py-2 px-2 rounded-md card`} aria-label='Card information' onClick={() => handleButtonClick(card)} style={{ backgroundImage: `url(${backgroundImagesTwo[index]})` }}>
                   <div className='about_text_background'>
                     <Card title={card.title} description={card.description} />
                   </div>
@@ -135,7 +135,7 @@ const AboutSection = () => {
         </div>
         <span className='w-1/4 absolute right-0 z-10 flex-1' id='cover-right' />
       </div>
-      <div className={`fixed top-10 w-full text-sm mx-auto top-1/4 md:w-3/5 h-1/2 sm:top-1/4 sm:left-1/4 sm:w-1/2 sm:h-1/4 z-20 py-2 px-10 bg-white rounded-md hover:bg-gray-200 text-center ${OnClickAnimation === false ? "hidden" : ""}`} onMouseEnter={handleMouse} onMouseLeave={handleMouse} onClick={handleButtonClick}>
+      <div className={`fixed top-1/4 w-full text-sm mx-auto md:w-3/5 md:h-2/5 sm:top-1/4 sm:left-1/4 sm:w-1/2 sm:h-1/4 z-20 py-2 px-10 bg-white rounded-md hover:bg-gray-200 text-center ${OnClickAnimation === false ? "hidden" : ""}`} onMouseEnter={handleMouse} onMouseLeave={handleMouse} onClick={handleButtonClick}>
         <div className='flex justify-end text-center w-full h-5' style={{ opacity: (isHovered ? 1 : 0) }} id='expanded_card'>
           <MyIcon />
         </div>

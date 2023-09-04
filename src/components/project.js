@@ -2,17 +2,19 @@ import React, { useEffect, useContext, useState, useRef } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
-import CObject from '../static/images/C-objective.png'
-import CSharp from '../static/images/C-sharp.png'
-import Python from '../static/images/python-logo.png'
-import Descriptive from '../static/images/descriptive.png'
+import CObject from '../static/images/C-objective.webp'
+import CSharp from '../static/images/C-sharp.webp'
+import Python from '../static/images/python-logo.webp'
+import Descriptive from '../static/images/descriptive.webp'
+import Javascript from '../static/images/javascript-logo.webp'
+import Work from '../static/images/work-logo.webp'
 
 const ProjectsSection = () => {
   const { language } = useContext(LanguageContext);
   const [textContent, setTextContent] = useState({ projects: [] });
   const sectionRef = useRef(null);
   
-  const ilustrativeImages = [Python, CSharp, CObject, Descriptive];
+  const ilustrativeImages = [Python, CSharp, CObject, Descriptive, Javascript, Work];
   
   useEffect(() => {
     setTextContent(language === 'Slovak' ? slovakText : englishText);
@@ -58,21 +60,24 @@ const ProjectsSection = () => {
       <div className='sticky_parent' ref={sectionRef}>
         <div className="sticky_el">
           <div className='scroll_section'>
-            {projectContent.map((card, index) => (
+            {projectContent && projectContent.map((card, index) => (
               <div key={index} className={`project_card bg-gray-900 flex flex-col items-center justify-around lg:items-stretch lg:flex-row  p-0 ${index % 2 === 0 ? "card_bg_1" : "card_bg_2"}`}>
-                <img src={ilustrativeImages[index]} className='image -ml-32' />
+                <img src={ilustrativeImages[index]} alt={` ${ilustrativeImages[index]} logo`} className='image -ml-32' />
                 <div className='w-10/12 lg:w-3/4 lg:mx-10 project_content_card p-2 lg:p-5 border-l-2 border-b-2 border-r-2 border-extrawhite mb-10 lg:mb-14 bg-white'>
                   <h1 className='text-xl sm:text-md lg:mb-10'>{card.title}</h1>
                   <p className='text-left sm:text-base '>{card.description}</p>
                 </div>
-                <div className='w-10/12 lg:w-1/3 flex flex-col lg:mt-40 justify-around link_card border-l-2 border-t-2 border-r-2 border-extrawhite'>
-                  <h1 className='sm:text-base lg:text-md'>Links to projects</h1>
-                    <button className='hover:text-testcolor focus:text-testcolor focus:underline' ><a>project-1</a></button>
-                    <button className='hover:text-testcolor focus:text-testcolor focus:underline' ><a>project-2</a></button>
-                    <button className='hover:text-testcolor focus:text-testcolor focus:underline' ><a>project-3</a></button>
-                    <button className='hover:text-testcolor focus:text-testcolor focus:underline' ><a>project-4</a></button>
-                    <button className='hover:text-testcolor focus:text-testcolor focus:underline' ><a>project-5</a></button>
-                    <button className='hover:text-testcolor focus:text-testcolor focus:underline' ><a>project-6</a></button>
+                <div className='w-10/12 lg:w-1/3 flex flex-col lg:mt-40 link_card border-l-2 border-t-2 border-r-2 border-extrawhite'>
+                  <h1 className='sm:text-base lg:text-md mb-5'>Links to projects</h1>
+                  {card.links.map((link, linkIndex) => (
+                    Object.keys(link).map((linkText) => (
+                      <button key={linkIndex} className='hover:text-testcolor focus:text-testcolor focus:underline mb-2' aria-label={`button links to ${linkText}`}>
+                        <a href={link[linkText]} target="_blank" rel="noopener noreferrer">
+                          {linkText}
+                        </a>
+                      </button>
+                    ))
+                  ))}
                 </div>
               </div>
             ))}

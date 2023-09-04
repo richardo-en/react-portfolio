@@ -41,7 +41,7 @@ const MobileNavigationSelector = () => {
         <>
             <div className={`fixed h-1/2 top-1/4 flex flex-col justify-around items-center w-full`}>
                 {navigationData.navigation.map((item, index) => (
-                    <a key={index} href={`http://localhost:3000#${links[index]}`} className={`text-4xl ${getButtonClass(index)}`} id={links[index] + `_selector`}><button>{item.title}</button></a>
+                    <a key={index} href={`http://localhost:3000#${links[index]}`} className={`text-4xl ${getButtonClass(index)}`} id={links[index] + `_selector`}><button aria-label={`${item.title} button`} >{item.title}</button></a>
                 ))}
             </div>
         </>

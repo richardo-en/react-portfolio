@@ -85,7 +85,7 @@ const FutureSection = () => {
       cancelAnimationFrame(animationFrameId);
     };
 
-  }, [language]);
+  }, [language, ChangeText]);
 
   /* BUTTON CLICK */
   const handleButtonClick = (content, index) => {
@@ -169,7 +169,7 @@ const FutureSection = () => {
           <p className='text-left'>article: article -[type]</p>
           <p className='text-left mt-4'>&nbsp;&nbsp;&nbsp;{textContent.future_command_help}</p>
           {futureContent.map((content, index) => (
-            <button key={index} className={`text-sm text-left my-1 `} onClick={() => handleButtonClick(content, index)} ><span className={`${buttonClickedIndex === index ? 'selected' : ''} text-base`}>{content.command}</span>&nbsp;&nbsp;&nbsp;{content.command_des}</button>
+            <button key={index} className={`text-sm text-left my-1 `} aria-label={`article button`} onClick={() => handleButtonClick(content, index)} ><span className={`${buttonClickedIndex === index ? 'selected' : ''} text-base`}>{content.command}</span>&nbsp;&nbsp;&nbsp;{content.command_des}</button>
           ))}
           <p className='text-left' id='warning_message'>{textContent.future_error_msg}</p>
           <div className='flex relative'>
