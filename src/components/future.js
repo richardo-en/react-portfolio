@@ -32,12 +32,7 @@ const FutureSection = () => {
     let animationFrameId = null;
 
     const animateCursor = () => {
-      if (Cursor === "|") {
-        setCursor("")
-      } else {
-        setCursor("|")
-      }
-      // setCursor((prevCursor) => !prevCursor);
+      setCursor((prevCursor) => !prevCursor);
       animationFrameId = requestAnimationFrame(animateCursor);
     };
 
@@ -90,7 +85,7 @@ const FutureSection = () => {
       cancelAnimationFrame(animationFrameId);
     };
 
-  }, [language, ChangeText]);
+  }, [language, ChangeText, Cursor]);
 
   /* BUTTON CLICK */
   const handleButtonClick = (content, index) => {
