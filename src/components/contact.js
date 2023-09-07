@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect, useLayoutEffect } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import Ilustration from '../static/images/test_photo.webp'
@@ -8,20 +8,19 @@ const ContactSection = () => {
 
   const { language } = useContext(LanguageContext);
   const [textContent, setTextContent] = useState({ contact: [] });
-
-  const SetCenter = () =>{
-    var image_center = document.getElementById("contact_image");
-    var width = image_center.width;
-    image_center.parentElement.style.left = ((window.innerWidth - width)/2 )+ "px"
-  }
+  
+  useLayoutEffect(() => {
+    setTimeout(() => {
+      if (window.innerWidth <= 465) {        
+        const image_center = document.getElementById("contact_image");
+        var width = image_center.width;
+        image_center.parentElement.style.left = ((window.innerWidth - width)/2 )+ "px"
+      }
+    }, 500);
+  })
 
   useEffect(() => {
     const content = language === 'Slovak' ? slovakText : englishText;
-    if (window.innerWidth <= 425) {
-      setTimeout(() => {
-        SetCenter();
-      }, 100);
-    }
     setTextContent(content)},[language]);
 
   return (
