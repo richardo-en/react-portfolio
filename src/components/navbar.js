@@ -6,23 +6,25 @@ import LanguageContext from '../additional_components/language_context';
 import MobileNavigationSelector from '../additional_components/mobile_navigation';
 import MobileIcon from '../static/images/mobile_menu.webp'
 
+export function SwitchClasses(){
+  const mobileMenu = document.getElementById("mobile_menu_expand")
+  if (mobileMenu.classList.contains("hidden")) {
+    mobileMenu.classList.remove("hidden")
+    mobileMenu.classList.add("display_menu")
+  }else{
+    mobileMenu.classList.remove("display_menu")
+    mobileMenu.classList.add("hide_menu")
+    setTimeout(() => {
+      mobileMenu.classList.remove("hide_menu")
+      mobileMenu.classList.add("hidden")
+    }, 500);
+  }
+}
 
 const Navbar = () => {
   const { language, dispatch } = useContext(LanguageContext);
   const [TextColor, setTextColor] = useState('#c7eaff');
   const [Rotation, setRotation] = useState('');
-  const [ButtonClick, setButtonClick] = useState("hidden")
-
-  const handleMobileButton = () => {
-    if (ButtonClick === "hidden") {
-      setButtonClick("display_menu")
-    } else {
-      setButtonClick("hide_menu")
-      setTimeout(() => {
-        setButtonClick("hidden")
-      }, 500);
-    }
-  }
 
   const handleButtonClick = () => {
     setRotation('rotated');
@@ -52,8 +54,8 @@ const Navbar = () => {
         </button>
       </div>
       <div className='md:hidden'>
-        <button className='fixed top-5 right-5 z-50 w-10 h-10' onClick={handleMobileButton} id='mobile_button_switch' aria-label='Mobile menu button' ><img className='z-60' src={MobileIcon} alt="Mobile navigation button" /></button>
-        <div className={`bg-gray-800 z-40 fixed w-full h-full ${ButtonClick}`}>
+        <button className='fixed top-5 right-5 z-50 w-10 h-10' onClick={SwitchClasses} id='mobile_button_switch' aria-label='Mobile menu button' ><img className='z-60' src={MobileIcon} alt="Mobile navigation button" /></button>
+        <div className={`bg-gray-800 z-40 fixed w-full h-full hidden`} id='mobile_menu_expand'>
           <MobileNavigationSelector />
         </div>
       </div>

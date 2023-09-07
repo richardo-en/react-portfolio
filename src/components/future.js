@@ -48,7 +48,7 @@ const FutureSection = () => {
     /* APPEAR EFFECT */
     const scrollHandle = () => {
       const appearElements = document.querySelectorAll(".future_card");
-      if (window.scrollY >= document.getElementById("future").offsetTop) {
+      if (window.scrollY + 10 >= document.getElementById("future").offsetTop) {
         appearElements.forEach(element => {
           element.classList.add("appear")
         });
@@ -100,11 +100,17 @@ const FutureSection = () => {
   
   /* COMMAND LINE */
   const handleUserCommand = (command) => {
-    const matchingContent = futureContent.find(
-      (content) => content.command === command
-    );
-
+    var matchingIndex = null;
+    const matchingContent = futureContent.find((content, index) => {
+      if (content.command === command) {
+        matchingIndex = index;
+        return true;
+      }
+      return false;
+    });
+    
     if (matchingContent) {
+      setButtonClickedIndex(matchingIndex);
       swapTextEffect();
       setProcessing(true);
       setTimeout(() => {
@@ -174,7 +180,7 @@ const FutureSection = () => {
           <p className='text-left' id='warning_message'>{textContent.future_error_msg}</p>
           <div className='flex relative'>
             <span className='text-green-custom mr-1' id='user_text'>User@portfolio:~$</span>
-            <input type="text" value={userCommand} onChange={(e) => setUserCommand(e.target.value)} onKeyPress={(e) => { if (e.key === 'Enter') { handleUserCommand(userCommand); } }} size={userCommand.length + 1} className=' text-white' id='cmd_input' />
+            <input type="text" value={userCommand} onClick={(e) => {e.preventDefault()}} onChange={(e) => setUserCommand(e.target.value)} onKeyPress={(e) => { if (e.key === 'Enter') { handleUserCommand(userCommand); } }} size={userCommand.length + 1} className=' text-white' id='cmd_input' />
             <span className='cursor absolute' ref={cursorRef} style={{left : cursorWidth + 1 + 'px'}}/>
           </div>
         </div>

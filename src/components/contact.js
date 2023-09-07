@@ -9,20 +9,31 @@ const ContactSection = () => {
   const { language } = useContext(LanguageContext);
   const [textContent, setTextContent] = useState({ contact: [] });
 
+  const SetCenter = () =>{
+    var image_center = document.getElementById("contact_image");
+    var width = image_center.width;
+    image_center.parentElement.style.left = ((window.innerWidth - width)/2 )+ "px"
+  }
+
   useEffect(() => {
     const content = language === 'Slovak' ? slovakText : englishText;
+    if (window.innerWidth <= 425) {
+      setTimeout(() => {
+        SetCenter();
+      }, 100);
+    }
     setTextContent(content)},[language]);
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-700 flex flex-col md:flex-row">
-      <div className='flex flex-col p-5 md:p-10 justify-around '>
+    <section id="contact" className="min-h-screen relative bg-gray-700 flex items-start xl:items-center overflow-hidden">
+      <div className='flex flex-col p-5 md:p-10 justify-around xl:w-4/6'>
         <div className='bg-white text-center p-5'>
           <h2 className='text-lg sm:text-xl md:text-2xl'>{textContent.contact_titel}</h2>
           <p className='text-sm lg:text-base'>{textContent.contact_description}</p>
         </div>
       </div>
-      <div className='my-auto'>
-        <img src={Ilustration} alt="Illustration" className='rounded-2xl w-1/2'/>
+      <div className='absolute h-4/6 bottom-0 md:right-0 md:flex-none xl:h-full'>
+        <img src={Ilustration} alt="Illustration" className='rounded-2xl h-full' id='contact_image'/>
       </div>
     </section>
   );
