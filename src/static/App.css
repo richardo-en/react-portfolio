@@ -239,3 +239,15 @@ body {
     padding-left: 20vw;
   }
 }
+
+
+/* FREELANCE CONTENT */
+
+#freelance_first_content{
+  margin-bottom: 50vh;
+  margin-top: 25vh;
+}
+
+#freelance_second_content{
+  margin-bottom: 25vh;
+}

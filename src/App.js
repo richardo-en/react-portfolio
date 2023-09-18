@@ -1,14 +1,11 @@
 import React, { useReducer } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import LanguageContext from './additional_components/language_context.js';
 import languageReducer from './additional_components/Language_reducer.js';
 
-import Navbar from './components/navbar.js';
-import HomeSection from './components/home.js';
-import AboutSection from './components/about.js';
-import ProjectsSection from './components/project.js';
-import FutureSection from './components/future.js';
-import ContactSection from './components/contact.js';
-
+import Freelancing from './sites/freelancing_page.js';
+import LandingPage from './sites/landing_page';
 
 const App = () => {
   const initialState = {
@@ -18,12 +15,12 @@ const App = () => {
 
   return (
     <LanguageContext.Provider value={{ language: state.language, dispatch }}>
-      <Navbar />
-      <HomeSection />
-      <AboutSection/>
-      <ProjectsSection />
-      <FutureSection />
-      <ContactSection />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path="freelance" element={<Freelancing />} />
+        </Routes>
+      </BrowserRouter>
     </LanguageContext.Provider>
   );
 };

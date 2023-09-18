@@ -1,8 +1,9 @@
 import React, { useState, useContext, useEffect, useLayoutEffect } from 'react';
-import slovakText from '../content/slovak.json';
-import englishText from '../content/english.json';
-import Ilustration from '../static/images/test_photo.webp'
-import LanguageContext from '../additional_components/language_context';
+import slovakText from '../../content/slovak.json';
+import englishText from '../../content/english.json';
+import Ilustration from '../../static/images/test_photo.webp'
+import LanguageContext from '../../additional_components/language_context';
+import Footer from '../../additional_components/footer';
 
 const ContactSection = () => {
 
@@ -34,6 +35,7 @@ const ContactSection = () => {
       <div className='absolute h-4/6 bottom-0 md:right-0 md:flex-none xl:h-full'>
         <img src={Ilustration} alt="Illustration" className='rounded-2xl h-full' id='contact_image'/>
       </div>
+      <Footer />
     </section>
   );
 };

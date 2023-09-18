@@ -1,15 +1,15 @@
 import React, { useLayoutEffect, useContext, useState } from 'react';
-import slovakText from '../content/slovak.json';
-import englishText from '../content/english.json';
-import LanguageContext from '../additional_components/language_context';
-import Card from '../additional_components/cards';
-import { ReactComponent as MyIcon } from '../static/images/xmark-solid.svg'
-import LetterN from '../static/images/letter_n.webp'
-import LetterE from '../static/images/letter_e.webp'
-import LetterM from '../static/images/letter_m.webp'
-import LetterC from '../static/images/letter_c.webp'
-import LetterA from '../static/images/letter_a.webp'
-import LetterD from '../static/images/letter_d.webp'
+import slovakText from '../../content/slovak.json';
+import englishText from '../../content/english.json';
+import LanguageContext from '../../additional_components/language_context';
+import Card from '../../additional_components/cards';
+import { ReactComponent as MyIcon } from '../../static/images/xmark-solid.svg'
+import LetterN from '../../static/images/letter_n.webp'
+import LetterE from '../../static/images/letter_e.webp'
+import LetterM from '../../static/images/letter_m.webp'
+import LetterC from '../../static/images/letter_c.webp'
+import LetterA from '../../static/images/letter_a.webp'
+import LetterD from '../../static/images/letter_d.webp'
 
 const AboutSection = () => {
   const { language } = useContext(LanguageContext);

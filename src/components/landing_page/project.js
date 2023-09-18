@@ -1,13 +1,13 @@
 import React, { useEffect, useContext, useState, useRef } from 'react';
-import slovakText from '../content/slovak.json';
-import englishText from '../content/english.json';
-import LanguageContext from '../additional_components/language_context';
-import CObject from '../static/images/C-objective.webp'
-import CSharp from '../static/images/C-sharp.webp'
-import Python from '../static/images/python-logo.webp'
-import Descriptive from '../static/images/descriptive.webp'
-import Javascript from '../static/images/javascript-logo.webp'
-import Work from '../static/images/work-logo.webp'
+import slovakText from '../../content/slovak.json';
+import englishText from '../../content/english.json';
+import LanguageContext from '../../additional_components/language_context';
+import CObject from '../../static/images/C-objective.webp'
+import CSharp from '../../static/images/C-sharp.webp'
+import Python from '../../static/images/python-logo.webp'
+import Descriptive from '../../static/images/descriptive.webp'
+import Javascript from '../../static/images/javascript-logo.webp'
+import Work from '../../static/images/work-logo.webp'
 
 const ProjectsSection = () => {
   const { language } = useContext(LanguageContext);

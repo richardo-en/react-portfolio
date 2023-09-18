@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
-import { SwitchClasses } from '../components/navbar.js';
+import { SwitchClasses } from '../components/landing_page/navbar.js';
 
 const MobileNavigationSelector = () => {
     const [selectedElement, setSelectedElement] = useState(null);

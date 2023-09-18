@@ -19,11 +19,10 @@ function setNavigationTop(links, websiteHeight) {
         for (let i = 0; i < links.length; i++) {
             const element = links[i];
             const navigationSelector = document.getElementById(element + "_selector");
-            if (navigationSelector) {
-                const mainElement = document.getElementById(element);
+            const mainElement = document.getElementById(element);
+            if (navigationSelector && mainElement) {
                 const offset = mainElement.offsetTop + (mainElement.clientHeight/2)
                 const percentage = (offset / websiteHeight);
-                // console.log(offset);
             navigationSelector.style.top = `${percentage * (window.innerHeight*0.6)}px`;
         }
   }

@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
-import NavigationSelector from '../additional_components/navigation_selector';
-import SliderDot from '../additional_components/slider';
-import '../static/effects.css';
-import LanguageContext from '../additional_components/language_context';
-import MobileNavigationSelector from '../additional_components/mobile_navigation';
-import MobileIcon from '../static/images/mobile_menu.webp'
+import NavigationSelector from '../../additional_components/navigation_selector';
+import SliderDot from '../../additional_components/slider';
+import '../../static/effects.css';
+import LanguageContext from '../../additional_components/language_context';
+import MobileNavigationSelector from '../../additional_components/mobile_navigation';
+import MobileIcon from '../../static/images/mobile_menu.webp'
 
 export function SwitchClasses(){
   const mobileMenu = document.getElementById("mobile_menu_expand")

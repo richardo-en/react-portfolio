@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext, useRef } from 'react';
-import slovakText from '../content/slovak.json';
-import englishText from '../content/english.json';
-import LanguageContext from '../additional_components/language_context';
-import './../static/App.css';
+import slovakText from '../../content/slovak.json';
+import englishText from '../../content/english.json';
+import LanguageContext from '../../additional_components/language_context';
+import '../../static/App.css';
 
 const FutureSection = () => {
 

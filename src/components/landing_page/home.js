@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import LogoAnimation from '../additional_components/logo';
-import './../static/App.css';
+import LogoAnimation from '../../additional_components/logo';
+import './../../static/App.css';
 
 const HomeSection = () => {
   const [backgroundOpacity, setBackgroundOpacity] = useState(0);
