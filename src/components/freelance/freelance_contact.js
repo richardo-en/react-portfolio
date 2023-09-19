@@ -18,8 +18,8 @@ const FreelanceContact = () => {
     <section id="freelance_contact" className="h-screen w-screen relative bg-gray-700 flex flex-col justify-center items-center text-white">
         <div className="w-screen text-center grid gap-4 grid-cols-2 mb-40">
             <div className="flex flex-col p-5">
-                <h1 className='text-3xl '>Contact me!</h1>
-                <p className='text-left'>lorem asdasd asdasda sda sd as d asdasdasda d asdasdasd asdadsa  dasdasdasda sd asdas d adasd asdasdas dasds adsdasdasd asdasd asd asd asdadas dasd as da</p>
+                <h1 className='text-3xl '>{textContent.freelance_contact}</h1>
+                <p className='text-left'>{textContent.freelance_contact_content}</p>
             </div>
             <span className='h-full w-full bg-gray-600'/>
         </div>

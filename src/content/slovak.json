@@ -29,99 +29,151 @@
       "description": "Počas prvého roku na univerzite som získal veľa nových poznatkov z praxe a aj teoretických informácií. Učili sme sa napríklad, ako sa tvoria väčšie projekty, hlbšie sme sa venovali OOP a abstraktnejším častiam väčších projektov. To, čo som sa naučil na škole, som mohol vidieť v spoločnosti, kde som pracoval. Prax som si získal v oblasti pythonu, kde som sa prvýkrát stretol s xml. Počas školy sme pracovali na viacerých projektoch, kde sme používali C, JavaScript, Shell Scripting a spolupracoval som s jedným prednášajúcim na doplnkovom projekte zameranom na SEO."
     }
   ],
-  "projects" : [
+  "projects": [
     {
-      "title" : "Python",
-      "description" : "Programovací jazyk python som si obľúbil najviac zo všetkých pretože je jednoduchý a multifunkčný. Tomuto jazyku som sa začal venovať na strednej škole kde som robil jednoduché zadania na hodinách informatiky alebo doma. Následne som si vyskúšal tvorbu stránky za pomoci tohoto jazyka kde som sa naučil aj deskriptívne jazyky. Python som používal aj pri maturite z informatiky. Po strednej Škole som používal python v Slovanete kde som pracoval v internom systéme Odoo.",
-      "links" : [
-        {"Maturita" : "https://github.com/richardo-en/High-school-graduation-from-IT"},
-        {"Python course" : "https://github.com/richardo-en/python-short-assignments"},
-        {"Prvá Flask aplikácia" : "https://github.com/richardo-en/upwork_example"},
-        {"Jednoduchý Odoo modul - Pohvor" : "https://github.com/richardo-en/odoo-module"},
-        {"Flask aplikácia pohovor" : "https://github.com/richardo-en/flask_amcef"},
-        {"" : ""},
-        {"" : ""}
+      "title": "Python",
+      "description": "Programovací jazyk python som si obľúbil najviac zo všetkých pretože je jednoduchý a multifunkčný. Tomuto jazyku som sa začal venovať na strednej škole kde som robil jednoduché zadania na hodinách informatiky alebo doma. Následne som si vyskúšal tvorbu stránky za pomoci tohoto jazyka kde som sa naučil aj deskriptívne jazyky. Python som používal aj pri maturite z informatiky. Po strednej Škole som používal python v Slovanete kde som pracoval v internom systéme Odoo.",
+      "links": [
+        {
+          "Maturita": "https://github.com/richardo-en/High-school-graduation-from-IT"
+        },
+        {
+          "Python course": "https://github.com/richardo-en/python-short-assignments"
+        },
+        {
+          "Prvá Flask aplikácia": "https://github.com/richardo-en/upwork_example"
+        },
+        {
+          "Jednoduchý Odoo modul - Pohvor": "https://github.com/richardo-en/odoo-module"
+        },
+        {
+          "Flask aplikácia pohovor": "https://github.com/richardo-en/flask_amcef"
+        },
+        {
+          "": ""
+        },
+        {
+          "": ""
+        }
       ]
     },
     {
-      "title" : "C#",
-      "description" : "Jazyk C# momentálne neovládam a ani sa mu aktívne nevenujem. Tento jazyk som sa naučil ešte predtým než som sa stretol s pythonom. Svoje skúsenosti z blenderu som chcel nejako využíť. Rozhodol som sa vytvoriť hru pre mobilné zariadenia. Tu som sa stretol s programom Unity a programovacím jazykom C#. Hru som následne pridal na google store kde je stále dostupná na stiahnutie. Hra sa volá Mark ball a je to jednoduchá indie hra kde hráč musí prejsť niekoľko levelov bez kolízie do iných objektov. Skúsenosť v tomto jazyku by som mohol uviesť ako môj vstup do sveta informatiky.",
-      "links" : [
-        {"Obchod Play" : "https://play.google.com/store/apps/details?id=com.WangChongStudio.MARKBALL&hl=sk&gl=US"}
+      "title": "C#",
+      "description": "Jazyk C# momentálne neovládam a ani sa mu aktívne nevenujem. Tento jazyk som sa naučil ešte predtým než som sa stretol s pythonom. Svoje skúsenosti z blenderu som chcel nejako využíť. Rozhodol som sa vytvoriť hru pre mobilné zariadenia. Tu som sa stretol s programom Unity a programovacím jazykom C#. Hru som následne pridal na google store kde je stále dostupná na stiahnutie. Hra sa volá Mark ball a je to jednoduchá indie hra kde hráč musí prejsť niekoľko levelov bez kolízie do iných objektov. Skúsenosť v tomto jazyku by som mohol uviesť ako môj vstup do sveta informatiky.",
+      "links": [
+        {
+          "Obchod Play": "https://play.google.com/store/apps/details?id=com.WangChongStudio.MARKBALL&hl=sk&gl=US"
+        }
       ]
     },
     {
-      "title" : "C",
-      "description" : "Tento jazyk sme sa učili počas prvých dvoch semestrov na Vysokej škole. Vypracovali sme v ňom veľa projektov a zadaní z cvičení. Vďaka tomuto jazyku lepšie chápem na čom sú postavané iné programovacie jazyky, ako fungujú alebo napríklad proces spracovania programu. Tento jazyk mi teda dal hlbšie nahliadnutie do sveta programovania.",
-      "links" : [
-        {"Prvý semester" : "https://github.com/richardo-en/C-project"},
-        {"Druhý semester" : "https://github.com/richardo-en/Cvika-2-sems"}
+      "title": "C",
+      "description": "Tento jazyk sme sa učili počas prvých dvoch semestrov na Vysokej škole. Vypracovali sme v ňom veľa projektov a zadaní z cvičení. Vďaka tomuto jazyku lepšie chápem na čom sú postavané iné programovacie jazyky, ako fungujú alebo napríklad proces spracovania programu. Tento jazyk mi teda dal hlbšie nahliadnutie do sveta programovania.",
+      "links": [
+        {
+          "Prvý semester": "https://github.com/richardo-en/C-project"
+        },
+        {
+          "Druhý semester": "https://github.com/richardo-en/Cvika-2-sems"
+        }
       ]
     },
     {
-      "title" : "Webové technológie",
-      "description" : "K webovým technológiam ako mojim znalostiam by som zaradil to že ovládam deskriptívne jazyky ako html,css alebo že som sa ponoril trochu do sveta SEO. Taktiež som sa stertol v systéme Odoo s jazykom XML. Zaradil by som sem aj prácu na viacerých wordpresových webstránkach, kde som menil pár vecí na mieru. SEO optimalizáciu som vykonával hlavne na wordpresových stránkach, ale ako som už spomínal spolupracoval som aj s Doktorom z fakulty na jednom projekte zameranom na SEO.",
-      "links" : [
-        {"Jednoduchý dizajn za pomoci flask" : "https://github.com/richardo-en/webiste_design"}
+      "title": "Webové technológie",
+      "description": "K webovým technológiam ako mojim znalostiam by som zaradil to že ovládam deskriptívne jazyky ako html,css alebo že som sa ponoril trochu do sveta SEO. Taktiež som sa stertol v systéme Odoo s jazykom XML. Zaradil by som sem aj prácu na viacerých wordpresových webstránkach, kde som menil pár vecí na mieru. SEO optimalizáciu som vykonával hlavne na wordpresových stránkach, ale ako som už spomínal spolupracoval som aj s Doktorom z fakulty na jednom projekte zameranom na SEO.",
+      "links": [
+        {
+          "Jednoduchý dizajn za pomoci flask": "https://github.com/richardo-en/webiste_design"
+        }
       ]
     },
     {
-      "title" : "Javascript",
-      "description" : "Počas druhého semestra sme mali predmet kde sme sa venovali OOP. Učili sme sa teóriu, ktorú sme neskôr využili v praxi na cvvičeniach. Pracovali sme na projekte webovej hry spracovanej čisto v Javascripte. Projekt musel mať určitú štruktúru a musel splňovať isté podmienky. Tento jazyk sa mi veľmi zapáčil, keďže sa veľmi podobá Pythonu. Rád by som sa Javascriptu venovaľ naďalej preto som sa rozhodol toto portfólio založiť pomocou Reactu.",
-      "links" : [
-        {"Webová hra" : "https://github.com/richardo-en/Javascript-browser-game"},
-        {"Portfolio" : "https://github.com/richardo-en/react-portfolio"}
+      "title": "Javascript",
+      "description": "Počas druhého semestra sme mali predmet kde sme sa venovali OOP. Učili sme sa teóriu, ktorú sme neskôr využili v praxi na cvvičeniach. Pracovali sme na projekte webovej hry spracovanej čisto v Javascripte. Projekt musel mať určitú štruktúru a musel splňovať isté podmienky. Tento jazyk sa mi veľmi zapáčil, keďže sa veľmi podobá Pythonu. Rád by som sa Javascriptu venovaľ naďalej preto som sa rozhodol toto portfólio založiť pomocou Reactu.",
+      "links": [
+        {
+          "Webová hra": "https://github.com/richardo-en/Javascript-browser-game"
+        },
+        {
+          "Portfolio": "https://github.com/richardo-en/react-portfolio"
+        }
       ]
     },
     {
-      "title" : "Pracovné skúsenosti",
-      "description" : "Pred mojou prvou oficiálnou prácou som sporadicky brigádoval na stavebných objektoch alebo som pracoval na občasných zákazkach od známych, ktoré sa pohybovali okolo programovania a spravovania webov. Tesne po začiatku Vysokej školy som nastúpil do Slovanetu ako stážista. Pracovali sme na internom systéme Odoo, kde som získal svoju prvú prax vo firme. Naučil som ako fungujú tímy zamerané na informatiku v spoločnosti, stretol som sa s organizovaním úloh a vypracovavaním týchto úloh do určitých deadlinov. Mal som možnosť sledovať a učiť sa od skúsených vedúcich leaderov našich tímov alebo preberať určitú zodpovednosť za pracú ktorá mi bola pridelená. Táto pracovná pozícia mi dala mnoho skúsenosti za čo som vďačný. Po skončení stáže v Slovanete som pracoval 4 mesiace ako čašník kde som sa naučil lepšie spracovávať stres a nátlak v pracovnom prostredí.",
-      "links" : [
-        {"Moj github" : "https://github.com/richardo-en"}
+      "title": "Pracovné skúsenosti",
+      "description": "Pred mojou prvou oficiálnou prácou som sporadicky brigádoval na stavebných objektoch alebo som pracoval na občasných zákazkach od známych, ktoré sa pohybovali okolo programovania a spravovania webov. Tesne po začiatku Vysokej školy som nastúpil do Slovanetu ako stážista. Pracovali sme na internom systéme Odoo, kde som získal svoju prvú prax vo firme. Naučil som ako fungujú tímy zamerané na informatiku v spoločnosti, stretol som sa s organizovaním úloh a vypracovavaním týchto úloh do určitých deadlinov. Mal som možnosť sledovať a učiť sa od skúsených vedúcich leaderov našich tímov alebo preberať určitú zodpovednosť za pracú ktorá mi bola pridelená. Táto pracovná pozícia mi dala mnoho skúsenosti za čo som vďačný. Po skončení stáže v Slovanete som pracoval 4 mesiace ako čašník kde som sa naučil lepšie spracovávať stres a nátlak v pracovnom prostredí.",
+      "links": [
+        {
+          "Moj github": "https://github.com/richardo-en"
+        }
       ]
     }
   ],
-  "future_introduction_title" : "Moje plány do budúcnosti",
-  "future_introduction" : "Môžete si prečítať o projektoch na ktorých momentálne pracujem alebo čo plánujem podniknúť vo svojej budúcnosti. Článok prepnete kliknutím na odkaz alebo napísaním vhodného commandu. Príkazový riadok aktivujete kliknutím na kurzor.",
-  "future_command_help" : "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
-  "future_error_msg" : "Your input is spelled wrongly! Only possible option is article -[type]",
-  "future" : [
+  "future_introduction_title": "Moje plány do budúcnosti",
+  "future_introduction": "Môžete si prečítať o projektoch na ktorých momentálne pracujem alebo čo plánujem podniknúť vo svojej budúcnosti. Článok prepnete kliknutím na odkaz alebo napísaním vhodného commandu. Príkazový riadok aktivujete kliknutím na kurzor.",
+  "future_command_help": "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
+  "future_error_msg": "Your input is spelled wrongly! Only possible option is article -[type]",
+  "future": [
     {
-      "command" : "mern -r",
-      "title" : "Mern aplikácia ",
-      "command_des" : "Načítate si text opisujúci aplikáciu založenú na MERN tech stacku.",
-      "description" : "Tento projekt by mal byť dokončený v priebehu jedného až dvoch rokov. Vo finálnom výsledku by to mala byť aplikácia pre gastro podniky ktorá zjednoduchší organizáciu tímu v gastre. Taktiež bude použiteľná pre ľudí, ktorý si budú schopný objednať jedlo alebo rezervovať stôl. Aplikácia je založená hlavne na MERN tech stacku čo znamená Mongo databáza, Express js pre backend, React pre frontend a celá aplikácia beží za pomoci node js. Využívam pri tvorbe rôzne externé softwary ale spomínané technológie sú základ."
+      "command": "mern -r",
+      "title": "Mern aplikácia ",
+      "command_des": "Načítate si text opisujúci aplikáciu založenú na MERN tech stacku.",
+      "description": "Tento projekt by mal byť dokončený v priebehu jedného až dvoch rokov. Vo finálnom výsledku by to mala byť aplikácia pre gastro podniky ktorá zjednoduchší organizáciu tímu v gastre. Taktiež bude použiteľná pre ľudí, ktorý si budú schopný objednať jedlo alebo rezervovať stôl. Aplikácia je založená hlavne na MERN tech stacku čo znamená Mongo databáza, Express js pre backend, React pre frontend a celá aplikácia beží za pomoci node js. Využívam pri tvorbe rôzne externé softwary ale spomínané technológie sú základ."
     },
     {
-      "command" : "blog -i",
-      "title" : "Blog",
-      "command_des" : "Zobrazí sa článok o naplánovanom projekte blogu.",
-      "description" : "Hlavný zámer blogu je rozšírť si znalosť v jazykoch, získať skúsenosť vo vedení tímu a opakovanie si tém preberaných v škole. V blogu by som chcel využiť materiály poskytované Fakultou a preskúmať preberané témy hlbšie o ktorých by som následne písal články. Články budú napísané aj v cudzích jazykoch čím by som si vylepšil slovník a upevnil základy cudzích jazykov."
+      "command": "blog -i",
+      "title": "Blog",
+      "command_des": "Zobrazí sa článok o naplánovanom projekte blogu.",
+      "description": "Hlavný zámer blogu je rozšírť si znalosť v jazykoch, získať skúsenosť vo vedení tímu a opakovanie si tém preberaných v škole. V blogu by som chcel využiť materiály poskytované Fakultou a preskúmať preberané témy hlbšie o ktorých by som následne písal články. Články budú napísané aj v cudzích jazykoch čím by som si vylepšil slovník a upevnil základy cudzích jazykov."
     },
     {
-      "command" : "education -n",
-      "title" : "Vzdelávanie do budúcna",
-      "command_des" : "Článok vysvetlí na čo sa chcem do budúcna zamerať",
-      "description" : "Do budúcna sa plánujem naučiť plinulo rozprávať minimálne ďaľším jedným cudzím jazykom. Svoje vzdelanie by som chcel smerovať hlavne na inovatívnu časť informatiky ako AI, ML a podobné. Mojim cieľom je pomôcť ľudom zjednoduchšiť ich prácu."
+      "command": "education -n",
+      "title": "Vzdelávanie do budúcna",
+      "command_des": "Článok vysvetlí na čo sa chcem do budúcna zamerať",
+      "description": "Do budúcna sa plánujem naučiť plinulo rozprávať minimálne ďaľším jedným cudzím jazykom. Svoje vzdelanie by som chcel smerovať hlavne na inovatívnu časť informatiky ako AI, ML a podobné. Mojim cieľom je pomôcť ľudom zjednoduchšiť ich prácu."
     }
-  ], 
-  "contact_titel" : "Kontaktujete ma!",
-  "contact_description" : "Ak Vás moje portfólio zaujalo neváhajte ma kontaktovať prostredníctvom mailu richard3.nemeth@gmail.com . Rád Vám odpoviem na Vaše otázky alebo pomôžem s vašim projektom.",
-  "navigation" : [
+  ],
+  "contact_titel": "Kontaktujete ma!",
+  "contact_description": "Ak Vás moje portfólio zaujalo neváhajte ma kontaktovať prostredníctvom mailu richard3.nemeth@gmail.com . Rád Vám odpoviem na Vaše otázky alebo pomôžem s vašim projektom.",
+  "navigation": [
     {
-      "title" : "Domov"
+      "title": "Domov"
     },
     {
-      "title" : "O mne"
+      "title": "O mne"
     },
     {
-      "title" : "Moje projekty"
+      "title": "Moje projekty"
     },
     {
-      "title" : "Budúcnosť"
+      "title": "Budúcnosť"
     },
     {
-      "title" : "Kontakt"
+      "title": "Kontakt"
     }
-  ]
+  ],
+  "freelanc_intro": "Possibility of freelancing",
+  "freelance_intro_title" : "Why do i want to freelance",
+  "freelanc_reasons": [
+    {
+      "title": "Gain experience",
+      "context": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
+    },
+    {
+      "title": "Work with end customer",
+      "context": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
+    }
+  ],
+  "freelance_content" : [
+    {
+      "title": "Pracovné skúsensoti",
+      "context": "Svoje programovacie skúsenosti som začal s jazykom C#, kde som vyvynul mobilnú hru za pomoci programu Unity. Následne sem sa venoval primárne Pythonu a deskriptívnym jazykom ako CSS, Html. Pri svojich projektoch zvyknem používať pre dizajn hlavne frameworky ako Bootstrap alebo Tailwind. Na vysokej škole som sa naučil programovací jazyk nižšej úrovni C. V priebehu semestra sme prebrali aj Javascript, s ktorým som následne rozšíril svoje znalosti v Reacte. Počas semestra som pracoval v ERP systéme Odoo kde som vyvýjal moduly pre firmu Slovanet. Svoje programovacie znalosti sa snažím smerovť hlavne na backendové časti programov."
+    },
+    {
+      "title": "Work experience",
+      "context": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
+    }
+  ],
+  "freelance_contact" : "Contact me!",
+  "freelance_contact_content" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
 }
