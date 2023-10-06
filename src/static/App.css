@@ -1,11 +1,71 @@
 /* OVERALL SETTINGS */
 
+@font-face {
+  font-family: 'Gloock';
+  src: url('./Gloock-Regular.ttf') format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('./Inconsolata-VariableFont_wdth\,wght.ttf') format('tff');
+}
+
+.title_text,.subtitle_text{
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.moved {
+  height: 70px;
+}
+
+.link_button {
+  background-color: #560af6;
+}
+
+.link_button:hover {
+  background-color: #4300d4;
+}
+
+.title_text::before {
+  content: "";
+  height: 20px;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  background-color: #cf8d41;
+  z-index: -2;
+}
+.subtitle_text::before {
+  content: "";
+  height: 12px;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  background-color: #cf8d41;
+  z-index: -2;
+}
+
+.title_text_side::before {
+  content: "";
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background-color: #c7eaff;
+  z-index: -2;
+}
+
 html,
 body {
   background-color: rgba(31, 41, 55);
   scrollbar-width: none;
   -ms-overflow-style: none;
-  /* scroll-snap-type: y proximity; */
 }
 
 *::-webkit-scrollbar {
@@ -26,33 +86,49 @@ body {
 
 #background_image {
   width: 100%;
-  height: 100%;
-  background-image: url("../static/images/leafs_background.webp");
+  height: 140vh;
+  background-image: url("../static/images/personal_image_intro.JPG");
   background-size: cover;
+  background-position: 0% 50%;
 }
 
 /* ABOUT PAGE */
 
-/* #about {
-  scroll-snap-align: start;
-} */
+#about_animation_background {
+  background-image: url('./images/stars_background.jpg');
+  background-size: contain;
+}
+
 
 #personal_image {
-  background-position: 0% 30%;
-  background-image: url("../static/images/test_photo.webp");
+  /* background-position: 0% 30%; */
+  background-image: url("../static/images/personal_image_intro.JPG");
   background-size: cover;
 }
 
+#about_first_part {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(31, 41, 55, 1) 30%);
+}
+
+.button_container {
+  padding: 10px;
+  border-bottom: 2px solid #c7eaff;
+  border-left: 2px solid #c7eaff;
+}
+
+#work_experience {
+  background: rgb(31,41,55);
+  background: linear-gradient(180deg, rgba(31,41,55,1) 0%, rgba(31,41,55,1) 30%, rgba(255,255,255,1) 30%);
+}
+
+#interest{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(31,41,55,1) 70%, rgba(31,41,55,1) 100%);
+}
 /* PROJECT PAGE */
-#project {
-  background-image: url('./images/background_test.webp');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.about_text_background{
+.about_text_background {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
 }
@@ -67,12 +143,20 @@ body {
   overflow: hidden;
   position: sticky;
   top: 0;
-  height: 100vh;
+  height: 80vh;
+}
+
+.sticky_el>h1 {
+  border-bottom: 5px solid #cf8d41;
+  width: 800vw;
+  position: sticky;
+  top: 0;
+  height: auto;
 }
 
 .scroll_section {
   position: absolute;
-  top: 0;
+  top: 10%;
   height: 100%;
   width: 600vw;
   will-change: transform;
@@ -82,30 +166,29 @@ body {
   padding: 0 5vw;
 }
 
+#main_title_project {
+  margin-left: -100vw;
+}
+
 /* MAIN CARD DESIGN */
+#project {
+  background: rgb(31, 41, 55);
+  background: linear-gradient(180deg, rgba(31, 41, 55, 1) 0%, rgba(61, 83, 113, 1) 50%, rgba(31, 41, 55, 1) 100%);
+}
+
 .project_card {
-  display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
   width: 70vw;
-  border-radius: 10px;
   height: 60%;
   text-align: center;
   color: #433f3c;
   background-repeat: no-repeat;
 }
 
-.image{
-  width: 150px;
-  margin-left: -10px;
-}
 
 @media screen and (max-width: 640px) {
-  .project_card{
+  .project_card {
     width: 90vw;
     height: 90vh;
-    padding-left: 2px;
-    padding-right: 2px;
     font-size: small;
     flex-direction: column;
     align-items: center;
@@ -113,7 +196,7 @@ body {
     padding-top: 10px;
   }
 
-  .image{
+  .image {
     width: 80px;
     margin-left: -80px;
     margin-top: -90px;
@@ -121,11 +204,12 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .project_card{
-    width: 80vw;
-    height: 80vh;
+  .project_card {
+    width: 50vw;
+    height: 60vh;
   }
-  .image{
+
+  .image {
     width: 125px;
     margin-top: -70px;
     margin-left: -50px;
@@ -133,21 +217,10 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .image{
+  .image {
     width: 150px;
     margin-left: -10px;
   }
-}
-
-
-.card_bg_1{
-  background-image: url('./images/card_background_11.webp');
-  background-size:contain;
-}
-
-.card_bg_2{
-  background-image: url('./images/card_background_2.webp');
-  background-size:cover;
 }
 
 .project_card>h1 {
@@ -159,21 +232,12 @@ body {
 }
 
 .project_card>img {
-  max-width: 200px;
-  transform: rotate(-45deg);
-  position: fixed;
-  margin-right: 70vw;
-  top: 100px;
-}
-
-.link_card{
-  background-color: #1d6fb7;
-  color: white;
+  transform: scale(1.3);
 }
 
 /* FUTURE SECTION */
 @media screen and (min-width: 640px) {
-  #future{
+  #future {
     padding-left: 25vw;
   }
 }
@@ -217,37 +281,41 @@ body {
   width: 100%;
 }
 
-#cmd_input{
+#cmd_input {
   outline: none;
   border: none;
 }
 
 /* CONTACT SECTION */
 #contact {
-  /* scroll-snap-align: start; */
   padding-left: auto;
   padding-right: 0;
-  background-image: url('./images/abstract_bg.webp');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-@media screen and (min-width: 768px) {
-  #contact{
-    padding-left: 20vw;
-  }
+#contact_footer {
+  margin-left: -70vw;
+}
+
+/* #contact_image {
+
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} */
+
+/* FREELANCE INTRO */
+#freelance_intro {
+  background-image: url("./images/freelance_intro_backgroun.jpg");
+  background-size: cover;
 }
 
 
 /* FREELANCE CONTENT */
 
-#freelance_first_content{
+#freelance_first_content {
   margin-bottom: 50vh;
   margin-top: 25vh;
 }
 
-#freelance_second_content{
+#freelance_second_content {
   margin-bottom: 25vh;
 }

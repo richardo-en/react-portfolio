@@ -1,4 +1,38 @@
 {
+  "landingTitle":"Uvítanie",
+  "landingInformation":"Vitajte na mojom portfóliu. Volám sa Richard a som študent Slovenskej Technickej Univerzity FIIT. Už je to vyše 5 rokov čo som sa prvý krát zoznámil s programovaním. Donedávna som väčšinu času trávil ako semi-profesionálny športovec. Svoj voľný čas venujem vzdelávaniu, alebo získavaniu nových skúseností.",
+  "workExperienceTitle":"Moje pracovné skúsenosti",
+  "workInformation": [
+    {
+      "title": "Moje preferencie",
+      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+    },
+    {
+      "title": "Pracovne skusenosti",
+      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+    },
+    {
+      "title": "Znalosti v sucastnosti",
+      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+    }
+  ],
+  "workExperienceInformation":"Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP. Na univerzite som sa venoval nadstavbovému projektu so zámerom na SEO. Python bol prvý programovací jazyk, ktorý som sa naučil na strednej škole. V súčasnej dobe ovládam Python, Javascript, C, MongoDB. Pracoval som na vlastných projektoch, ktoré využivali frameworky týchto jazykov ako je Flask, Django, React, NodeJs, ExpressJS. Venujem sa hlavne backendovým častiam projektov a ovládam aj deskritptívne jazyki ako Html, CSS, Xml. Ak pracujem na dizajne využívam väčšinu času frameworky ako Bootstrap alebo Tailwind.",
+  "interestReasonTitle":"Prečo práve ja",
+  "interestInformation": [
+    {
+      "title": "Hlavný ciel",
+      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+    },
+    {
+      "title": "Pracovné prostredie",
+      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+    },
+    {
+      "title": "Práca pod stresom",
+      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+    }
+  ],
+  "interestReasonInformation":"Mojim hlavným cieľom je zdokonalovať sa vo svojom obore. Svoj osobný rast zlepšujem nielen prácou na zadaní, ale pokúšam sa sledovať a naučiť dobré návyky od skúsenejších Inžinierov. Úlohu na, ktorej robím sa vždy snažím odovzdať do deadlinu a dokončiť ju na 100%. Od útleho veku som sa venoval spoločenskej športovej disciplíne, takže práca v tíme mi nerobí žiaden problém. Som schopný sa rýchlo prispôsobiť novému pracovnému prostrediu a nehanbím sa pýtať otázky na, ktoré odpoveď nepoznám.",
   "welcome": "Welcome to my portfolio!",
   "about": "About me",
   "cardsOne": [

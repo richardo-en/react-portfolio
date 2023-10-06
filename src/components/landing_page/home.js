@@ -10,7 +10,7 @@ const HomeSection = () => {
       const scrollPosition = window.scrollY;
       if (scrollPosition >= 0 && scrollPosition < 600) {
         requestAnimationFrame(() => {
-          let newOpacity = scrollPosition / 1000;
+          let newOpacity = scrollPosition / 2000;
           setBackgroundOpacity(newOpacity);
         });
       }

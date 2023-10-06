@@ -42,7 +42,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className='hidden md:flex fixed h-screen flex-col justify-center sm:w-1/3 items-center z-20'>
+      <div className='hidden md:flex fixed h-screen flex-col justify-center sm:w-1/3 items-center z-40'>
         <SliderDot />
         <div className="sticky h-3/5 z-40 w-1/2 text-center">
           <NavigationSelector />

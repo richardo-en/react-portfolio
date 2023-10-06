@@ -21,6 +21,27 @@ module.exports = {
 
       },
     },
+    fontFamily: {
+      'gloock': ['Gloock'],
+      'inconsolata': ['Inconsolata'],
+     },
+     zIndex: {
+      '0': 0,
+     '10': 10,
+     '20': 20,
+     '30': 30,
+     '40': 40,
+     '50': 50,
+     '25': 25,
+     '50': 50,
+     '75': 75,
+     '100': 100,
+      'auto': 'auto',
+    },
+    gridTemplateRows: {
+      // Simple 8 row grid
+     '3': 'repeat(3, minmax(0, 0.8fr))',
+    }
   },
   plugins: [],
 }

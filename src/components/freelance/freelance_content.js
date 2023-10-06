@@ -31,12 +31,14 @@ const FreelanceContent = () => {
   }, [language]);
 
   return (
-    <section id="freelance_content" className="h-1/2 bg-gray-800 w-screen py-20 px-5 text-white my-10 overflow-x-hidden	">
+    <section id="freelance_content" className="h-1/2 bg-gray-700 w-screen py-20 text-white my-10 overflow-x-hidden	">
       {textContent.freelance_content &&
         textContent.freelance_content.map((content, index) => (
-          <div className="flex justify-around items-center" key={index}>
-            <h1 className='text-4xl underline freelance_content_title my-60' >{content.title}</h1>
-            <p className='w-1/3'>{content.context}</p>
+          <div className="flex items-center bg-gray-900 mb-20" key={index}>
+            <div className="w-2/5 h-full bg-testcolor flex justify-center">
+              <h1 className='text-4xl underline freelance_content_title my-40' >{content.title}</h1>
+            </div>
+            <p className='w-1/2 p-5'>{content.context}</p>
           </div>
         ))}
     </section>

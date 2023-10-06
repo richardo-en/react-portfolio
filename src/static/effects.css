@@ -42,13 +42,13 @@
     height: 100%;
 }
 
-.card {
+.card_first, .card_second {
     background-size: cover;
     background-repeat: no-repeat;
     transition: 0.5s;
 }
 
-.card:hover {
+.card_first:hover, .card_second:hover {
     transform: scale(1.1);
 }
 
@@ -96,13 +96,13 @@
 /* Apply the infinite scrolling animation to the card container */
 #card_container {
     width: 200vw;
-    animation: scroll-left 20s linear infinite;
+    /* animation: scroll-left 20s linear infinite; */
     overflow: hidden;
 }
 
 #card_container_right {
     width: 200vw;
-    animation: scroll-right 20s linear infinite;
+    /* animation: scroll-right 20s linear infinite; */
     overflow: hidden;
 }
 
@@ -120,26 +120,14 @@
 
 
 #cover-left {
-    background: rgb(31, 41, 55);
-    background: linear-gradient(90deg, rgba(31, 41, 55, 1) 50%, rgba(31, 41, 55, 0) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
 #cover-right {
-    background: rgb(31, 41, 55);
-    background: linear-gradient(90deg, rgba(31, 41, 55, 0) 0%, rgba(31, 41, 55, 1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
-
-/* PROJECT EFFECTS */
-
-.image {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-.visible .image {
-    opacity: 1;
-}
-
 
 /* FUTURE EFFECTS */
 .selected {
