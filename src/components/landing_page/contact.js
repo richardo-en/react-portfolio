@@ -16,16 +16,23 @@ const ContactSection = () => {
   }, [language]);
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-800 grid grid-cols-3 grid-rows-5 px-20 py-20">
-      <h2 className='text-lg lg:text-6xl font-gloock px-5 relative z-10 title_text text-extrawhite self-end mb-5'>{textContent.contact_titel}</h2>
-      <p className='row-start-2 self-start text-sm lg:text-base text-extrawhite '>{textContent.contact_description}</p>
-      <h2 className='row-start-3 col-start-2 self-start text-lg lg:text-6xl font-gloock px-5 relative z-10 title_text text-extrawhite self-end mb-5'>Social media</h2>
-      <div className='bg-white w-1/2 ml-20 h-20 self-center row-start-4'><h3 className='text-center text-xl'>linked in</h3></div>
-      <div className='bg-white w-1/2 ml-20 h-20 self-center row-start-4'><h3 className='text-center text-xl'>Email</h3></div>
-      <div className='bg-white w-1/2 ml-20 h-20 self-center row-start-4'><h3 className='text-center text-xl'>social media</h3></div>
-      <div className='row-start-2 col-start-3 self-center self-center'>
-        {/* Lazy load the image */}
-        <LazyLoadImage src={Ilustration} alt="Image Alt" className='rounded-2xl h-full' id='contact_image' />
+    <section id="contact" className="min-h-screen bg-gray-800 grid grid-cols-3 px-20 py-20">
+      <div className='flex flex-col self-center'>
+        <h2 className='text-lg lg:text-6xl font-gloock px-5 relative z-10 title_text text-extrawhite mb-5'>{textContent.contact_titel}</h2>
+        <p className='self-start text-sm lg:text-base text-extrawhite '>{textContent.contact_description}</p>
+      </div>
+      <div className='self-center mx-10'>
+        <img src={Ilustration} alt="Image Alt" className='rounded-2xl h-full' id='contact_image' />
+      </div>
+      <div className='self-center mx-10 grid grid-rows-2'>
+        <h2 className='text-center text-lg lg:text-6xl font-gloock px-5 relative z-10 title_text text-extrawhite mb-5'>Social media</h2>
+        <div className='flex flex-col justify-around items-center h-96'>
+          <button className='w-full mx-auto'>
+          </button>
+          <div className='w-1/2 mx-auto h-20 linked'></div>
+          <div className='w-1/2 mx-auto h-20 gmail'></div>
+          <div className='w-1/2 mx-auto h-20 twitter'></div>
+        </div>
       </div>
     </section>
   );

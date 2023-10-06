@@ -296,6 +296,21 @@ body {
   margin-left: -70vw;
 }
 
+.linked, .gmail, .twitter{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center;
+}
+.linked{
+  background-image: url("./images/linkedin_logo.png");
+}
+.gmail{
+  background-image: url("./images/gmail_logo.png");
+}
+.twitter{
+  background-image: url("./images/twitter_logo.png");
+}
 /* #contact_image {
 
   -webkit-transform: scaleX(-1);

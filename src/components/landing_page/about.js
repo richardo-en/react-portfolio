@@ -69,7 +69,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="min-h-screen bg-gray-800 flex flex-col overflow-hidden mt-32">
       <div className='w-3/4 h-1/2 flex flex-col md:flex-row justify-around text-center items-center mt-60 border-b-2 border-testcolor' style={{ marginLeft: margin_left_value }}>
-        <LazyLoadImage src={Ilustration} alt="Illustration image" className='w-full mb-5 md:w-1/3 rounded-lg -mt-40 relative z-40' id='contact_image'/>
+        <img src={Ilustration} alt="Illustration image" className='w-full mb-5 md:w-1/3 rounded-lg -mt-40 relative z-40' id='contact_image'/>
         {textContent.landingInformation && (
           <div className='max-w-3xl md:w-1/2 text-extrawhite py-5'>
             <h2 className='text-lg lg:text-8xl font-gloock px-5 relative z-10 title_text'>{textContent.landingTitle}</h2>

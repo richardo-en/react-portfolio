@@ -25,7 +25,7 @@ const InterestSection = () => {
             <p className='text-sm lg:text-base'>{textContent.interestInformation[0].description}</p>
         </div>
         <div className='row-start-2 col-start-2 self-center'>
-          <LazyLoadImage src={Ilustration} alt="Image Alt" className='rounded-2xl h-full' id='interest_image' />
+          <img src={Ilustration} alt="Image Alt" className='rounded-2xl h-full' id='interest_image' />
         </div>
         <div className='row-start-2 col-start-3 p-5 md:p-10 self-center border-solid border-b-2 border-black'>
           <h2 className='text-lg lg:text-6xl relative z-10 font-gloock subtitle_text'>{textContent.interestInformation[1].title}</h2>
