@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, useContext, useMemo } from 'react';
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
 import LanguageContext from '../../additional_components/language_context';
@@ -10,7 +10,7 @@ const Navbar = () => {
     const [lastScrollPos, setLastScrollPos] = useState(0);
     const [navVisible, setNavVisible] = useState(true);
     const { language, dispatch } = useContext(LanguageContext);
-    const links = ["home", "about", "work_experience", "interest", "contact"];
+    const links = useMemo(() => ["home", "about", "work_experience", "interest", "contact"], []);
     const [Rotation, setRotation] = useState('');
 
     const handleButtonClick = () => {
@@ -21,17 +21,6 @@ const Navbar = () => {
         setTimeout(function () {
             setRotation('');
         }, 1000);
-    };
-
-    const handleScrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-
-        if (section) {
-            section.scrollIntoView({
-                behavior: 'smooth', // Add smooth scrolling behavior
-                block: 'start', // Scroll to the start of the section
-            });
-        }
     };
 
     useEffect(() => {
@@ -56,7 +45,7 @@ const Navbar = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, [language, lastScrollPos]);
+    }, [language, lastScrollPos, links]);
 
     const navigationData = language === 'Slovak' ? slovakText : englishText;
     const getButtonClass = (index) => {
@@ -67,17 +56,7 @@ const Navbar = () => {
         <div className={`fixed z-50 top-0 left-0 w-full transition-transform transform ${navVisible ? 'translate-y-0' : '-translate-y-full'} bg-white`}>
             <div className={`h-1/2 flex justify-around items-center w-full`}>
                 {navigationData.navigation.map((item, index) => (
-                    <Link
-                        key={index}
-                        to={links[index]}
-                        spy={true}
-                        smooth={true}
-                        offset={-70} // You might need to adjust this offset value based on your layout
-                        duration={800} // Duration of the scroll animation
-                        className={`text-sm lg:text-2xl my-5 ${getButtonClass(index)}`}
-                        id={links[index] + `_selector`}
-                    >
-                        {item.title}
+                    <Link key={index} to={links[index]} spy={true} smooth={true} offset={-70} duration={800} className={`text-sm lg:text-2xl my-5 ${getButtonClass(index)}`} id={links[index] + `_selector`}>{item.title}
                     </Link>
                 ))}
                 <button className={`${Rotation} text-md lg:text-2xl underline text-black-300`} aria-label={`language button`} onClick={handleButtonClick}>

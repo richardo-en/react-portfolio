@@ -1,10 +1,10 @@
-import React, { useState, useContext, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
 import Ilustration from '../../static/images/stand_position_me.JPG'
 import LanguageContext from '../../additional_components/language_context';
-import Footer from '../../additional_components/footer';
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import Footer from '../../additional_components/footer';
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ContactSection = () => {
   const { language } = useContext(LanguageContext);
@@ -24,7 +24,7 @@ const ContactSection = () => {
         <p className='self-start text-sm lg:text-lg text-extrawhite text-center'>{textContent.contact_description}</p>
       </div>
       <div className='lg:self-center mx-10 mb-10'>
-        <img src={Ilustration} alt="Image Alt" className='rounded-2xl h-full' id='contact_image' />
+        <img src={Ilustration} alt="Me with black background" className='rounded-2xl h-full' id='contact_image' />
       </div>
       <div className='self-center lg:mx-10 flex flex-col lg:grid grid-rows-2 w-full'>
         <div className='text-center px-5 relative z-10 mb-5'>

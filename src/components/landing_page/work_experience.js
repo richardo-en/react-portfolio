@@ -38,7 +38,7 @@ const WorkExperience = () => {
 
   }, [language]);
 
-  const padding_top_value = (window.innerHeight / 4)
+  // const padding_top_value = (window.innerHeight / 4)
 
 
 

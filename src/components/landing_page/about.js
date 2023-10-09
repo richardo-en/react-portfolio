@@ -11,7 +11,7 @@ import LanguageContext from '../../additional_components/language_context';
 // import LetterA from '../../static/images/letter_a.webp'
 // import LetterD from '../../static/images/letter_d.webp'
 import Ilustration from '../../static/images/personal_image_intro.JPG'
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutSection = () => {
   const { language } = useContext(LanguageContext);
@@ -54,7 +54,7 @@ const AboutSection = () => {
   // const [OnClickAnimation, setOnClickAnimation] = useState(false)
   // const [ExpandedText, setExpandedText] = useState([null, null]);
   const margin_left_value = window.innerWidth <= 768 ? (window.innerWidth / 0) : window.innerWidth / 8
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
 
 
   // const handleMouse = () => {
@@ -69,7 +69,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="bg-gray-800 flex flex-col items-center mt-32 mb-72 px-5 md:px-28 lg:px-0">
       <div className='xl:w-3/4 h-1/2 flex flex-col lg:flex-row justify-around text-center items-center mt-60 border-b-2 border-testcolor' style={{ marginLeft: margin_left_value }}>
-        <img src={Ilustration} alt="Illustration image" className='w-full mb-5 lg:w-1/2 rounded-lg -mt-40 relative z-40' id='contact_image'/>
+        <img src={Ilustration} alt="Illustration" className='w-full mb-5 lg:w-1/2 rounded-lg -mt-40 relative z-40' id='contact_image'/>
         {textContent.landingInformation && (
           <div className='max-w-3xl lg:w-1/2 text-extrawhite py-5'>
             <h2 className='text-4xl lg:text-6xl font-gloock px-5 relative z-10 title_text'>{textContent.landingTitle}</h2>
