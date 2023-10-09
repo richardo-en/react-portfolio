@@ -44,31 +44,31 @@ const WorkExperience = () => {
 
 
   return (
-    <section id="work_experience" className="min-h-screen bg-gray-800 flex flex-col overflow-hidden mt-36" >
-      <div className='mx-56 bg-black grid grid-rows-4 px-20 pb-64' id='about_cards'>
-        {textContent.workExperienceInformation && (
+    <section id="work_experience" className="min-h-screen bg-gray-800 mt-36" >
+      <div className='mx-5 lg:mx-16 xl:mx-56 bg-black grid grid-rows-4 px-5 lg:px-10 py-5 relative' id='about_cards'>
+        {textContent.workExperienceTitle && (
           <>
-            <div className="text-left border-solid border-b-2 border-white flex justify-start items-end">
-              <h2 className='text-lg lg:text-8xl font-gloock px-5 relative z-10 title_text text-extrawhite w-1/2' id='about_title'>{textContent.workExperienceTitle}</h2>
+            <div className="text-left border-solid border-b-2 border-white flex justify-start items-end xl:w-1/2 relative z-10">
+              <h2 className='text-4xl lg:text-6xl font-gloock px-5 title_text text-extrawhite' id='about_title'>{textContent.workExperienceTitle}</h2>
             </div>
           </>
         )}
         {textContent.workInformation.map((information, index) => (
           <>
             {index % 2 === 0 ? (
-              <div key={index} className="grid grid-cols-2 text-left border-solid border-b-2 border-white items-end mt-28 px-20">
-                <div className="flex justify-start">
-                  <h2 className='text-lg lg:text-6xl font-gloock px-5 relative z-10 subtitle_text text-extrawhite w-1/2' id='about_title'>{information.title}</h2>
+              <div key={index} className="flex flex-col lg:grid grid-cols-2 text-left border-solid border-b-2 border-white lg:items-end mt-28 lg:px-5 lg:px-10">
+                <div className="flex justify-center lg:justify-start">
+                  <h2 className='text-3xl lg:text-5xl font-gloock lg:px-5 relative z-10 subtitle_text text-extrawhite lg:w-1/2'>{information.title}</h2>
                 </div>
                 <div className='flex justify-end'>
-                  <p className='text-center text-extrawhite w-3/4 text-2xl'>{information.description}</p>
+                  <p className='text-center text-extrawhite'>{information.description}</p>
                 </div>
               </div>     
             ) : (
-              <div key={index} className="grid grid-cols-2 text-right border-solid border-b-2 border-white items-end mt-28 px-20">
-                <p className='text-center text-extrawhite w-3/4 text-2xl'>{information.description}</p>
-                <div className="flex justify-end">
-                  <h2 className='text-lg lg:text-6xl font-gloock px-5 relative z-10 subtitle_text text-extrawhite w-1/2' id='about_title'>{information.title}</h2>
+              <div key={index} className="flex flex-col-reverse items-center lg:items-end lg:grid grid-cols-2 text-right border-solid border-b-2 border-white mt-28 lg:px-10">
+                <p className='text-center text-extrawhite'>{information.description}</p>
+                <div className="flex justify-center lg:justify-end">
+                  <h2 className='text-3xl lg:text-5xl font-gloock lg:px-5 relative z-10 subtitle_text text-extrawhite lg:w-1/2'>{information.title}</h2>
                 </div>
               </div>     
             )}

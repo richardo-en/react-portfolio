@@ -19,6 +19,7 @@ const LandingPage = () => {
         <WorkExperience/>
         <InterestSection/>
         <ContactSection />
+
         {/* <ProjectsSection /> */}
         {/* <FutureSection /> */}
       </>

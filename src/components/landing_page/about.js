@@ -53,7 +53,7 @@ const AboutSection = () => {
 
   // const [OnClickAnimation, setOnClickAnimation] = useState(false)
   // const [ExpandedText, setExpandedText] = useState([null, null]);
-  const margin_left_value = window.innerWidth > 767 ? (window.innerWidth / 4) : window.innerWidth / 8
+  const margin_left_value = window.innerWidth <= 768 ? (window.innerWidth / 0) : window.innerWidth / 8
   const [isHovered, setIsHovered] = useState(false);
 
 
@@ -67,13 +67,13 @@ const AboutSection = () => {
   // };
 
   return (
-    <section id="about" className="min-h-screen bg-gray-800 flex flex-col overflow-hidden mt-32">
-      <div className='w-3/4 h-1/2 flex flex-col md:flex-row justify-around text-center items-center mt-60 border-b-2 border-testcolor' style={{ marginLeft: margin_left_value }}>
-        <img src={Ilustration} alt="Illustration image" className='w-full mb-5 md:w-1/3 rounded-lg -mt-40 relative z-40' id='contact_image'/>
+    <section id="about" className="bg-gray-800 flex flex-col items-center mt-32 mb-72 px-5 md:px-28 lg:px-0">
+      <div className='xl:w-3/4 h-1/2 flex flex-col lg:flex-row justify-around text-center items-center mt-60 border-b-2 border-testcolor' style={{ marginLeft: margin_left_value }}>
+        <img src={Ilustration} alt="Illustration image" className='w-full mb-5 lg:w-1/2 rounded-lg -mt-40 relative z-40' id='contact_image'/>
         {textContent.landingInformation && (
-          <div className='max-w-3xl md:w-1/2 text-extrawhite py-5'>
-            <h2 className='text-lg lg:text-8xl font-gloock px-5 relative z-10 title_text'>{textContent.landingTitle}</h2>
-            <p className='text-2xl p-5 font-Inconsolata'>{textContent.landingInformation}</p>
+          <div className='max-w-3xl lg:w-1/2 text-extrawhite py-5'>
+            <h2 className='text-4xl lg:text-6xl font-gloock px-5 relative z-10 title_text'>{textContent.landingTitle}</h2>
+            <p className='text-md lg:text-xl p-5 font-Inconsolata'>{textContent.landingInformation}</p>
           </div>
         )}
       </div>

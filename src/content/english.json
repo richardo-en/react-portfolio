@@ -5,15 +5,15 @@
   "workInformation": [
     {
       "title": "Moje preferencie",
-      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+      "description": "Najradšej pracujem s OOP programovacími jazykmi a svoj všeobecný prehľad smerujem na web-development. Vo vývoji webu sa hlavne zameriavam na backend. Zvládnem spraviť aj frontend ale nepovažujem sa za dizajnéra, takže proces frontendu mi trvá dlhšie."
     },
     {
-      "title": "Pracovne skusenosti",
-      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+      "title": "Pracovné skúsenosti",
+      "description": "V priebehu dvoch minulorčných semestrov som pracoval v Slovanete ako stážista. Venovali sme sa internému systému Odoo kde som vyvýjal moduly na mieru. Počas semestra som svoj čas strávil aj s nadstavbovým projektom zameraným na SEO. Vo svojom voľnom čase som pracoval na rôznych vlastných projektoch, alebo som pomáhal známim s ich webstránkami."
     },
     {
       "title": "Znalosti v sucastnosti",
-      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+      "description": "V súčasnej dobe ovládam jazyky ako Python, Javascript, C a deskriptývne jazyky html, css, xml. Takisto mám skúsenosť s frameworkami ako je FLask, Django, React, Bootstrap, Tailwind. V projektoch som sa stretol aj s kontajnerizáciou projektov, konkrétne Docker."
     }
   ],
   "workExperienceInformation":"Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP. Na univerzite som sa venoval nadstavbovému projektu so zámerom na SEO. Python bol prvý programovací jazyk, ktorý som sa naučil na strednej škole. V súčasnej dobe ovládam Python, Javascript, C, MongoDB. Pracoval som na vlastných projektoch, ktoré využivali frameworky týchto jazykov ako je Flask, Django, React, NodeJs, ExpressJS. Venujem sa hlavne backendovým častiam projektov a ovládam aj deskritptívne jazyki ako Html, CSS, Xml. Ak pracujem na dizajne využívam väčšinu času frameworky ako Bootstrap alebo Tailwind.",
