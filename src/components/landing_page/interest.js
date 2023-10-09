@@ -1,9 +1,9 @@
-import React, { useState, useContext, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
 import Ilustration from '../../static/images/personal_transparent.png'
 import LanguageContext from '../../additional_components/language_context';
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const InterestSection = () => {
 
@@ -27,7 +27,7 @@ const InterestSection = () => {
             <p className='text-sm lg:text-base'>{textContent.interestInformation[0].description}</p>
         </div>
         <div className='row-start-3 col-start-1 lg:row-start-2 lg:col-start-2 self-start lg:self-center'>
-          <img src={Ilustration} alt="Image Alt" className='rounded-2xl h-full' id='interest_image' />
+          <img src={Ilustration} alt="Personal photos" className='rounded-2xl h-full' id='interest_image' />
         </div>
         <div className='row-start-3 lg:col-start-3 lg:row-start-2 p-5 md:p-10 self-center border-solid border-b-2 border-black '>
           <h2 className='text-2xl lg:text-6xl relative z-10 font-gloock subtitle_text'>{textContent.interestInformation[1].title}</h2>
