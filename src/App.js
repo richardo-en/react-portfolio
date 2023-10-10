@@ -8,7 +8,7 @@ import Freelancing from './sites/freelancing_page.js';
 import LandingPage from './sites/landing_page';
 
 import Certificates from './sites/certificates_page.js';
-import MyGallery from './components/certificates_page/certificate_gallery.js';
+// import MyGallery from './components/certificates_page/certificate_gallery.js';
 
 const App = () => {
   const initialState = {
