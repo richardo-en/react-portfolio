@@ -1,7 +1,7 @@
 {
-  "landingTitle":"Máličko o mne",
-  "landingInformation":"Vitajte na mojom portfóliu. Volám sa Richard a som študent Slovenskej Technickej Univerzity FIIT. Už je to vyše 5 rokov čo som sa prvý krát zoznámil s programovaním. Donedávna som väčšinu času trávil ako semi-profesionálny športovec. Svoj voľný čas venujem vzdelávaniu, alebo získavaniu nových skúseností.",
-  "workExperienceTitle":"Moje pracovné skúsenosti",
+  "landingTitle": "Máličko o mne",
+  "landingInformation": "Vitajte na mojom portfóliu. Volám sa Richard a som študent Slovenskej Technickej Univerzity FIIT. Už je to vyše 5 rokov čo som sa prvý krát zoznámil s programovaním. Donedávna som väčšinu času trávil ako semi-profesionálny športovec. Svoj voľný čas venujem vzdelávaniu, alebo získavaniu nových skúseností.",
+  "workExperienceTitle": "Moje pracovné skúsenosti",
   "workInformation": [
     {
       "title": "Moje preferencie",
@@ -16,7 +16,7 @@
       "description": "V súčasnej dobe ovládam jazyky ako Python, Javascript, C a deskriptývne jazyky html, css, xml. Takisto mám skúsenosť s frameworkami ako je FLask, Django, React, Bootstrap, Tailwind. V projektoch som sa stretol aj s kontajnerizáciou projektov, konkrétne Docker."
     }
   ],
-  "interestReasonTitle":"Prečo práve ja",
+  "interestReasonTitle": "Prečo práve ja",
   "interestInformation": [
     {
       "title": "Hlavný zámer",
@@ -160,7 +160,7 @@
     }
   ],
   "contact_titel": "Kontaktujete ma!",
-  "contact_description": "Ak Vás moje portfólio zaujalo neváhajte ma kontaktovať prostredníctvom mailu richard3.nemeth@gmail.com . Rád Vám odpoviem na Vaše otázky alebo pomôžem s vašim projektom.",
+  "contact_description": "Ak Vás moje portfólio zaujalo neváhajte ma kontaktovať prostredníctvom mailu. Rád Vám odpoviem na Vaše otázky alebo pomôžem s vašim projektom.",
   "navigation": [
     {
       "title": "Domov"
@@ -178,8 +178,22 @@
       "title": "Kontakt"
     }
   ],
+  "footer": [
+    {
+      "title": "Moje projekty",
+      "redirect": "#"
+    },
+    {
+      "title": "Certifikáty",
+      "redirect": "/certificate"
+    },
+    {
+      "title": "Domov",
+      "redirect": "/"
+    }
+  ],
   "freelanc_intro": "Ponuka Freelancingu",
-  "freelance_intro_title" : "Prečo sa chcem venovať freelancingu",
+  "freelance_intro_title": "Prečo sa chcem venovať freelancingu",
   "freelance_reasons": [
     {
       "title": "Nabrať nové skúsenosti a prax",
@@ -190,7 +204,7 @@
       "context": "Keďže programovanie a práca na väčších projektoch nieje len o znalosti programovania ale aj organizácií a komunikácií v tíme, alebo komunikácií medzi sprostredkúvateľom a zákaznikom, rád by som sa v týchto kvalitách zlepšil. "
     }
   ],
-  "freelance_content" : [
+  "freelance_content": [
     {
       "title": "Pracovné skúsensoti",
       "context": "Svoje programovacie skúsenosti som začal s jazykom C#, kde som vyvynul mobilnú hru za pomoci programu Unity. Následne sem sa venoval primárne Pythonu a deskriptívnym jazykom ako CSS, Html. Pri svojich projektoch zvyknem používať pre dizajn hlavne frameworky ako Bootstrap alebo Tailwind. Na vysokej škole som sa naučil programovací jazyk nižšej úrovni C. V priebehu semestra sme prebrali aj Javascript, s ktorým som následne rozšíril svoje znalosti v Reacte. Počas semestra som pracoval v ERP systéme Odoo kde som vyvýjal moduly pre firmu Slovanet. Svoje programovacie znalosti sa snažím smerovť hlavne na backendové časti programov."
@@ -200,6 +214,6 @@
       "context": "Na základe Vašich požíadaviek viem posúdiť ako náročné je pre mňa takýto projekt vypracovať. Som schopný pracovať hlavne na developmenete webových stránkach, venujem sa primárne Backendovým častiam ale zvládnem aj Dizajnovú časť stránky. Mojim cieľom je uspokojiť na 100% zákaznikové požiadavky, alebo požiadavky môjho nadriadeného. Dokážem pracovať pod stresom alebo pod časovým limitom. Zákaznika alebo zamestnávateľa pravideľne infromujem o priebehu môjho progresu."
     }
   ],
-  "freelance_contact" : "Neváhajte ma kontaktovať",
-  "freelance_contact_content" : "Ak som Vás zaujal a chceli by ste aby som bol súčasťou Vášho projektu neváhajte ma kontaktovať. Zodpoviem všetky vaše dotazy a otázky prípadne sa môžeme spojiť pomocou online hovoru."
+  "freelance_contact": "Neváhajte ma kontaktovať",
+  "freelance_contact_content": "Ak som Vás zaujal a chceli by ste aby som bol súčasťou Vášho projektu neváhajte ma kontaktovať. Zodpoviem všetky vaše dotazy a otázky prípadne sa môžeme spojiť pomocou online hovoru."
 }

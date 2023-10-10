@@ -1,0 +1,33 @@
+{
+    "images": [
+        {
+            "src": "../../static/images/divi.png",
+            "thumbnail": "Divi Wordpress",
+            "caption": "Image 1"
+        },{
+            "src": "../../static/images/flask.png",
+            "thumbnail": "Flask ",
+            "caption": "Image 1"
+        },{
+            "src": "../../static/images/python.png",
+            "thumbnail": "Divi Wordpress",
+            "caption": "Image 1"
+        },{
+            "src": "../../static/images/seo1.png",
+            "thumbnail": "Divi Wordpress",
+            "caption": "Image 1"
+        },{
+            "src": "../../static/images/seo2.png",
+            "thumbnail": "Divi Wordpress",
+            "caption": "Image 1"
+        },{
+            "src": "../../static/images/sql.png",
+            "thumbnail": "Divi Wordpress",
+            "caption": "Image 1"
+        },{
+            "src": "../../static/images/wp.png",
+            "thumbnail": "Divi Wordpress",
+            "caption": "Image 1"
+        }
+    ]
+}

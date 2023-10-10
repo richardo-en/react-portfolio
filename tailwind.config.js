@@ -40,7 +40,7 @@ module.exports = {
     },
     gridTemplateRows: {
       // Simple 8 row grid
-     '3': 'repeat(3, minmax(0, 0.8fr))',
+     '3': 'repeat(3, minmax(0, 0.5fr))',
     }
   },
   plugins: [],

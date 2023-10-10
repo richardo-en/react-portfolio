@@ -1,38 +1,36 @@
 {
-  "landingTitle":"Uvítanie",
-  "landingInformation":"Vitajte na mojom portfóliu. Volám sa Richard a som študent Slovenskej Technickej Univerzity FIIT. Už je to vyše 5 rokov čo som sa prvý krát zoznámil s programovaním. Donedávna som väčšinu času trávil ako semi-profesionálny športovec. Svoj voľný čas venujem vzdelávaniu, alebo získavaniu nových skúseností.",
-  "workExperienceTitle":"Moje pracovné skúsenosti",
+  "landingTitle": "Welcome",
+  "landingInformation": "Welcome to my portfolio. My name is Richard and I am a student at FIIT Slovak Technical University. It's been more than 5 years since I first got acquainted with programming. Until recently, I spent most of my time as a semi-professional athlete. I devote my free time to education or gaining new experiences.",
+  "workExperienceTitle": "My work experience",
   "workInformation": [
     {
-      "title": "Moje preferencie",
-      "description": "Najradšej pracujem s OOP programovacími jazykmi a svoj všeobecný prehľad smerujem na web-development. Vo vývoji webu sa hlavne zameriavam na backend. Zvládnem spraviť aj frontend ale nepovažujem sa za dizajnéra, takže proces frontendu mi trvá dlhšie."
+      "title": "My preferences",
+      "description": "I prefer to work with OOP programming languages and I focus my general overview on web-development. In web development, I mainly focus on the backend. I can also make a frontend, but I don't consider myself a designer, so the frontend process takes longer for me."
     },
     {
-      "title": "Pracovné skúsenosti",
-      "description": "V priebehu dvoch minulorčných semestrov som pracoval v Slovanete ako stážista. Venovali sme sa internému systému Odoo kde som vyvýjal moduly na mieru. Počas semestra som svoj čas strávil aj s nadstavbovým projektom zameraným na SEO. Vo svojom voľnom čase som pracoval na rôznych vlastných projektoch, alebo som pomáhal známim s ich webstránkami."
+      "title": "Work experience",
+      "description": "During the last two semesters, I worked in Slovaneta as an intern. We worked on the internal Odoo system where I developed customized modules. During the semester, I also spent my time with an extension project focused on SEO. In my spare time, I worked on various projects of my own, or helped friends with their websites."
     },
     {
-      "title": "Znalosti v sucastnosti",
-      "description": "V súčasnej dobe ovládam jazyky ako Python, Javascript, C a deskriptývne jazyky html, css, xml. Takisto mám skúsenosť s frameworkami ako je FLask, Django, React, Bootstrap, Tailwind. V projektoch som sa stretol aj s kontajnerizáciou projektov, konkrétne Docker."
+      "title": "Current knowledge",
+      "description": "Currently, I know languages such as Python, Javascript, C and descriptive languages html, css, xml. I also have experience with frameworks such as FLask, Django, React, Bootstrap, Tailwind. In projects, I also encountered project containerization, specifically Docker."
     }
   ],
-  "workExperienceInformation":"Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP. Na univerzite som sa venoval nadstavbovému projektu so zámerom na SEO. Python bol prvý programovací jazyk, ktorý som sa naučil na strednej škole. V súčasnej dobe ovládam Python, Javascript, C, MongoDB. Pracoval som na vlastných projektoch, ktoré využivali frameworky týchto jazykov ako je Flask, Django, React, NodeJs, ExpressJS. Venujem sa hlavne backendovým častiam projektov a ovládam aj deskritptívne jazyki ako Html, CSS, Xml. Ak pracujem na dizajne využívam väčšinu času frameworky ako Bootstrap alebo Tailwind.",
-  "interestReasonTitle":"Prečo práve ja",
+  "interestReasonTitle": "Why me",
   "interestInformation": [
     {
-      "title": "Hlavný ciel",
-      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+      "title": "My main objective",
+      "description": "My main goal is to improve in my field. I improve my personal growth not only by working on assignments, but I try to follow and learn good habits from more experienced Engineers."
     },
     {
-      "title": "Pracovné prostredie",
-      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+      "title": "Work environment",
+      "description": "I have been involved in social sports since a young age, so working in a team is not a problem for me. I am able to quickly adapt to a new work environment and I am not ashamed to ask questions to which I do not know the answer."
     },
     {
-      "title": "Práca pod stresom",
-      "description": "Najviac obľubujem OOP programovacie jazyky a svoj všeobecný prehľad smerujem na web-development. V priebehu semestra som pracoval v Slovanete na internom systéme Odoo ERP."
+      "title": "Work under stress",
+      "description": "I always try to submit the task I am working on by the deadline and complete it 100%. Working under stress is not pleasant, but it's also nothing I can't handle. I divide my responsibilities so that I have no problem completing them."
     }
   ],
-  "interestReasonInformation":"Mojim hlavným cieľom je zdokonalovať sa vo svojom obore. Svoj osobný rast zlepšujem nielen prácou na zadaní, ale pokúšam sa sledovať a naučiť dobré návyky od skúsenejších Inžinierov. Úlohu na, ktorej robím sa vždy snažím odovzdať do deadlinu a dokončiť ju na 100%. Od útleho veku som sa venoval spoločenskej športovej disciplíne, takže práca v tíme mi nerobí žiaden problém. Som schopný sa rýchlo prispôsobiť novému pracovnému prostrediu a nehanbím sa pýtať otázky na, ktoré odpoveď nepoznám.",
   "welcome": "Welcome to my portfolio!",
   "about": "About me",
   "cardsOne": [
@@ -63,100 +61,138 @@
       "description": "During the first year at the university, I gained a lot of new knowledge from practice as well as theoretical information. For example, we learned how larger projects are created, we delved deeper into OOP and the more abstract parts of larger projects. What I learned at school, I could see in the company where I worked. I got my experience in python where I first encountered xml. During school we worked on several projects where we used C, JavaScript, Shell Scripting and I worked with one lecturer on an additional project focused on SEO."
     }
   ],
-  "projects" : [
+  "projects": [
     {
-      "title" : "Python",
-      "description" : "I liked the python programming language the most because it is simple and multifunctional. I started studying this language in high school, where I did simple assignments in computer science classes or at home. Subsequently, I tried creating a website with the help of this language, where I also learned descriptive languages. I also used Python during my computer science graduation. After high school, I used python in Slovaneta where I worked in the internal Odoo system.",
-      "links" : [
-        {"High school graduation" : "https://github.com/richardo-en/High-school-graduation-from-IT"},
-        {"Python course" : "https://github.com/richardo-en/python-short-assignments"},
-        {"First Flask Aplication" : "https://github.com/richardo-en/upwork_example"},
-        {"Simple Odoo module - Slander" : "https://github.com/richardo-en/odoo-module"},
-        {"Flask aplication slander" : "https://github.com/richardo-en/flask_amcef"}
+      "title": "Python",
+      "description": "I liked the python programming language the most because it is simple and multifunctional. I started studying this language in high school, where I did simple assignments in computer science classes or at home. Subsequently, I tried creating a website with the help of this language, where I also learned descriptive languages. I also used Python during my computer science graduation. After high school, I used python in Slovaneta where I worked in the internal Odoo system.",
+      "links": [
+        {
+          "High school graduation": "https://github.com/richardo-en/High-school-graduation-from-IT"
+        },
+        {
+          "Python course": "https://github.com/richardo-en/python-short-assignments"
+        },
+        {
+          "First Flask Aplication": "https://github.com/richardo-en/upwork_example"
+        },
+        {
+          "Simple Odoo module - Slander": "https://github.com/richardo-en/odoo-module"
+        },
+        {
+          "Flask aplication slander": "https://github.com/richardo-en/flask_amcef"
+        }
       ]
     },
     {
-      "title" : "C#",
-      "description" : "I don't know the C# language at the moment and I'm not even actively working on it. I learned this language before I met python. I wanted to use my blender experience somehow. I decided to create a game for mobile devices. This is where I encountered Unity and the C# programming language. I then added the game to the google store where it is still available for download. The game is called Mark ball and it is a simple indie game where the player has to pass several levels without colliding into other objects. I could cite experience in this language as my entry into the world of computer science.",
-      "links" : [
-        {"Google Play" : "https://play.google.com/store/apps/details?id=com.WangChongStudio.MARKBALL&hl=sk&gl=US"}
+      "title": "C#",
+      "description": "I don't know the C# language at the moment and I'm not even actively working on it. I learned this language before I met python. I wanted to use my blender experience somehow. I decided to create a game for mobile devices. This is where I encountered Unity and the C# programming language. I then added the game to the google store where it is still available for download. The game is called Mark ball and it is a simple indie game where the player has to pass several levels without colliding into other objects. I could cite experience in this language as my entry into the world of computer science.",
+      "links": [
+        {
+          "Google Play": "https://play.google.com/store/apps/details?id=com.WangChongStudio.MARKBALL&hl=sk&gl=US"
+        }
       ]
     },
     {
-      "title" : "C",
-      "description" : "We learned this language during the first two semesters at the University. We developed many projects and assignments from exercises in it. Thanks to this language, I better understand what other programming languages are built on, how they work or, for example, the process of processing a program. So this language gave me a deeper insight into the world of programming.",
-      "links" : [
-        {"First semester" : "https://github.com/richardo-en/C-project"},
-        {"Second semester" : "https://github.com/richardo-en/Cvika-2-sems"}
+      "title": "C",
+      "description": "We learned this language during the first two semesters at the University. We developed many projects and assignments from exercises in it. Thanks to this language, I better understand what other programming languages are built on, how they work or, for example, the process of processing a program. So this language gave me a deeper insight into the world of programming.",
+      "links": [
+        {
+          "First semester": "https://github.com/richardo-en/C-project"
+        },
+        {
+          "Second semester": "https://github.com/richardo-en/Cvika-2-sems"
+        }
       ]
     },
     {
-      "title" : "Web technologies",
-      "description" : "To web technologies as my knowledge, I would include the fact that I know descriptive languages such as html, css or that I have immersed myself a little in the world of SEO. I also dabbled in the Odoo system with the XML language. I would also include work on several wordpress websites, where I changed a few things to suit. I mainly performed SEO optimization on wordpress sites, but as I already mentioned, I also collaborated with a Doctor from the faculty on a project focused on SEO.",
-      "links" : [
-        {"Simple website design" : "https://github.com/richardo-en/webiste_design"}
+      "title": "Web technologies",
+      "description": "To web technologies as my knowledge, I would include the fact that I know descriptive languages such as html, css or that I have immersed myself a little in the world of SEO. I also dabbled in the Odoo system with the XML language. I would also include work on several wordpress websites, where I changed a few things to suit. I mainly performed SEO optimization on wordpress sites, but as I already mentioned, I also collaborated with a Doctor from the faculty on a project focused on SEO.",
+      "links": [
+        {
+          "Simple website design": "https://github.com/richardo-en/webiste_design"
+        }
       ]
     },
     {
-      "title" : "Javascript",
-      "description" : "During the second semester, we had a subject where we dealt with PPE. We learned theory, which we later used in practice in exercises. We worked on a web game project developed purely in Javascript. The project had to have a certain structure and had to meet certain conditions. I really liked this language as it is very similar to Python. I would like to continue working on Javascript, so I decided to start this portfolio using React.",
-      "links" : [
-        {"Web game" : "https://github.com/richardo-en/Javascript-browser-game"},
-        {"Portfolio" : "https://github.com/richardo-en/react-portfolio"}
+      "title": "Javascript",
+      "description": "During the second semester, we had a subject where we dealt with PPE. We learned theory, which we later used in practice in exercises. We worked on a web game project developed purely in Javascript. The project had to have a certain structure and had to meet certain conditions. I really liked this language as it is very similar to Python. I would like to continue working on Javascript, so I decided to start this portfolio using React.",
+      "links": [
+        {
+          "Web game": "https://github.com/richardo-en/Javascript-browser-game"
+        },
+        {
+          "Portfolio": "https://github.com/richardo-en/react-portfolio"
+        }
       ]
     },
     {
-      "title" : "Work experience",
-      "description" : "Before my first official job, I sporadically worked part-time on construction sites or worked on occasional jobs from acquaintances that revolved around programming and managing websites. Right after the start of the University, I joined Slovanet as an intern. We worked on the internal Odoo system, where I got my first experience in the company. I learned how IT-oriented teams work in the company, I encountered organizing tasks and working out these tasks by certain deadlines. I had the opportunity to watch and learn from the experienced leaders of our teams or to take some responsibility for the work that was assigned to me. This job position gave me a lot of experience, for which I am grateful. After the internship in Slovaneta, I worked as a waiter for 4 months, where I learned to better handle stress and pressure in the work environment.",
-      "links" : [
-        {"My github" : "https://github.com/richardo-en"}
+      "title": "Work experience",
+      "description": "Before my first official job, I sporadically worked part-time on construction sites or worked on occasional jobs from acquaintances that revolved around programming and managing websites. Right after the start of the University, I joined Slovanet as an intern. We worked on the internal Odoo system, where I got my first experience in the company. I learned how IT-oriented teams work in the company, I encountered organizing tasks and working out these tasks by certain deadlines. I had the opportunity to watch and learn from the experienced leaders of our teams or to take some responsibility for the work that was assigned to me. This job position gave me a lot of experience, for which I am grateful. After the internship in Slovaneta, I worked as a waiter for 4 months, where I learned to better handle stress and pressure in the work environment.",
+      "links": [
+        {
+          "My github": "https://github.com/richardo-en"
+        }
       ]
     }
   ],
-  "future_introduction_title" : "My plans for the future",
-  "future_introduction" : "You can read about the projects I am currently working on or what I plan to do in the future. You can switch the article by clicking on the link or typing the appropriate command. You activate the command line by clicking the cursor.",
-  "future_command_help" : "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
-  "future_error_msg" : "Your input is spelled wrongly! Only possible option is article -[type]",
-  "future" : [
+  "future_introduction_title": "My plans for the future",
+  "future_introduction": "You can read about the projects I am currently working on or what I plan to do in the future. You can switch the article by clicking on the link or typing the appropriate command. You activate the command line by clicking the cursor.",
+  "future_command_help": "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
+  "future_error_msg": "Your input is spelled wrongly! Only possible option is article -[type]",
+  "future": [
     {
-      "command" : "mern -r",
-      "title" : "Mern aplication ",
-      "command_des" : "You will read a text describing an application based on the MERN tech stack.",
-      "description" : "This project should be completed within one to two years. In the final result, it should be an application for catering businesses that will simplify the organization of the team in the restaurant. It will also be usable for people who will be able to order food or reserve a table. The application is mainly based on the MERN tech stack, which means Mongo database, Express js for the backend, React for the frontend, and the entire application runs with the help of node js. I use various external software during creation, but the mentioned technologies are the basis."
+      "command": "mern -r",
+      "title": "Mern aplication ",
+      "command_des": "You will read a text describing an application based on the MERN tech stack.",
+      "description": "This project should be completed within one to two years. In the final result, it should be an application for catering businesses that will simplify the organization of the team in the restaurant. It will also be usable for people who will be able to order food or reserve a table. The application is mainly based on the MERN tech stack, which means Mongo database, Express js for the backend, React for the frontend, and the entire application runs with the help of node js. I use various external software during creation, but the mentioned technologies are the basis."
     },
     {
-      "command" : "blog -i",
-      "title" : "Blog",
-      "command_des" : "An article about a planned blog project will appear.",
-      "description" : "The main purpose of the blog is to expand your knowledge of languages, to gain experience in leading a team and to review topics covered in school. In the blog, I would like to use the materials provided by the Faculty and explore the topics covered more deeply, about which I would subsequently write articles. The articles will also be written in foreign languages, which would improve my vocabulary and strengthen the basics of foreign languages."
+      "command": "blog -i",
+      "title": "Blog",
+      "command_des": "An article about a planned blog project will appear.",
+      "description": "The main purpose of the blog is to expand your knowledge of languages, to gain experience in leading a team and to review topics covered in school. In the blog, I would like to use the materials provided by the Faculty and explore the topics covered more deeply, about which I would subsequently write articles. The articles will also be written in foreign languages, which would improve my vocabulary and strengthen the basics of foreign languages."
     },
     {
-      "command" : "education -n",
-      "title" : "Education for the future",
-      "command_des" : "The article will explain what I want to focus on in the future",
-      "description" : "In the future, I plan to learn to speak at least one more foreign language fluently. I would like to direct my education mainly to the innovative part of informatics such as AI, ML and the like. My goal is to help people simplify their work."
-    }
-  ], 
-  "contact_titel" : "Contact me!",
-  "contact_description" : "If you are interested in my portfolio, do not hesitate to contact me via email richard3.nemeth@gmail.com. I will be happy to answer your questions or help you with your project.",
-  "navigation" : [
-    {
-      "title" : "Home"
-    },
-    {
-      "title" : "About me"
-    },
-    {
-      "title" : "My projects"
-    },
-    {
-      "title" : "Future"
-    },
-    {
-      "title" : "Contact"
+      "command": "education -n",
+      "title": "Education for the future",
+      "command_des": "The article will explain what I want to focus on in the future",
+      "description": "In the future, I plan to learn to speak at least one more foreign language fluently. I would like to direct my education mainly to the innovative part of informatics such as AI, ML and the like. My goal is to help people simplify their work."
     }
   ],
-  "freelance_intro_title" : "Why do i want to freelance",
+  "contact_titel": "Contact me!",
+  "contact_description": "If you are interested in my portfolio, do not hesitate to contact me via email richard3.nemeth@gmail.com. I will be happy to answer your questions or help you with your project.",
+  "navigation": [
+    {
+      "title": "Home"
+    },
+    {
+      "title": "About me"
+    },
+    {
+      "title": "My projects"
+    },
+    {
+      "title": "Future"
+    },
+    {
+      "title": "Contact"
+    }
+  ],
+  "footer": [
+    {
+      "title": "My projects",
+      "redirect": "#"
+    },
+    {
+      "title": "My certificates",
+      "redirect": "/certificate"
+    },
+    {
+      "title": "Home",
+      "redirect": "/"
+    }
+  ],
+  "freelance_intro_title": "Why do i want to freelance",
   "freelance_intro": "Possibility of freelancing",
   "freelance_reasons": [
     {
@@ -167,8 +203,8 @@
       "title": "Work with end customer",
       "context": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
     }
-  ], 
-  "freelance_content" : [
+  ],
+  "freelance_content": [
     {
       "title": "Work experience",
       "context": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
@@ -178,6 +214,6 @@
       "context": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
     }
   ],
-  "freelance_contact" : "Contact me!",
-  "freelance_contact_content" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
+  "freelance_contact": "Contact me!",
+  "freelance_contact_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
 }

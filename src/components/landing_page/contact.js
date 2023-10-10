@@ -3,7 +3,7 @@ import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
 import Ilustration from '../../static/images/stand_position_me.JPG'
 import LanguageContext from '../../additional_components/language_context';
-// import Footer from '../../additional_components/footer';
+import Footer from '../../additional_components/footer';
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const ContactSection = () => {
@@ -36,6 +36,7 @@ const ContactSection = () => {
           <a href='https://github.com/richardo-en' className='w-1/3 mx-2 lg:w-1/2 lg:mx-auto h-20 github'><button></button></a>
         </div>
       </div>
+      < Footer/>
     </section>
   );
 };

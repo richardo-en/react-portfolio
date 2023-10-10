@@ -7,6 +7,9 @@ import languageReducer from './additional_components/Language_reducer.js';
 import Freelancing from './sites/freelancing_page.js';
 import LandingPage from './sites/landing_page';
 
+import Certificates from './sites/certificates_page.js';
+import MyGallery from './components/certificates_page/certificate_gallery.js';
+
 const App = () => {
   const initialState = {
     language: 'Slovak'
@@ -19,6 +22,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path="freelance" element={<Freelancing />} />
+          <Route path="certificate" element={<Certificates />} />
         </Routes>
       </BrowserRouter>
     </LanguageContext.Provider>
