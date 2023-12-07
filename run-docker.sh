@@ -2,19 +2,18 @@
 
 case "$1" in
   prod)
+    echo "Visit: http://localhost:80/"
     docker stop react-app
     docker rm -f react-app
     docker run -p 80:80 --name react-app app-prod 
-    echo "Visit: http://localhost:80/"
     ;;
   dev)
-    docker-compose -f docker-compose.dev.yml up 
     echo "Visit: http://localhost:3000/"
+    docker-compose -f docker-compose.dev.yml up 
     ;;
   clr)
     docker rm -f app-dev
     docker rm -f react-app
-    echo "$clearing"
     ;;
   help)
     echo "prod - Starts production version of react"

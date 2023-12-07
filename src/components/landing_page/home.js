@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import LogoAnimation from '../../additional_components/logo';
 import './../../static/App.css';
-import BgImage from '../../static/images/personal_image_intro.webp'
+import BgImage from '../../static/images/personal_image_intro_min.jpg'
 
 const HomeSection = () => {
   const [backgroundOpacity, setBackgroundOpacity] = useState(0);

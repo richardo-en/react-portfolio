@@ -4,6 +4,7 @@ WORKDIR /app
 COPY ./package.json /app
 RUN npm install
 COPY . .
+CMD ["npm", "run build"]
 
 FROM nginx:1.21.0-alpine as production
 ENV NODE_ENV production

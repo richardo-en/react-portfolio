@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 
 import HomeSection from '../components/landing_page/home';
 import AboutSection from '../components/landing_page/about.js';
@@ -15,13 +15,10 @@ const LandingPage = () => {
     <>
       <Navbar />
       <HomeSection />
-      <Suspense fallback={<div>Loading...</div>}>
-        {/* <Preloader /> */}
         <AboutSection />
         <WorkExperience />
         <InterestSection />
         <ContactSection />
-      </Suspense>
     </>
   );
 };

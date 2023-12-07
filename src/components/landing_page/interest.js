@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
-import Ilustration from '../../static/images/personal_transparent.webp'
+import Ilustration from '../../static/images/personal_transparent_min.png'
 import LanguageContext from '../../additional_components/language_context';
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 

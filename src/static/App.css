@@ -102,7 +102,7 @@ body {
 
 #personal_image {
   /* background-position: 0% 30%; */
-  background-image: url("../static/images/personal_image_intro.JPG");
+  background-image: url("../static/images/personal_image_intro_min.jpg");
   background-size: cover;
 }
 

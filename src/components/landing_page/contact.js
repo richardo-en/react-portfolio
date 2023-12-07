@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
-import Ilustration from '../../static/images/stand_position_me.webp'
+import Ilustration from '../../static/images/stand_position_me_min.jpg'
 import LanguageContext from '../../additional_components/language_context';
 import Footer from '../../additional_components/footer';
 // import { LazyLoadImage } from "react-lazy-load-image-component";
