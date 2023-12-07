@@ -86,19 +86,18 @@ body {
 /* HOME PAGE */
 
 #background_image {
-  width: 100%;
-  height: 140vh;
-  background-image: url("../static/images/personal_image_intro.jpg");
+  width: 100vw;
+  /* background-image: url("../static/images/personal_image_intro.webp");
   background-size: cover;
-  background-position: 0% 50%;
+  background-position: 0% 50%; */
 }
 
 /* ABOUT PAGE */
 
-#about_animation_background {
+/* #about_animation_background {
   background-image: url('./images/stars_background.jpg');
   background-size: contain;
-}
+} */
 
 
 #personal_image {
@@ -352,6 +351,6 @@ body {
 
 }
 
-/* #certificate_gallery{
-  
-} */
+#certificate_gallery{
+ overflow-y: scroll; 
+}

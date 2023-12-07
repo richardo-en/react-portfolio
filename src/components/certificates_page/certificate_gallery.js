@@ -82,7 +82,7 @@ const MyGallery = () => {
   ];
 
   return (
-    <div className='px-14'>
+    <div className='px-14 h-screen'>
       <Gallery images={images} rowHeight={RowHeight} margin={BoxMargin} id='certificate_gallery'/>
       <Footer />
     </div>

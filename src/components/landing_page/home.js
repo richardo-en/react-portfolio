@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import LogoAnimation from '../../additional_components/logo';
 import './../../static/App.css';
+import BgImage from '../../static/images/personal_image_intro.webp'
 
 const HomeSection = () => {
   const [backgroundOpacity, setBackgroundOpacity] = useState(0);
@@ -24,7 +25,8 @@ const HomeSection = () => {
 
   return (
     <section id="home" className="min-h-screen bg-gray-800 flex justify-center">
-      <span className='absolute' id='background_image' style={{ opacity: backgroundOpacity }}/>
+      <img src={BgImage} className='absolute' id='background_image' style={{ opacity: backgroundOpacity }} alt='something i dont know'/>
+      {/* <span className='absolute' id='background_image' style={{ opacity: backgroundOpacity }}/> */}
       <div className="w-5/6 flex justify-center">
         <div className="relative z-10">
           <LogoAnimation />

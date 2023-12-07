@@ -10,7 +10,7 @@ import LanguageContext from '../../additional_components/language_context';
 // import LetterC from '../../static/images/letter_c.webp'
 // import LetterA from '../../static/images/letter_a.webp'
 // import LetterD from '../../static/images/letter_d.webp'
-import Ilustration from '../../static/images/personal_image_intro.JPG'
+import Ilustration from '../../static/images/personal_image_intro.webp'
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutSection = () => {
