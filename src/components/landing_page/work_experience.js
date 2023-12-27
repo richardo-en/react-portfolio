@@ -44,8 +44,8 @@ const WorkExperience = () => {
 
 
   return (
-    <section id="work_experience" className="min-h-screen bg-gray-800 mt-36" >
-      <div className='mx-5 lg:mx-16 xl:mx-56 bg-black grid grid-rows-4 px-5 lg:px-10 py-5 relative' id='about_cards'>
+    <section id="work_experience" className=" bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
+      <div className='lg:mx-5 lg:mx-16 xl:mx-56 bg-black grid grid-rows-4 px-5 lg:px-10 py-5 relative' id='about_cards'>
         {textContent.workExperienceTitle && (
           <>
             <div className="text-left border-solid border-b-2 border-white flex justify-start items-end xl:w-1/2 relative z-10">

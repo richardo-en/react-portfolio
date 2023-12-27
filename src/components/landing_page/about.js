@@ -68,14 +68,8 @@ const AboutSection = () => {
   // };
 
   return (
-    <section id="about" className="bg-gray-800 flex flex-col items-center mt-32 mb-72 px-5 md:px-28 lg:px-0">
+    <section id="about" className="bg-gray-800 flex flex-col items-center mt-32 lg:mb-72 lg:px-5 md:px-28 px-0">
       <div className='xl:w-3/4 h-1/2 flex flex-col lg:flex-row justify-around text-center items-center mt-60 border-b-2 border-testcolor' style={{ marginLeft: margin_left_value }}>
-
-        {/* <ProgressiveImage 
-          preview="../static/images/personal_image_intro_min.jpg"
-          src="../static/images/personal_image_intro.jpg"
-          alt="Illustration"
-        /> */}
 
         <img src={Ilustration} alt="Illustration" className='w-full mb-5 lg:w-1/2 rounded-lg -mt-40 relative z-40' id='contact_image'/>
         {textContent.landingInformation && (

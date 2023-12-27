@@ -38,7 +38,7 @@ const ProjectsSection = () => {
     };
 
     const Headline = () => {
-      titleContainer.innerHTML = ''; // Clear the container before adding content
+      titleContainer.innerHTML = '';
 
       for (let i = 0; i < ilustrativeText.length; i++) {
         for (let a = 0; a < 3; a++) {

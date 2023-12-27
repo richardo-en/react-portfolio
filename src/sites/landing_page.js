@@ -15,10 +15,10 @@ const LandingPage = () => {
     <>
       <Navbar />
       <HomeSection />
-        <AboutSection />
-        <WorkExperience />
-        <InterestSection />
-        <ContactSection />
+      <AboutSection />
+      <WorkExperience />
+      <InterestSection />
+      <ContactSection />
     </>
   );
 };

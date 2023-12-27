@@ -63,75 +63,72 @@
   ],
   "projects": [
     {
+      "title": "Vysoká škola",
+      "sub_projects":[
+        {
+         "title":"Procedurálne programovanie C",
+         "context": "Ako už vieme jazyk C je základom veľa iných programovacích jazykov. Po prvý krát som sa stretol s týmto jazykom na vysokej škole, a venujem sa mu už vyše dvoch rokov. Pravidelne tomuto jazyku boli venované cvičenia či projekty.",
+         "tech":[],
+         "note" : "Nadobudol som: Základy programovania, Alokácia, Linked listy, Bitové operácie"
+        } 
+      ]
+    },
+    {
       "title": "Python",
-      "description": "I liked the python programming language the most because it is simple and multifunctional. I started studying this language in high school, where I did simple assignments in computer science classes or at home. Subsequently, I tried creating a website with the help of this language, where I also learned descriptive languages. I also used Python during my computer science graduation. After high school, I used python in Slovaneta where I worked in the internal Odoo system.",
-      "links": [
+      "sub_projects":[
         {
-          "High school graduation": "https://github.com/richardo-en/High-school-graduation-from-IT"
+          "title":"Odoo ERP",
+          "context":"Na mojej prvej oficiálnej pracovnej pozící som pracoval s Enterprise systémom Odoo, kde sme vytvárali moduli na mieru. Pracoval na vývoji modulu, ktorý sledoval zmeny u zamestnancov ako napríklad odchod na materskú, zmena pracovnej pozície a podobne.",
+          "tech":["Python", "Docker", "PostreSQL", "Gitlab"],
+          "note" : "Myslím si že ma to osobne posunulu, stretol som sa tu s technológiami ako Docker, zlepšil som svoje skúsenosti s pythonom, pracoval som s databázou, pozoroval som ako fungujú IT tímy v praxi."
         },
         {
-          "Python course": "https://github.com/richardo-en/python-short-assignments"
-        },
+          "title":"Flask aplikácia",
+          "context":"Webová stránka predstavuju blog. Táto aplikácia spĺňala 4 základné operácie CRUD. Na stránke som vytváral aj základné šifrovania údajov ako sha-256.",
+          "tech":["Python", "Flask", "Tailwind" , "Bootstrap", "Css", "Wysiwyg editor"],
+          "note":""
+
+        },        
         {
-          "First Flask Aplication": "https://github.com/richardo-en/upwork_example"
-        },
-        {
-          "Simple Odoo module - Slander": "https://github.com/richardo-en/odoo-module"
-        },
-        {
-          "Flask aplication slander": "https://github.com/richardo-en/flask_amcef"
-        }
-      ]
-    },
-    {
-      "title": "C#",
-      "description": "I don't know the C# language at the moment and I'm not even actively working on it. I learned this language before I met python. I wanted to use my blender experience somehow. I decided to create a game for mobile devices. This is where I encountered Unity and the C# programming language. I then added the game to the google store where it is still available for download. The game is called Mark ball and it is a simple indie game where the player has to pass several levels without colliding into other objects. I could cite experience in this language as my entry into the world of computer science.",
-      "links": [
-        {
-          "Google Play": "https://play.google.com/store/apps/details?id=com.WangChongStudio.MARKBALL&hl=sk&gl=US"
-        }
-      ]
-    },
-    {
-      "title": "C",
-      "description": "We learned this language during the first two semesters at the University. We developed many projects and assignments from exercises in it. Thanks to this language, I better understand what other programming languages are built on, how they work or, for example, the process of processing a program. So this language gave me a deeper insight into the world of programming.",
-      "links": [
-        {
-          "First semester": "https://github.com/richardo-en/C-project"
-        },
-        {
-          "Second semester": "https://github.com/richardo-en/Cvika-2-sems"
-        }
-      ]
-    },
-    {
-      "title": "Web technologies",
-      "description": "To web technologies as my knowledge, I would include the fact that I know descriptive languages such as html, css or that I have immersed myself a little in the world of SEO. I also dabbled in the Odoo system with the XML language. I would also include work on several wordpress websites, where I changed a few things to suit. I mainly performed SEO optimization on wordpress sites, but as I already mentioned, I also collaborated with a Doctor from the faculty on a project focused on SEO.",
-      "links": [
-        {
-          "Simple website design": "https://github.com/richardo-en/webiste_design"
+          "title":"Django aplikácia",
+          "context":"Táto aplikácia slúži ako jednoduchý a flexibilný systém pre objednávky zadané priamo používateľom. Momentálne na tejto aplikácií pracujem.",
+          "tech":["Django", "Bootstrap", "Sqlite DB"],
+          "note":""
         }
       ]
     },
     {
       "title": "Javascript",
-      "description": "During the second semester, we had a subject where we dealt with PPE. We learned theory, which we later used in practice in exercises. We worked on a web game project developed purely in Javascript. The project had to have a certain structure and had to meet certain conditions. I really liked this language as it is very similar to Python. I would like to continue working on Javascript, so I decided to start this portfolio using React.",
-      "links": [
+      "sub_projects":[
         {
-          "Web game": "https://github.com/richardo-en/Javascript-browser-game"
+          "title":"Webová hra",
+          "context":"Počas druhého semestra sme pracovali na webovej hre za pomoci javvascriptu. Projekt je organizovaný pomocou formule MVC, obsahuje contstructy, dedenie a ďalšie kritéria. UI je vytvorený pomocou canvasu. Podrobnejší popis kritérií a dokumentáciu ku projektu sa dočítate na mojom githube.",
+         "tech":["Javascipr", "Css", "Canvas"],
+         "note":"Pri tomto projekte som sa naučil nový OOP jazyk a jeho hlavné charakteristiky."
         },
         {
-          "Portfolio": "https://github.com/richardo-en/react-portfolio"
+          "title":"React portfólio",
+          "context":"Portfólio na ktorom sa momentálne nachádzate je vytvorené za pomoci reactu. Tento projekt je kontajnerizovaný a obsahuje aj inštrukcie ako spustit projekt lokálne pomocou programu Docker.",
+         "tech":["React", "NodeJS", "Tailwind", "Docker", "Nginx", "Bash"],
+         "note":""
+        },
+        {
+          "title":"MERN Aplikácia",
+          "context":"Tento projekt som si rozpracoval v priebehu letu, no nemal som dostatok času. K tomuto projekt sa plánujem vrátiť v najbližšej dobe.",
+         "tech":["Javascript","Mongo DB", "Express", "React", "NodeJS"],
+         "note":""
         }
       ]
     },
     {
-      "title": "Work experience",
-      "description": "Before my first official job, I sporadically worked part-time on construction sites or worked on occasional jobs from acquaintances that revolved around programming and managing websites. Right after the start of the University, I joined Slovanet as an intern. We worked on the internal Odoo system, where I got my first experience in the company. I learned how IT-oriented teams work in the company, I encountered organizing tasks and working out these tasks by certain deadlines. I had the opportunity to watch and learn from the experienced leaders of our teams or to take some responsibility for the work that was assigned to me. This job position gave me a lot of experience, for which I am grateful. After the internship in Slovaneta, I worked as a waiter for 4 months, where I learned to better handle stress and pressure in the work environment.",
-      "links": [
-        {
-          "My github": "https://github.com/richardo-en"
-        }
+      "title": "C#",
+      "sub_projects":[
+       {
+        "title":"Mobilná hra",
+        "context": "Hru by som zaradil do kategórie Indie, kde hráč musí prejsť niekoľko levelov bez kolízie do iných objektov. Hru som následne pridal na google store kde je stále dostupná na stiahnutie. Jazyk C# momentálne neovládam a ani sa mu aktívne nevenujem.",
+        "tech":["C#","Blender", "Unity", "Obchod Play"],
+        "note":""
+      } 
       ]
     }
   ],
@@ -181,7 +178,7 @@
   "footer": [
     {
       "title": "My projects",
-      "redirect": "#"
+      "redirect": "/projects"
     },
     {
       "title": "My certificates",
@@ -216,4 +213,11 @@
   ],
   "freelance_contact": "Contact me!",
   "freelance_contact_content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into"
+  ,
+  "project_intro": [
+    {
+      "title": "Moje projekty",
+      "context": "Môžete sa dočítať podrobnejšie informácie o mojich projektoch a skúsenostiach."
+    }
+  ]
 }

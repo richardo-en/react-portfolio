@@ -7,6 +7,18 @@ const LogoAnimation = () => {
     const [Transition, setTransition] = useState('hidden');
     const [Transform, setTransform] = useState(0);
     const [TextOpacity, setTextOpacity] = useState(0);
+    
+    
+    var TransformY = 50;
+    if (window.innerWidth <= 425) {
+        TransformY = 50;
+    }else if (window.innerWidth <= 768) {
+        TransformY = 60;
+    }else if (window.innerWidth <= 1024) {
+        TransformY = 80;
+    }else{
+        TransformY = 100;
+    }
 
 
     useEffect(() => {
@@ -42,33 +54,37 @@ const LogoAnimation = () => {
                     setTransform(Math.round(scrollPosition - 450));
                 });
             }
-
             if (scrollPosition >= 600 && scrollPosition < 700) {
                 requestAnimationFrame(() => {
                     setTextOpacity((scrollPosition - 600) / 100);
                 });
             }
         };
-
+        
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    
     return (
         <>
-            <div className='sticky top-1/3'>
+            <div className>
                 <span className={`flex text-5xl md:text-7xl lg:text-8xl text-extrawhite ${Typing}`}>
                     {displayText}
                     <Cursor className="text-5xl md:text-7xl lg:text-8xl"/>
                 </span>
                 <div className={`flex ${Transition}`}>
                     <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' >RI
-                        <span className='absolute' style={{ opacity: TextOpacity }}>CHARD</span>
+                        <span className='' style={{ opacity: TextOpacity }}>CHARD</span>
                     </h1>
-                    <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' style={{ transform: 'translate(-' + Transform + 'px, ' + Transform + 'px)' }}>NE
-                        <span className='absolute' style={{ opacity: TextOpacity }}>METH</span>
+                    <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' 
+                               style={{
+                                transform: `translate(-${Transform}px, ${TransformY}px)`,
+                                transition: 'transform 0.7s ease'
+                              }}
+                              >NE
+                        <span className='' style={{ opacity: TextOpacity }}>METH</span>
                     </h1>
                 </div>
             </div>

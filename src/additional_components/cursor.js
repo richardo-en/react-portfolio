@@ -15,7 +15,7 @@ const Cursor = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return <span >{isVisible ? '|' : ''}</span>;
+  return <span className='sticky' >{isVisible ? '|' : ''}</span>;
 };
 
 export default Cursor;
