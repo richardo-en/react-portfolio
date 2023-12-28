@@ -177,16 +177,16 @@
   ],
   "footer": [
     {
+      "title": "Home",
+      "redirect": "/"
+    },
+    {
       "title": "My projects",
       "redirect": "/projects"
     },
     {
       "title": "My certificates",
       "redirect": "/certificate"
-    },
-    {
-      "title": "Home",
-      "redirect": "/"
     }
   ],
   "freelance_intro_title": "Why do i want to freelance",

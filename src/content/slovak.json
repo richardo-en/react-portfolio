@@ -177,16 +177,16 @@
   ],
   "footer": [
     {
+      "title": "Domov",
+      "redirect": "/"
+    },
+    {
       "title": "Moje projekty",
       "redirect": "/projects"
     },
     {
       "title": "Certifikáty",
       "redirect": "/certificate"
-    },
-    {
-      "title": "Domov",
-      "redirect": "/"
     }
   ],
   "freelanc_intro": "Ponuka Freelancingu",

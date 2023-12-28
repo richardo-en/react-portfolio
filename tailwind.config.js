@@ -20,11 +20,12 @@ module.exports = {
         "mainelement" : "#beab9c"
 
       },
+      fontFamily: {
+        'gloock': ['Gloock'],
+        'inconsolata': ['Inconsolata'],
+        // 'bigshoulder': ['BigShoulder']
+       },
     },
-    fontFamily: {
-      'gloock': ['Gloock'],
-      'inconsolata': ['Inconsolata'],
-     },
      zIndex: {
       '0': 0,
      '10': 10,

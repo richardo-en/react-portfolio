@@ -218,4 +218,20 @@
   .fade-in-out.hide {
     opacity: 0; /* When the 'hidden' class is added, set the opacity back to 0 */
   }
-  
+
+  .slide_left, .slide_right{
+    transition: opacity 2s ease, transform 2s ease;
+    opacity: 0;
+  }
+  .slide_left.hide{
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  .slide_right.hide{
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  .slide_left.show, .slide_right.show{
+    transform: translateX(0px);
+    opacity: 1;
+  }

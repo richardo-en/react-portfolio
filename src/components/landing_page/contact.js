@@ -26,17 +26,6 @@ const ContactSection = () => {
       <div className='lg:self-center mx-10 mb-10'>
         <img src={Ilustration} alt="Me with black background" className='max-w-full xl:w-full rounded-2xl h-full' id='contact_image' />
       </div>
-      <div className='self-center lg:mx-10 flex flex-col lg:grid grid-rows-2 w-full'>
-        <div className='text-center px-5 relative z-10 mb-5'>
-          <h2 className='text-3xl lg:text-5xl xl:text-6xl font-gloock title_text text-extrawhite'>Social media</h2>
-        </div>
-        <div className='flex lg:flex-col justify-around items-center lg:h-96'>
-          <a href='https://www.linkedin.com/in/richard-nemeth-40b144241/' className='w-1/3 mx-2 lg:w-1/2 lg:mx-auto h-20 linked'><button></button></a>
-          <a href='mailto:richard3.nemeth@gmail.com' className='w-1/3 mx-2 lg:w-1/2 lg:mx-auto h-20 gmail'><button></button></a>
-          <a href='https://github.com/richardo-en' className='w-1/3 mx-2 lg:w-1/2 lg:mx-auto h-20 github'><button></button></a>
-        </div>
-      </div>
-      < Footer/>
     </section>
   );
 };

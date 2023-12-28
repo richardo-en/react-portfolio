@@ -1,14 +1,28 @@
 /* OVERALL SETTINGS */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&display=swap');
+
 @font-face {
   font-family: 'Gloock';
-  src: url('./Gloock-Regular.ttf') format('tff');
+  src: url('./Gloock-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inconsolata';
-  src: url('./Inconsolata-VariableFont_wdth\,wght.ttf') format('tff');
+  src: url('./Inconsolata-VariableFont_wdth\,wght.ttf') format('ttf');
+}
+
+.font-gloock {
+  font-family: 'Gloock';
+}
+
+.font-inconsolata {
+  font-family: 'Inconsolata';
+}
+
+.font-bigshoulder {
+  font-family: 'Big Shoulders Inline Text', sans-serif;
 }
 
 img{
@@ -33,21 +47,9 @@ img{
   background-color: #4300d4;
 }
 
-.title_text::before {
+.title_text::before,.subtitle_text::before  {
   content: "";
-  height: 20px;
   position: absolute;
-  bottom: 8px;
-  left: 0;
-  width: 100%;
-  background-color: #cf8d41;
-  z-index: -2;
-}
-.subtitle_text::before {
-  content: "";
-  height: 12px;
-  position: absolute;
-  bottom: 8px;
   left: 0;
   width: 100%;
   background-color: #cf8d41;

@@ -57,7 +57,7 @@ const ProjectContext = () => {
                         {project.sub_projects && project.sub_projects.map((specific_project, sub_index) => (
                             <>
                                 {/*Paragraphs with information*/}
-                                <div  className={`mb-10 px-4 text-center ${sub_index !== 0 ? `w-11/12 mt-36 ${sub_index % 2 == 0 ? `self-end rounded-l-xl` : `rounded-r-xl`}` : `w-full rounded-b-xl`}  fade-in-out ${isVisibleArray[element_index] ? 'show' : 'hide'}`} style={{ backgroundColor: `${background_image_colors[index]}` } } id={element_ids[element_index++]}>
+                                <div  className={`mb-10 px-4 text-center ${sub_index !== 0 ? `w-11/12 mt-36 ${sub_index % 2 == 0 ? `self-end rounded-l-xl slide_right` : `rounded-r-xl slide_left`}` : `w-full rounded-b-xl fade-in-out`} ${isVisibleArray[element_index] ? 'show' : 'hide'}`} style={{ backgroundColor: `${background_image_colors[index]}` } } id={element_ids[element_index++]}>
                                     <h1 className={` ${sub_index == 0 ? `pt-20` : `pt-5`}  text-xl text-white`}>{specific_project.title}</h1>
                                     <p className='p-5 text-gray-200'>{specific_project.context}</p>
                                 </div>
