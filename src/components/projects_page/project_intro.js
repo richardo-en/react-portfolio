@@ -2,14 +2,13 @@ import React, { useEffect, useState, useContext } from 'react'
 import slovakText from '../../content/slovak.json'
 import englishText from '../../content/english.json'
 import LanguageContext from '../../additional_components/language_context';
-import ProjectImage from '../../static/images/projects.jpg'
 
 const ProjectIntro = () => {
   //global classes
   const button_design = "p-2 flex justify-between";
   const plus_sign = "text-2xl";
   const element_ids = [["university", "sub_university"], ["python", "flask", "django"], ["jscript", "react", "mern"], ["csharp", "sub_csharp"]]
-  var elementIndex = 0;
+
   //Context mapping
   const { language } = useContext(LanguageContext);
   const [textContent, setTextContent] = useState({ contact: [] });
@@ -40,7 +39,7 @@ const ProjectIntro = () => {
   const handleRedirection = (index, subIndex) => {
 
     const targetElement = document.getElementById(element_ids[index][subIndex])
-    const heightAdjustment = subIndex != 0 ? targetElement.clientHeight : 0
+    const heightAdjustment = subIndex !== 0 ? targetElement.clientHeight : 0
     if (targetElement) {
       window.scrollTo({
         top: targetElement.offsetTop - heightAdjustment,
@@ -49,12 +48,10 @@ const ProjectIntro = () => {
     }
   };
 
-
-
   return (
     <section id="projects">
       <div id="project_image"/>
-      <div className='mb-20 relative z-40'>
+      <div className='relative z-40'>
         {textContent.project_intro && textContent.project_intro.map((project, index) => (
           <div>
             <h1 className='text-2xl text-center text-extrawhite mt-20'>{project.title}</h1>
@@ -63,7 +60,10 @@ const ProjectIntro = () => {
         ))
         }
       </div>
-      <div className='flex flex-col bg-white text-left text-center text-xl leading-10 divide-y divide-black p-2 mt-60'>
+      <div className='w-screen mt-32 sm:w-3/4 sm:mx-auto sm:mt-80 '>
+
+
+      <div className='flex flex-col bg-white text-left text-center text-xl leading-10 divide-y divide-black p-2'>
         {textContent.projects && textContent.projects.map((project, index) => (
           <>
             <button key={index} className={button_design} onClick={() => handleButtonClick(index)}>
@@ -78,6 +78,7 @@ const ProjectIntro = () => {
           </>
         ))}
       </div>
+        </div>
     </section>
   );
 };

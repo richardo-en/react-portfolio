@@ -4,7 +4,7 @@ import englishText from '../../content/english.json';
 import Ilustration from '../../static/images/personal_transparent_min.png'
 import LanguageContext from '../../additional_components/language_context';
 
-const InterestSection = () => {
+const InterestSection = React.forwardRef((props, ref) => {
 
   const point_description = 'text-sm lg:text-base'
   const subtitle_text = 'text-2xl lg:text-6xl relative z-10 font-gloock subtitle_text'
@@ -17,7 +17,7 @@ const InterestSection = () => {
   }, [language]);
 
   return (
-    <section id="interest" className="grid grid-cols-2 grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 lg:gap-2 sm:mb-32 py-12">
+    <section id="interest" ref={ref} className="fade-in-out grid grid-cols-2 grid-rows-4 lg:grid-cols-3 lg:grid-rows-3 lg:gap-2 sm:mb-32 py-12">
       <div className='px-5 relative z-10 col-span-2 lg:col-start-1 lg:col-span-3 self-center text-center'>
         <h2 className='text-5xl lg:text-6xl xl:text-8xl font-gloock title_text'>{textContent.interestReasonTitle}</h2>
       </div>
@@ -42,6 +42,6 @@ const InterestSection = () => {
       )}
     </section>
   );
-};
+});
 
 export default InterestSection;

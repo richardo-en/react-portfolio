@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import LogoAnimation from '../../additional_components/logo'
-import BgImage from '../../static/images/personal_image_intro_min.jpg'
 
 const HomeSection = () => {
   const [backgroundOpacity, setBackgroundOpacity] = useState(0.05);
@@ -20,11 +19,13 @@ const HomeSection = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [backgroundOpacity]);
 
   return (
     <section id="home" className="min-h-screen max-w-screen bg-gray-800 p-0 flex flex-col items-center">
-      <span id='background_image' className='absolute w-screen' style={{ opacity: backgroundOpacity }}/>
+      <div className='w-full relative'>
+        <span id='background_image' className='absolute inset-0' style={{ opacity: backgroundOpacity }}/>
+      </div>
       <div className='sticky top-1/4'>
         <LogoAnimation />
       </div>

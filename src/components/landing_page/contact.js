@@ -3,10 +3,10 @@ import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
 import Ilustration from '../../static/images/stand_position_me_min.jpg'
 import LanguageContext from '../../additional_components/language_context';
-import Footer from '../../additional_components/footer';
+// import Footer from '../../additional_components/footer';
 // import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const ContactSection = () => {
+const ContactSection = React.forwardRef((props, ref) => {
   const { language } = useContext(LanguageContext);
   const [textContent, setTextContent] = useState({ contact: [] });
 
@@ -16,7 +16,7 @@ const ContactSection = () => {
   }, [language]);
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-800 flex flex-col items-center xl:grid xl:grid-cols-3 px-3 py-5 xl:px-20 xl:py-20 mt-20 overflow-x-hidden">
+    <section id="contact" ref={ref} className="fade-in-out min-h-screen bg-gray-800 flex flex-col items-center xl:grid xl:grid-cols-3 px-3 py-5 xl:px-20 xl:py-20 mt-20 overflow-x-hidden">
       <div className='flex flex-col lg:self-center mb-10'>
         <div className='w-4/5 mx-auto lg:w-full relative z-10 mb-5 text-center'>
           <h2 className='text-4xl lg:text-5xl font-gloock px-5 title_text text-extrawhite'>{textContent.contact_titel}</h2>
@@ -28,6 +28,6 @@ const ContactSection = () => {
       </div>
     </section>
   );
-};
+});
 
 export default ContactSection;

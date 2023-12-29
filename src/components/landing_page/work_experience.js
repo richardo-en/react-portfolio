@@ -4,7 +4,7 @@ import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
 import LanguageContext from '../../additional_components/language_context';
 
-const WorkExperience = () => {
+const WorkExperience = React.forwardRef((props, ref) => {
   const { language } = useContext(LanguageContext);
   const [textContent, setTextContent] = useState({
     workInformation: [],
@@ -44,7 +44,7 @@ const WorkExperience = () => {
 
 
   return (
-    <section id="work_experience" className=" bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
+    <section id="work_experience" ref={ref} className="fade-in-out bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
       <div className='lg:mx-5 lg:mx-16 xl:mx-56 bg-black grid grid-rows-4 px-5 lg:px-10 py-5 relative' id='about_cards'>
         {textContent.workExperienceTitle && (
           <>
@@ -78,6 +78,6 @@ const WorkExperience = () => {
 
     </section>
   );
-};
+});
 
 export default WorkExperience

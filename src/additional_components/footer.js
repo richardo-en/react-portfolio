@@ -25,25 +25,25 @@ const Footer = () => {
 
         <div className="w-full relative text-center bottom-0 z-50 flex flex-col bg-gray-200 items-center py-20">
             <span className='w-11/12 bg-black' style={{height : "2px"}}/>
-            <h1 className='font-bigshoulder' style={{ fontSize: "100px" }} >Rine</h1>
-            <div className='w-full flex flex-col text-xl'>
+            <h1 id='footer_logo' className='font-bigshoulder' >Rine</h1>
+            <div className='w-full flex flex-col lg:flex-row text-xl'>
                 {textContent.footer && textContent.footer.map((link, index) => (
-                    <a key={index} href={`${link.redirect}`} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5" >{link.title}</a>
+                    <a key={index} href={`${link.redirect}`} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14" >{link.title}</a>
                 ))}
             </div>
             <div className='self-center lg:mx-10 flex flex-col lg:grid grid-rows-2 w-full'>
                 <div className='text-center px-5 relative z-10 mb-5'>
                     <h2 className='text-3xl lg:text-5xl xl:text-6xl font-gloock title_text'>Social media</h2>
                 </div>
-                <div className='flex lg:flex-col justify-around items-center lg:h-96'>
+                <div className='flex justify-around items-center'>
                     {logos.map((logo, index) => (
-                        <a href={logo[1]}><img className='mx-2 mx-auto h-16' src={logo[0]} /></a>
+                        <a href={logo[1]}><img alt='logo of socials' className='mx-2 mx-auto h-16 lg:h-28' src={logo[0]} /></a>
                     ))}
                 </div>
             </div>
             <div className='mt-10 flex p-2 text-center'>
                 <h3 >Copyright</h3>
-                <img className='h-5 ml-1' src={CopyrightLogo} />
+                <img className='h-4 mt-1 ml-1' src={CopyrightLogo} alt='copyright sign'/>
                 <h3 className='ml-1'>2023. Designed & Developed by</h3>               
             </div>
             <h3>Richard Németh</h3>

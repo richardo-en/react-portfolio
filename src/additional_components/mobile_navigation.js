@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
-import { SwitchClasses } from '../components/landing_page/navbar.js';
+// import { SwitchClasses } from '../components/landing_page/navbar.js';
 
 const MobileNavigationSelector = () => {
     const [selectedElement, setSelectedElement] = useState(null);
@@ -54,7 +54,7 @@ const MobileNavigationSelector = () => {
         <>
             <div className={`fixed h-1/2 top-1/4 flex flex-col justify-around items-center w-full`}>
                 {navigationData.navigation.map((item, index) => (
-                    <a key={index} href={`/#${links[index]}`} className={`text-4xl ${getButtonClass(index)}`} id={links[index] + `_selector`}><button aria-label={`${item.title} button`} onClick={SwitchClasses} >{item.title}</button></a>
+                    <a key={index} href={`/#${links[index]}`} className={`text-4xl ${getButtonClass(index)}`} id={links[index] + `_selector`}><button aria-label={`${item.title} button`}>{item.title}</button></a>
                 ))}
                 <button className={`${Rotation} text-2xl underline text-gray-300`} aria-label={`language button`} onClick={handleButtonClick}>
                     {language}

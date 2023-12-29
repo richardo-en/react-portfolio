@@ -298,7 +298,6 @@ body {
   padding: 0;
   height: 50vh;
   background-image: url('./images/projects.jpg');
-  background-size: 200vw auto;
   background-repeat: no-repeat;
   opacity: 0.5;
 }
