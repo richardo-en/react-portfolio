@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1be2a026.css",
-    "main.js": "/static/js/main.c12e247d.js",
+    "main.js": "/static/js/main.494b03af.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/personal_transparent_min.png": "/static/media/personal_transparent_min.f9528a45618e7d38226c.png",
     "static/media/freelance_intro_backgroun.jpg": "/static/media/freelance_intro_backgroun.40d7371ab6f1660a15f2.jpg",
@@ -23,18 +23,17 @@
     "static/media/gmail_logo.png": "/static/media/gmail_logo.380675a29a88ebc41845.png",
     "static/media/github_logo.png": "/static/media/github_logo.1b6bd0e4b6626baba753.png",
     "static/media/linked_logo.png": "/static/media/linked_logo.d3bc61c0d4bb29c66291.png",
-    "static/media/Freelance_Logo.svg": "/static/media/Freelance_Logo.a96b6eb00cd5251f2a2d861fc003ab64.svg",
     "static/media/github.svg": "/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
     "static/media/copyright.svg": "/static/media/copyright.4442d6da9acbc748d0ea6c1709ef806c.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.33a7fe085bc5b2a7e44494ab37dfb9a5.svg",
     "static/media/gmail.svg": "/static/media/gmail.87cc67187afd3477d6c29ef768e48834.svg",
     "main.1be2a026.css.map": "/static/css/main.1be2a026.css.map",
-    "main.c12e247d.js.map": "/static/js/main.c12e247d.js.map",
+    "main.494b03af.js.map": "/static/js/main.494b03af.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1be2a026.css",
-    "static/js/main.c12e247d.js"
+    "static/js/main.494b03af.js"
   ]
 }
