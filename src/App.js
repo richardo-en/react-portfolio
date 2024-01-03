@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import { HashRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import LanguageContext from './additional_components/language_context.js';
 import languageReducer from './additional_components/Language_reducer.js';

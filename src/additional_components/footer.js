@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../content/slovak.json';
 import englishText from '../content/english.json';
 import LanguageContext from './language_context';
-
+import { Link } from 'react-router-dom';
 //Logos
 import GmailLogo from '../static/images/gmail.svg'
 import GithubLogo from '../static/images/github.svg'
@@ -28,7 +28,9 @@ const Footer = () => {
             <h1 id='footer_logo' className='font-bigshoulder' >Rine</h1>
             <div className='w-full flex flex-col lg:flex-row text-xl'>
                 {textContent.footer && textContent.footer.map((link, index) => (
-                    <a key={index} href={`${link.redirect}`} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14" >{link.title}</a>
+                    <Link to={link.redirect} key={index} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14">
+                        {link.title}
+                    </Link>
                 ))}
             </div>
             <div className='self-center lg:mx-10 flex flex-col lg:grid grid-rows-2 w-full'>
