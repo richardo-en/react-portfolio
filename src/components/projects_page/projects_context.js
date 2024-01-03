@@ -32,7 +32,7 @@ const ProjectContext = () => {
         const handleScroll = () => {
             const updatedVisibilityArray = isVisibleArray.map((_, el_index) => {
                 const element = document.getElementById(`${element_ids[el_index]}`);
-                return element ? window.scrollY + window.innerHeight + element.clientHeight > element.offsetTop : false;
+                return element ? window.scrollY + window.innerHeight > element.offsetTop + (element.clientHeight*0.5) : false;
             });
             setIsVisibleArray(updatedVisibilityArray);
         };
@@ -53,15 +53,15 @@ const ProjectContext = () => {
                     <>
                         {/*Main title with picture*/}
                         <div id={element_ids[element_index++]} className={`fade-in-out ${isVisibleArray[element_index] ? 'show' : 'hide'} lg:flex lg:flex-col-reverse lg:justify-center lg:mt-20 lg:col-start-${element_col} row-start-${element_row++} `}>
-                            <div className='w-full mt-20' style={{ background: `${isVisibleArray[element_index] ? `${`linear-gradient(180deg, rgba(255,255,255,1) 0%,${background_image_colors[index]} 100%)`}` : ``}` }}>
+                            <div className='w-screen lg:w-full mt-20' style={{ background: `${isVisibleArray[element_index] ? `${`linear-gradient(180deg, rgba(255,255,255,1) 0%,${background_image_colors[index]} 100%)`}` : ``}` }}>
                                 <img src={logos[index]} alt={`${logos[index]}`} className='w-full lg:w-60 lg:mx-auto' />
                             </div>
-                            <h1 className='text-5xl mb-0 font-bold px-5 text-extrawhite lg:text-black lg:w-full lg:text-center title_text' style={{ backgroundColor: `${window.innerWidth < 1024 ? background_image_colors[index] : ""}` }}>0{(index + 1) + " " + project.title}</h1>
+                            <h1 className='w-screen text-5xl mb-0 font-bold px-5 text-extrawhite lg:text-black lg:w-full lg:text-center title_text' style={{ backgroundColor: `${window.innerWidth < 1024 ? background_image_colors[index] : ""}` }}>0{(index + 1) + " " + project.title}</h1>
                         </div>
                         {project.sub_projects && project.sub_projects.map((specific_project, sub_index) => (
-                            <div className={`w-screen md:grid md:grid-cols-2 lg:col-span-1 lg:w-full lg:flex lg:flex-col lg:items-center lg:col-start-${sub_index === 0 ? element_col === 2 ? element_col-- : element_col++ : element_col === 2 ? element_col-- : element_col++} row-start-${element_row++}`} >
+                            <div className={`w-screen block md:grid md:grid-cols-2 lg:col-span-1 lg:w-full lg:flex lg:flex-col lg:items-center lg:col-start-${sub_index === 0 ? element_col === 2 ? element_col-- : element_col++ : element_col === 2 ? element_col-- : element_col++} row-start-${element_row++}`} >
                                 {/*Paragraphs with information*/}
-                                <div className={`mb-10 px-4 text-center ${sub_index !== 0 ? `w-11/12 mt-36 md:w-full ${sub_index % 2 === 0 ? `self-end rounded-l-xl slide_right md:order-2 lg:order-none` :`rounded-r-xl slide_left lg:col-start-1`}` : `w-full rounded-b-xl fade-in-out md:col-span-2`} ${isVisibleArray[element_index] ? 'show' : 'hide'}`} style={{ backgroundColor: `${background_image_colors[index]}` }} id={element_ids[element_index++]}>
+                                <div className={`mb-10 px-4 text-center ${sub_index !== 0 ? `w-11/12 mt-36 md:w-full ${sub_index % 2 === 0 ? `flex flex-col float-right self-end rounded-l-xl slide_right md:order-2 lg:flex-none lg:order-none` :`rounded-r-xl slide_left lg:col-start-1`}` : `w-full rounded-b-xl fade-in-out md:col-span-2`} ${isVisibleArray[element_index] ? 'show' : 'hide'}`} style={{ backgroundColor: `${background_image_colors[index]}` }} id={element_ids[element_index++]}>
                                     <h1 className={` ${sub_index === 0 ? `pt-20` : `pt-5`}  text-xl text-white`}>{specific_project.title}</h1>
                                     <p className='p-5 text-gray-200'>{specific_project.context}</p>
                                 </div>

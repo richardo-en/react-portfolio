@@ -60,7 +60,7 @@ const ProjectIntro = () => {
         ))
         }
       </div>
-      <div className='w-screen mt-32 sm:w-3/4 sm:mx-auto sm:mt-80 '>
+      <div className='w-screen mt-80 sm:w-3/4 sm:mx-auto sm:mt-80 '>
 
 
       <div className='flex flex-col bg-white text-left text-center text-xl leading-10 divide-y divide-black p-2'>
