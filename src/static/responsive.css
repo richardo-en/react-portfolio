@@ -2,15 +2,7 @@
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 100%, rgba(31, 41, 55, 1) 100%, rgba(31, 41, 55, 1) 100%);
 }
-/*MOBILE VERSION*/
-/*  
-background-size: 200vw auto;
-*/
 
-/*MIN WIDTH*/
-
-
-/* FREELANCE CONTENT */
 @media screen and (min-width: 640px) {
     #project_intro_p{
         margin-top: 400px;
@@ -40,6 +32,10 @@ background-size: 200vw auto;
     #future {
         padding-left: 25vw;
     }
+
+    p{
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -59,7 +55,14 @@ background-size: 200vw auto;
     #footer_logo{
         font-size: 150px;
     }
-    
+
+    h2{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -77,6 +80,10 @@ background-size: 200vw auto;
         height: 550px;
       }
 
+      p{
+        font-size: 17px;
+      }
+
     
 }
 
@@ -86,15 +93,16 @@ background-size: 200vw auto;
         height: 75vh;
     }
 }
-@media screen and (min-width: 1536px) {
-}
-
-
 
 /*MAX WIDTH*/
+
+
 @media screen and (max-width: 640px) {
     #project_image{
         background-size: 200vw auto;
+    }
+    p{
+        font-size: 15px;
     }
 }
 
@@ -103,7 +111,7 @@ background-size: 200vw auto;
     #project_image{
         background-size: 150vw auto;
     }
-
+    
     .title_text::before {
         height: 7px;
         bottom: 5px;
@@ -113,19 +121,19 @@ background-size: 200vw auto;
         background: #fff;
     }
     
-    .subtitle_text::before {
-        /* content: "";
-        height: 5px;*/
-        bottom: 8px; 
-        height: 5px;
-        
-    }
     #footer_logo{
         font-size: 100px;
     }
     
+    h2{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 25px;
+    }
+    
 }
-
 /* FUTURE SECTION */
 
 
@@ -133,6 +141,4 @@ background-size: 200vw auto;
     .project_headline{
         height: 300px;
       }
-
-    
 }

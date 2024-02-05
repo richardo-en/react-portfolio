@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useContext } from 'react';
-import slovakText from '../content/slovak.json';
-import englishText from '../content/english.json';
 import LanguageContext from '../additional_components/language_context';
 import MobileMenuButton from '../static/images/menu.png'
 import { Link } from 'react-scroll';
@@ -51,8 +49,6 @@ const MobileNavigation = ({ links, names } ) => {
         };
     }, [language, links]);
 
-    const navigationData = language === 'Slovak' ? slovakText : englishText;
-
     const getButtonClass = (index) => {
         return selectedElement === index ? 'text-white' : 'text-gray-400';
     };
@@ -60,7 +56,7 @@ const MobileNavigation = ({ links, names } ) => {
     return (
         <>
             <button id='mobile_menu_button' className='w-8 fixed top-2 right-2 z-50' onClick={MenuOpener}>
-                <img src={MobileMenuButton} className='w-8' />
+                <img src={MobileMenuButton} className='w-8' alt='mobile menu button'/>
             </button>
             <div id='mobile_menu' className={`fixed h-screen py-32 flex flex-col justify-around items-center w-full ${ActiveMenu} fade-in-out ${DisplayMenu}`}>
                 {links && links.map((link, index) => (

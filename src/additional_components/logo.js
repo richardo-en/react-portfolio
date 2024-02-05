@@ -7,7 +7,7 @@ const LogoAnimation = () => {
     const [Transition, setTransition] = useState('hidden');
     const [Transform, setTransform] = useState(0);
     const [TextOpacity, setTextOpacity] = useState(0);
-    
+    const windowWidth = window.screen.width;
     
     var TransformY = 50;
     if (window.innerWidth <= 425) {
@@ -51,7 +51,7 @@ const LogoAnimation = () => {
                 requestAnimationFrame(() => {
                     setTyping('hidden')
                     setTransition('');
-                    setTransform(Math.round(scrollPosition - 450));
+                    setTransform(Math.round(scrollPosition - (windowWidth < 640 ? 500 : 450)));
                 });
             }
             if (scrollPosition >= 600 && scrollPosition < 700) {
@@ -65,20 +65,20 @@ const LogoAnimation = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [windowWidth]);
     
     return (
         <>
-            <div className>
-                <span className={`flex text-5xl md:text-7xl lg:text-8xl text-extrawhite ${Typing}`}>
+            <div>
+                <span className={`flex text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-extrawhite ${Typing}`}>
                     {displayText}
-                    <Cursor className="text-5xl md:text-7xl lg:text-8xl"/>
+                    <Cursor className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl"/>
                 </span>
                 <div className={`flex ${Transition}`}>
-                    <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' >RI
+                    <h1 className='text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-extrawhite' >RI
                         <span className='' style={{ opacity: TextOpacity }}>CHARD</span>
                     </h1>
-                    <h1 className='text-5xl md:text-7xl lg:text-8xl text-extrawhite' 
+                    <h1 className='text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-extrawhite' 
                                style={{
                                 transform: `translate(-${Transform}px, ${TransformY}px)`,
                                 transition: 'transform 0.7s ease'

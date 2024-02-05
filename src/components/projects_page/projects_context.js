@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext, useMemo } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import slovakText from '../../content/slovak.json'
 import englishText from '../../content/english.json'
 import LanguageContext from '../../additional_components/language_context';
@@ -9,13 +9,13 @@ import mobDev from "../../static/images/game.png"
 
 
 const ProjectContext = () => {
-    var element_index = 0;
-    var element_col = 1;
-    var element_row = 0;
+    // var element_index = 0;
+    // var element_col = 1;
+    // var element_row = 0;
     const { language } = useContext(LanguageContext);
     const [textContent, setTextContent] = useState({ contact: [] });
-    const background_colors = ["#EDE7DC", "#DCD2CC", "#CCAFA5", "#BDC3CB"]
-    const background_image_colors = ["rgb(31, 41, 55,1)", "rgb(42, 111, 64,1)", "rgb(127, 84, 48,1)", "rgb(31, 41, 55,1)"]
+    // const background_colors = ["#EDE7DC", "#DCD2CC", "#CCAFA5", "#BDC3CB"]
+    // const background_image_colors = ["rgb(31, 41, 55,1)", "rgb(42, 111, 64,1)", "rgb(127, 84, 48,1)", "rgb(31, 41, 55,1)"]
     const links = ["university", "python", "javascript", "csharp"]
     const colors = ["bg-gray-800 text-extrawhite", "bg-gray-200 text-black" , "bg-gray-700 text-extrawhite" , "bg-gray-200 text-black" ]
     const images = [STU, python, javascript, mobDev]
@@ -28,13 +28,13 @@ const ProjectContext = () => {
 
     return (
         <section id="project_context" className='bg-white text-extrawhite'>
-            <div className={`flex flex-col p-10`}>
+            <div className={`flex flex-col p-4 sm:p-10`}>
                 {textContent.projects && textContent.projects.map((project, index) => (
                     <>
                         <div className={`w-full text-center flex flex-col md:items-center md:justify-center md:flex-row my-32 ${colors[index]}`} id={links[index]}>
-                            <div className={`backgraround_project_images md:w-1/2 text-center p-10 relative z-20 h-96 ${windowWidth >= 768 ? (index % 2 == 0 ? 'order-last' : '') : ''}`} style={{backgroundImage : `url(${images[index]})`}}>
-                                <h1 className='text-3xl mb-8 lg:text-8xl relative z-10 font-gloock'>#0{index + 1 + "  "}</h1>
-                                <h2 className='text-3xl mb-8 lg:text-6xl relative z-10 font-gloock'>{project.title}</h2>
+                            <div className={`backgraround_project_images md:w-1/2 text-center p-10 relative z-20 h-96 ${windowWidth >= 768 ? (index % 2 === 0 ? 'order-last' : '') : ''}`} style={{backgroundImage : `url(${images[index]})`}}>
+                                <h2 className='relative z-10 font-medium'>#0{index + 1 + "  "}</h2>
+                                <h2 className='mb-8 relative z-10 font-medium'>{project.title}</h2>
                             </div>
                             <p className='mb-5 p-5 xl:text-xl xl:p-28 md:w-1/2' >{project.context}</p>
                         </div>

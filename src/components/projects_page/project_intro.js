@@ -42,7 +42,7 @@ const ProjectIntro = () => {
           <span id='project_image' className='absolute inset-0' style={{ opacity: 0.2 }} />
         </div>
         {textContent.project_intro && textContent.project_intro.map((project, index) => (
-          <h1 className='text-left text-extrawhite xl:text-6xl xl:p-32 xl:mt-20'>{project.title}</h1>
+          <h2 className='text-left text-extrawhite xl:text-6xl xl:p-32 xl:mt-20'>{project.title}</h2>
         ))
         }
       </div>
@@ -54,7 +54,7 @@ const ProjectIntro = () => {
           {links.map((link, index) => (
             <div className='flex flex-col text-center xl:text-6xl'>
               <h1 className='text-3xl'>0{index+1}</h1>
-              <Link to={link} spy={true} smooth={true} offset={-70} duration={800} className='xl:text-xl border-2 border-black xl:m-10 m-2 p-5'>{LanguageContext === 'Slovak' ? names[index][1] : names[index][0]}</Link>
+              <Link to={link} spy={true} smooth={true} offset={-70} duration={800} className='xl:text-xl border-2 border-black xl:m-10 m-2 p-5' style={{ cursor: 'pointer' }}>{LanguageContext === 'Slovak' ? names[index][1] : names[index][0]}</Link>
             </div>
           ))}
         </div>
@@ -63,7 +63,7 @@ const ProjectIntro = () => {
         {programmingLogos && programmingLogos.map((logos, index) => (
           <div className='w-full p-5 my-4 md:w-1/2 xl:w-1/3 xl:my-10 flex justify-around mx-auto'>
             {logos.map((logo) => (
-              <img src={logo} className='xl:h-10 h-8'/>
+              <img src={logo} className='xl:h-10 h-8' alt='technology logo'/>
             ))}
           </div>
         ))}

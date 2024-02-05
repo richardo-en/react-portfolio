@@ -13,12 +13,11 @@
   src: url('./Inconsolata-VariableFont_wdth\,wght.ttf') format('ttf');
 }
 
-.font-gloock {
+h2,h3{
   font-family: 'Gloock';
 }
-
-.font-inconsolata {
-  font-family: 'Inconsolata';
+p{
+  font-family: sans-serif;
 }
 
 .font-bigshoulder {
@@ -335,4 +334,8 @@ body {
 #mobile_menu{
   z-index: 100;
   background-color: rgba(31, 41, 55, 0.98);
+}
+
+h3.footer_copyright{
+  font-size: medium;
 }

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import LogoAnimation from '../../additional_components/logo'
 
 const HomeSection = () => {
-  const [backgroundOpacity, setBackgroundOpacity] = useState(0.05);
+  // const [backgroundOpacity, setBackgroundOpacity] = useState(0.05);
 
   // useEffect(() => {
   //   const handleScroll = () => {

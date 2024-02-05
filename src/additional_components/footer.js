@@ -28,7 +28,7 @@ const Footer = () => {
             <h1 id='footer_logo' className='font-bigshoulder' >Rine</h1>
             <div className='w-full flex flex-col lg:flex-row text-xl'>
                 {textContent.footer && textContent.footer.map((link, index) => (
-                    <Link to={link.redirect} key={index} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14" onClick={() => window.scrollTo(0, 0)}>
+                    <Link to={link.redirect} key={index} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14" onClick={() => window.scrollTo(0, 0)} style={{ cursor: 'pointer' }}>
                         {link.title}
                     </Link>
                 ))}
@@ -44,11 +44,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className='mt-10 flex p-2 text-center'>
-                <h3 >Copyright</h3>
+                <h3 className='footer_copyright'>Copyright</h3>
                 <img className='h-4 mt-1 ml-1' src={CopyrightLogo} alt='copyright sign'/>
-                <h3 className='ml-1'>2023. Designed & Developed by</h3>               
+                <h3 className='ml-1 footer_copyright'>2023. Designed & Developed by</h3>               
             </div>
-            <h3>Richard Németh</h3>
+            <h3 className='footer_copyright'>Richard Németh</h3>
         </div>
     )
 };
