@@ -12,6 +12,10 @@ background-size: 200vw auto;
 
 /* FREELANCE CONTENT */
 @media screen and (min-width: 640px) {
+    #project_intro_p{
+        margin-top: 400px;
+    }
+
     #background_image {
         
         height: 120vh;
@@ -39,6 +43,9 @@ background-size: 200vw auto;
 }
 
 @media screen and (min-width: 768px) {
+    #project_image{
+        height: 75vh;
+    }
     .project_card {
         width: 50vw;
         height: 60vh;
@@ -65,9 +72,19 @@ background-size: 200vw auto;
         width: 150px;
         margin-left: -10px;
     }
+
+    .project_headline{
+        height: 550px;
+      }
+
+    
 }
 
 @media screen and (min-width: 1280px) {
+    #project_image{
+        width: 100vw;
+        height: 75vh;
+    }
 }
 @media screen and (min-width: 1536px) {
 }
@@ -110,3 +127,12 @@ background-size: 200vw auto;
 }
 
 /* FUTURE SECTION */
+
+
+@media screen and (max-width: 1024px) {
+    .project_headline{
+        height: 300px;
+      }
+
+    
+}

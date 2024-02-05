@@ -61,7 +61,7 @@ const NavigationSelector = () => {
         };
     }, [language]);
 
-    const navigationData = language === 'Slovak' ? slovakText : englishText;
+    const navigationData = language === 'Sk' ? slovakText : englishText;
 
     const getButtonClass = (index) => {
         return selectedElement === index ? 'bg-gray-700' : 'bg-gray-800';

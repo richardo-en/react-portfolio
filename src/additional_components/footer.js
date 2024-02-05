@@ -28,7 +28,7 @@ const Footer = () => {
             <h1 id='footer_logo' className='font-bigshoulder' >Rine</h1>
             <div className='w-full flex flex-col lg:flex-row text-xl'>
                 {textContent.footer && textContent.footer.map((link, index) => (
-                    <Link to={link.redirect} key={index} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14">
+                    <Link to={link.redirect} key={index} className="p-2 w-3/4 mx-auto border-b-2 border-black mb-5 lg:text-2xl lg:mx-10 lg:mb-14" onClick={() => window.scrollTo(0, 0)}>
                         {link.title}
                     </Link>
                 ))}

@@ -92,13 +92,16 @@ body {
 #home{
   height: 101vh;
 }
-#background_image{
+.background_image {
   width: 100vw;
   overflow: hidden;
-  background-image: url('./images/personal_image_intro_min.jpg');
   background-size: cover;
   height: 100vh; 
   background-position: 15% 80%;
+}
+
+#home_bg{
+  background-image: url('./images/personal_image_intro_min.jpg');
 }
 
 /* ABOUT PAGE */
@@ -125,6 +128,19 @@ body {
   background: linear-gradient(180deg, rgba(31,41,55,1) 0%, rgba(31,41,55,1) 30%, rgba(255,255,255,1) 30%);
 }
 /* PROJECT PAGE */
+
+#project_image{
+  background-image: url("./images/minimalist-background-6948089.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.backgraround_project_images{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .about_text_background {
   background-color: rgba(255, 255, 255, 0.8);
@@ -173,6 +189,7 @@ body {
   background: rgb(31, 41, 55);
   background: linear-gradient(180deg, rgba(31, 41, 55, 1) 0%, rgba(61, 83, 113, 1) 50%, rgba(31, 41, 55, 1) 100%);
 }
+
 
 .project_card {
   width: 70vw;
@@ -290,7 +307,7 @@ body {
 }
 
 /*PROJECT PAGE*/
-#project_image{
+/* #project_image{
   position: absolute;
   top: 0;
   width: 100vw;
@@ -299,13 +316,23 @@ body {
   height: 50vh;
   background-image: url('./images/projects.jpg');
   background-repeat: no-repeat;
+  background-size:cover;
   opacity: 0.5;
-}
+} */
 
 .project_bg{
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(31,41,55,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 20%, rgba(31,41,55,1) 100%);
 }
 
 .project_bg_reverse{
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(31,41,55,1) 100%);
+}
+
+/*NAVABR*/
+#mobile_menu_button{
+  z-index: 101;
+}
+#mobile_menu{
+  z-index: 100;
+  background-color: rgba(31, 41, 55, 0.98);
 }

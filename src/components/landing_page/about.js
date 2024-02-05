@@ -47,7 +47,7 @@ const AboutSection = React.forwardRef((props, ref) => {
         <img src={Ilustration} alt="Illustration" className='w-full mb-5 lg:w-1/2 rounded-lg -mt-40 relative z-40' id='contact_image'/>
         {textContent.landingInformation && (
           <div className='max-w-3xl lg:w-1/2 text-extrawhite py-5'>
-            <h2 className='text-4xl lg:text-6xl font-gloock px-5 relative z-10 title_text'>{textContent.landingTitle}</h2>
+            <h2 className='text-4xl lg:text-6xl font-gloock px-5 relative z-10'>{textContent.landingTitle}</h2>
             <p className='text-md lg:text-xl p-5 font-Inconsolata'>{textContent.landingInformation}</p>
           </div>
         )}

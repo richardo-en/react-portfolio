@@ -208,7 +208,7 @@
 
   .fade-in-out {
     opacity: 0; /* Initially, set the opacity to 0 (completely transparent) */
-    transition: opacity 0.8s ease; /* Apply a smooth transition for the opacity property over 0.5 seconds with ease timing function */
+    transition: opacity 0.5s ease; /* Apply a smooth transition for the opacity property over 0.5 seconds with ease timing function */
   }
   
   .fade-in-out.show {

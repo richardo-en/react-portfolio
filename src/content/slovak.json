@@ -4,12 +4,8 @@
   "workExperienceTitle": "Moje pracovné skúsenosti",
   "workInformation": [
     {
-      "title": "Moje preferencie",
-      "description": "Najradšej pracujem s OOP programovacími jazykmi a svoj všeobecný prehľad smerujem na web-development. Vo vývoji webu sa hlavne zameriavam na backend. Zvládnem spraviť aj frontend ale nepovažujem sa za dizajnéra, takže proces frontendu mi trvá dlhšie."
-    },
-    {
       "title": "Pracovné skúsenosti",
-      "description": "V priebehu dvoch minulorčných semestrov som pracoval v Slovanete ako stážista. Venovali sme sa internému systému Odoo kde som vyvýjal moduly na mieru. Počas semestra som svoj čas strávil aj s nadstavbovým projektom zameraným na SEO. Vo svojom voľnom čase som pracoval na rôznych vlastných projektoch, alebo som pomáhal známim s ich webstránkami."
+      "description": "V priebehu prvého ročníku na vysokej škole som pracoval v Slovanete ako stážista. Venovali sme sa internému systému Odoo kde som vyvýjal moduly na mieru. Počas semestra som svoj čas strávil aj s nadstavbovým projektom zameraným na SEO. Vo svojom voľnom čase som pracoval na rôznych vlastných projektoch."
     },
     {
       "title": "Znalosti v sucastnosti",
@@ -64,74 +60,23 @@
   "projects": [
     {
       "title": "Vysoká škola",
-      "sub_projects":[
-        {
-         "title":"Procedurálne programovanie C",
-         "context": "Ako už vieme jazyk C je základom veľa iných programovacích jazykov. Po prvý krát som sa stretol s týmto jazykom na vysokej škole, a venujem sa mu už vyše dvoch rokov. Pravidelne tomuto jazyku boli venované cvičenia či projekty.",
-         "tech":[],
-         "note" : "Nadobudol som: Základy programovania, Alokácia, Linked listy, Bitové operácie"
-        } 
-      ]
+      "context": "Po prvý krát som sa stretol s týmto jazykom na vysokej škole, a venujem sa mu už vyše dvoch rokov. Tomuto jazyku som sa pravidelne venoval a pracoval na školských cvičeniach alebo projektoch."
     },
     {
       "title": "Python",
-      "sub_projects":[
-        {
-          "title":"Odoo ERP",
-          "context":"Na mojej prvej oficiálnej pracovnej pozící som pracoval s Enterprise systémom Odoo, kde sme vytvárali moduli na mieru. Pracoval na vývoji modulu, ktorý sledoval zmeny u zamestnancov ako napríklad odchod na materskú, zmena pracovnej pozície a podobne.",
-          "tech":["Python", "Docker", "PostreSQL", "Gitlab"],
-          "note" : "Myslím si že ma to osobne posunulu, stretol som sa tu s technológiami ako Docker, zlepšil som svoje skúsenosti s pythonom, pracoval som s databázou, pozoroval som ako fungujú IT tímy v praxi."
-        },
-        {
-          "title":"Flask aplikácia",
-          "context":"Webová stránka predstavuju blog. Táto aplikácia spĺňala 4 základné operácie CRUD. Na stránke som vytváral aj základné šifrovania údajov ako sha-256.",
-          "tech":["Python", "Flask", "Tailwind" , "Bootstrap", "Css", "Wysiwyg editor"],
-          "note":""
-
-        },        
-        {
-          "title":"Django aplikácia",
-          "context":"Táto aplikácia slúži ako jednoduchý a flexibilný systém pre objednávky zadané priamo používateľom. Momentálne na tejto aplikácií pracujem.",
-          "tech":["Django", "Bootstrap", "Sqlite DB"],
-          "note":""
-        }
-      ]
+      "context":"OOP jazyku python sa venujem už dlhšiu dobu. Na strednej škole som maturoval z jazyku python, kde bola maturita zložená z rôznych úloh. Taktiež som pracoval na viacerých vlastných webstránkach, ktoré boli založené na flasku alebo djangu. Následne som pracoval v Slovanete ako stážista na budovaní interného ERP systému."
     },
     {
       "title": "Javascript",
-      "sub_projects":[
-        {
-          "title":"Webová hra",
-          "context":"Počas druhého semestra sme pracovali na webovej hre za pomoci javvascriptu. Projekt je organizovaný pomocou formule MVC, obsahuje contstructy, dedenie a ďalšie kritéria. UI je vytvorený pomocou canvasu. Podrobnejší popis kritérií a dokumentáciu ku projektu sa dočítate na mojom githube.",
-         "tech":["Javascipr", "Css", "Canvas"],
-         "note":"Pri tomto projekte som sa naučil nový OOP jazyk a jeho hlavné charakteristiky."
-        },
-        {
-          "title":"React portfólio",
-          "context":"Portfólio na ktorom sa momentálne nachádzate je vytvorené za pomoci reactu. Tento projekt je kontajnerizovaný a obsahuje aj inštrukcie ako spustit projekt lokálne pomocou programu Docker.",
-         "tech":["React", "NodeJS", "Tailwind", "Docker", "Nginx", "Bash"],
-         "note":""
-        },
-        {
-          "title":"MERN Aplikácia",
-          "context":"Tento projekt som si rozpracoval v priebehu letu, no nemal som dostatok času. K tomuto projekt sa plánujem vrátiť v najbližšej dobe.",
-         "tech":["Javascript","Mongo DB", "Express", "React", "NodeJS"],
-         "note":""
-        }
-      ]
+      "context":"Počas druhého semestra na vysokej škole sme pracovali na webovej hre za pomoci Javascriptu. Projekt je organizovaný do MVC modelu a spĺňa ďalšie rôzne kritéria podstatné pre OOP. Ďalej som rozvýjal svoje znalosti prácou na tomto portfóliu ktoré je založené na React frameworku. Taktiež mám rozpracovný projekt, ktorý je založený na MERN tech-stacku."
     },
     {
       "title": "C#",
-      "sub_projects":[
-       {
-        "title":"Mobilná hra",
-        "context": "Hru by som zaradil do kategórie Indie, kde hráč musí prejsť niekoľko levelov bez kolízie do iných objektov. Hru som následne pridal na google store kde je stále dostupná na stiahnutie. Jazyk C# momentálne neovládam a ani sa mu aktívne nevenujem.",
-        "tech":["C#","Blender", "Unity", "Obchod Play"],
-        "note":""
-      } 
-      ]
+      "context": "Môj prvý projekt na ktorom som pracoval bola mobilná hra Mark Ball. Táto mobilná hra sa nachádza na Google play a je dostupná na sťiahnutie. Tento projekt bol spravený za pomoci C#, ale v súčastnosti tento jazyk neovládam."
     }
   ],
+  "projects_outro_title":"Súhrn mojich projektov",
+  "projects_outro_context":"V týchto projektoch som využil niekoľko technologí. Čo sa týka dizajnových technlógií bol použitý deskriptívny jazyk Html, CSS alebo som sa stretol aj s XML. Taktiež som použil frameworky ako Tailwind alebo Bootstrap a v jednom projekte som aj implementoval Wysivig editor. Čo sa týka knižníc využíval som Flask, Django, React, ExpressJs, Tkinter a iné. Jazyky s ktorými som sa stretol sú C, Python, Javascript, Bash. ",
   "future_introduction_title": "Moje plány do budúcnosti",
   "future_introduction": "Môžete si prečítať o projektoch na ktorých momentálne pracujem alebo čo plánujem podniknúť vo svojej budúcnosti. Článok prepnete kliknutím na odkaz alebo napísaním vhodného commandu. Príkazový riadok aktivujete kliknutím na kurzor.",
   "future_command_help": "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
@@ -217,7 +162,7 @@
   "project_intro": [
     {
       "title": "Moje projekty",
-      "context": "Môžete sa dočítať podrobnejšie informácie o mojich projektoch a skúsenostiach."
+      "context": "Môžete sa dozvedieť niečo viacej o mojich projektoch na ktorých som pracoval. Projekty sú dohľadateľné na mojom Githube kde je rozpísaný popis projektu a návod na inštaláciu."
     }
   ]
 }

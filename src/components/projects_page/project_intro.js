@@ -2,12 +2,29 @@ import React, { useEffect, useState, useContext } from 'react'
 import slovakText from '../../content/slovak.json'
 import englishText from '../../content/english.json'
 import LanguageContext from '../../additional_components/language_context';
+import { Link } from 'react-scroll';
+
+//LOGOS IMPORT
+  import html from "../../static/images/html5.png"
+  import css from "../../static/images/CSS3.png"
+  import xml from "../../static/images/xml.png"
+  import bootstrap from "../../static/images/Bootstrap.png"
+  import tailwind from "../../static/images/tailwind.png"
+
+  import python from "../../static/images/python_logo.png"
+  import c from "../../static/images/c_.png"
+  import javaScript from "../../static/images/javascript_logo.png"
+  import bash from "../../static/images/Bash.png"
+
+  import flask from "../../static/images/flask.png"
+  import dajngo from "../../static/images/dajngo.png"
+  import react from "../../static/images/react.png"
 
 const ProjectIntro = () => {
-  //global classes
-  const button_design = "p-2 flex justify-between";
-  const plus_sign = "text-2xl";
-  const element_ids = [["university", "sub_university"], ["python", "flask", "django"], ["jscript", "react", "mern"], ["csharp", "sub_csharp"]]
+  const links = ["university", "python", "javascript", "csharp"]
+  const names = [["Univerzita", "University"], ["Python", "Python"], ["Javascript", "Javascript"], ["Mobilná hra C#", "Mobile game C#"]];
+  const programmingLogos = [[c, bash, python, javaScript, flask, dajngo], [react, html, css, xml, bootstrap, tailwind]]
+
 
   //Context mapping
   const { language } = useContext(LanguageContext);
@@ -18,67 +35,39 @@ const ProjectIntro = () => {
     setTextContent(content)
   }, [language]);
 
-  //Button handeling
-  const [activeIndex, setActiveIndex] = useState(null);
-
-  
-  const handleButtonClick = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-  
-  const isDivVisible = (index) => {
-    return activeIndex === index;
-  };
-
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-    });
-  });
-
-  const handleRedirection = (index, subIndex) => {
-
-    const targetElement = document.getElementById(element_ids[index][subIndex])
-    const heightAdjustment = subIndex !== 0 ? targetElement.clientHeight : 0
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - heightAdjustment,
-        behavior: 'smooth',
-      });
-    }
-  };
-
   return (
-    <section id="projects">
-      <div id="project_image"/>
-      <div className='relative z-40'>
+    <section id="projects_home">
+      <div className='project_headline relative overflow-hidden flex flex-col justify-center'>
+        <div className='w-full'>
+          <span id='project_image' className='absolute inset-0' style={{ opacity: 0.2 }} />
+        </div>
         {textContent.project_intro && textContent.project_intro.map((project, index) => (
-          <div>
-            <h1 className='text-2xl text-center text-extrawhite mt-20'>{project.title}</h1>
-            <p className='text-xl text-center text-extrawhite mt-20'>{project.context}</p>
-          </div>
+          <h1 className='text-left text-extrawhite xl:text-6xl xl:p-32 xl:mt-20'>{project.title}</h1>
         ))
         }
       </div>
-      <div className='w-screen mt-80 sm:w-3/4 sm:mx-auto sm:mt-80 '>
-
-
-      <div className='flex flex-col bg-white text-left text-center text-xl leading-10 divide-y divide-black p-2'>
-        {textContent.projects && textContent.projects.map((project, index) => (
-          <>
-            <button key={index} className={button_design} onClick={() => handleButtonClick(index)}>
-              <h1>{project.title}</h1><h1 className={plus_sign}>{isDivVisible(index) ? "-" : "+"}</h1></button>
-            <div className={`flex flex-col animated_div ${isDivVisible(index) ? 'active' : ''}`}>
-              {isDivVisible(index) && project.sub_projects && project.sub_projects.map((specific_project, sub_index) => (
-                <>
-                  <button key={sub_index} onClick={() => handleRedirection(index, sub_index)}><h1>{specific_project.title}</h1></button>
-                </>
-              ))}
+      <div className='w-screen bg-white flex flex-col items-center xl:p-20'>
+        {textContent.project_intro && textContent.project_intro.map((project, index) => (
+          <p className='text-xl p-10 stext-center xl:w-1/2 xl:m-auto mt-20'>{project.context}</p>
+        ))}
+        <div className='lg:flex lg:items-center lg:justify-around mt-20 grid grid-cols-2'>
+          {links.map((link, index) => (
+            <div className='flex flex-col text-center xl:text-6xl'>
+              <h1 className='text-3xl'>0{index+1}</h1>
+              <Link to={link} spy={true} smooth={true} offset={-70} duration={800} className='xl:text-xl border-2 border-black xl:m-10 m-2 p-5'>{LanguageContext === 'Slovak' ? names[index][1] : names[index][0]}</Link>
             </div>
-          </>
+          ))}
+        </div>
+      </div>
+      <div className='bg-gray-800'>
+        {programmingLogos && programmingLogos.map((logos, index) => (
+          <div className='w-full p-5 my-4 md:w-1/2 xl:w-1/3 xl:my-10 flex justify-around mx-auto'>
+            {logos.map((logo) => (
+              <img src={logo} className='xl:h-10 h-8'/>
+            ))}
+          </div>
         ))}
       </div>
-        </div>
     </section>
   );
 };

@@ -10,6 +10,8 @@ const WorkExperience = React.forwardRef((props, ref) => {
     workInformation: [],
   });
 
+  const SubTitleClass = 'mb-5 text-2xl lg:text-5xl font-gloock lg:px-5 relative z-10 text-extrawhite lg:w-1/2'
+
   useLayoutEffect(() => {
     const setCoverPositionsAndSizes = () => {
       const card_buttons = []
@@ -45,11 +47,11 @@ const WorkExperience = React.forwardRef((props, ref) => {
 
   return (
     <section id="work_experience" ref={ref} className="fade-in-out bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
-      <div className='lg:mx-5 lg:mx-16 xl:mx-56 bg-black grid grid-rows-4 px-5 lg:px-10 py-5 relative' id='about_cards'>
+      <div className='lg:mx-5 lg:mx-16 bg-black grid grid-rows-4 px-5 lg:px-10 py-5 relative' id='about_cards'>
         {textContent.workExperienceTitle && (
           <>
             <div className="text-left border-solid border-b-2 border-white flex justify-start items-end xl:w-1/2 relative z-10">
-              <h2 className='text-4xl lg:text-6xl font-gloock px-5 title_text text-extrawhite' id='about_title'>{textContent.workExperienceTitle}</h2>
+              <h2 className='text-4xl lg:text-6xl font-gloock px-5 text-extrawhite' id='about_title'>{textContent.workExperienceTitle}</h2>
             </div>
           </>
         )}
@@ -58,7 +60,7 @@ const WorkExperience = React.forwardRef((props, ref) => {
             {index % 2 === 0 ? (
               <div key={index} className="flex flex-col lg:grid grid-cols-2 text-left border-solid border-b-2 border-white lg:items-end mt-28 lg:px-5 lg:px-10">
                 <div className="flex justify-center lg:justify-start">
-                  <h2 className='text-3xl lg:text-5xl font-gloock lg:px-5 relative z-10 subtitle_text text-extrawhite lg:w-1/2'>{information.title}</h2>
+                  <h2 className={SubTitleClass}>{information.title}</h2>
                 </div>
                 <div className='flex justify-end'>
                   <p className='text-center text-extrawhite'>{information.description}</p>
@@ -68,7 +70,7 @@ const WorkExperience = React.forwardRef((props, ref) => {
               <div key={index} className="flex flex-col-reverse items-center lg:items-end lg:grid grid-cols-2 text-right border-solid border-b-2 border-white mt-28 lg:px-10">
                 <p className='text-center text-extrawhite'>{information.description}</p>
                 <div className="flex justify-center lg:justify-end">
-                  <h2 className='text-3xl lg:text-5xl font-gloock lg:px-5 relative z-10 subtitle_text text-extrawhite lg:w-1/2'>{information.title}</h2>
+                  <h2 className={SubTitleClass}>{information.title}</h2>
                 </div>
               </div>     
             )}

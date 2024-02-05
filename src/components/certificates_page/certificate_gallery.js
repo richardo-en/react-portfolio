@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Gallery } from 'react-grid-gallery';
 import divi from '../../static/images/divi.png';
 import flask from '../../static/images/flask.png';
-import python from '../../static/images/python.png';
+import python from '../../static/images/python_logo.png';
 import seo1 from '../../static/images/seo1.png';
 import seo2 from '../../static/images/seo2.png';
 import sql from '../../static/images/sql.png';
