@@ -1,5 +1,4 @@
 import React from 'react';
-
 import MyGallery from '../components/certificates_page/certificate_gallery';
 import { useLayoutEffect } from 'react';
  

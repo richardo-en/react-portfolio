@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useContext, useState } from 'react';
+import React, { useLayoutEffect, useContext, useState, useEffect } from 'react';
 
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
@@ -9,7 +9,6 @@ const WorkExperience = React.forwardRef((props, ref) => {
   const [textContent, setTextContent] = useState({
     workInformation: [],
   });
-
   const SubTitleClass = 'mb-5 z-10 w-full relative text-center text-extrawhite'
   const titelClass = 'flex h-full items-center justify-center'
   const pContainer = 'flex justify-end h-full items-center'
@@ -43,13 +42,35 @@ const WorkExperience = React.forwardRef((props, ref) => {
 
   }, [language]);
 
-  // const padding_top_value = (window.innerHeight / 4)
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !entry.target.classList.contains('show')) {
+            entry.target.classList.add('show'); 
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    const section = document.getElementById('work_experience');
+    if (section) {
+      observer.observe(section);
+    }
+
+    return () => {
+      if (section) {
+        observer.unobserve(section);
+      }
+    };
+  }, []);
 
 
 
 
   return (
-    <section id="work_experience" ref={ref} className="fade-in-out bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
+    <section id="work_experience" ref={ref} className="work-experience fade-in-out bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
       <div className='lg:mx-2 bg-black grid grid-rows-4 px-2 py-5 relative lg:px-16' id='about_cards'>
         {textContent.workExperienceTitle && (
           <>
@@ -70,7 +91,7 @@ const WorkExperience = React.forwardRef((props, ref) => {
                 </div>
               </div>     
             ) : (
-              <div key={index} className={mainContainer + " flex-col-reverse items-center  text-right " + subContainer}>
+              <div key={index} className={mainContainer + " flex-col-reverse items-center text-right " + subContainer}>
                 <div className={pContainer}>
                 <p className='text-center text-extrawhite'>{information.description}</p>
                 </div>

@@ -5,11 +5,11 @@
             "thumbnail": "Divi Wordpress",
             "caption": "Image 1"
         },{
-            "src": "../../static/images/flask.png",
-            "thumbnail": "Flask ",
+            "src": "../../static/images/wp.png",
+            "thumbnail": "Divi Wordpress",
             "caption": "Image 1"
         },{
-            "src": "../../static/images/python_logo.png",
+            "src": "../../static/images/sql.png",
             "thumbnail": "Divi Wordpress",
             "caption": "Image 1"
         },{
@@ -21,12 +21,12 @@
             "thumbnail": "Divi Wordpress",
             "caption": "Image 1"
         },{
-            "src": "../../static/images/sql.png",
+            "src": "../../static/images/python_course.png",
             "thumbnail": "Divi Wordpress",
             "caption": "Image 1"
         },{
-            "src": "../../static/images/wp.png",
-            "thumbnail": "Divi Wordpress",
+            "src": "../../static/images/flask_course.png",
+            "thumbnail": "Flask ",
             "caption": "Image 1"
         }
     ]

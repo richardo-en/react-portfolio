@@ -20,6 +20,24 @@ p{
   font-family: sans-serif;
 }
 
+.gallery {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 5px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+#hero_title{
+  /* font-size: 200px; */
+  font-weight: 700;
+  color: #878476;
+}
+
 .font-bigshoulder {
   font-family: 'Big Shoulders Inline Text', sans-serif;
 }
@@ -70,7 +88,7 @@ body {
   background-color: rgba(31, 41, 55);
   scrollbar-width: none;
   -ms-overflow-style: none;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 *::-webkit-scrollbar {
@@ -129,7 +147,7 @@ body {
 /* PROJECT PAGE */
 
 #project_image{
-  background-image: url("./images/minimalist-background-6948089.jpg");
+  background-image: url("./images/minimalist-background-6948089_640.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

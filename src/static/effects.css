@@ -208,28 +208,28 @@
 
   .fade-in-out {
     opacity: 0; /* Initially, set the opacity to 0 (completely transparent) */
-    transition: opacity 0.5s ease; /* Apply a smooth transition for the opacity property over 0.5 seconds with ease timing function */
-  }
-  
-  .fade-in-out.show {
-    opacity: 1; /* When the 'visible' class is added, set the opacity to 1 (fully visible) */
-  }
-  
-  .fade-in-out.hide {
-    opacity: 0; /* When the 'hidden' class is added, set the opacity back to 0 */
-  }
+    transition: opacity 1s ease; /* Apply a smooth transition for the opacity property over 0.5 seconds with ease timing function */
+}
 
-  .slide_left, .slide_right{
-    transition: opacity 0.8s ease, transform 0.8s ease;
+.fade-in-out.show {
+    opacity: 1; /* When the 'visible' class is added, set the opacity to 1 (fully visible) */
+}
+
+.fade-in-out.hide {
+    opacity: 0; /* When the 'hidden' class is added, set the opacity back to 0 */
+}
+
+.slide_left{
+    transform: translateX(-100px);
     opacity: 0;
-  }
-  .slide_left.hide{
-    transform: translateX(-50px);
+    transition-delay: 1s;
+    transition: opacity 1.5s ease, transform 1s ease;
+}
+.slide_right{
+    transform: translateX(100px);
     opacity: 0;
-  }
-  .slide_right.hide{
-    transform: translateX(50px);
-    opacity: 0;
+    transition-delay: 1s;
+    transition: opacity 1.5s ease, transform 1s ease;
   }
   .slide_left.show, .slide_right.show{
     transform: translateX(0px);

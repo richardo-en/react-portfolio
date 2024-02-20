@@ -4,15 +4,15 @@
 }
 
 @media screen and (min-width: 640px) {
-    #project_intro_p{
+    #project_intro_p {
         margin-top: 400px;
     }
 
     #background_image {
-        
+
         height: 120vh;
     }
-    
+
     .project_card {
         width: 90vw;
         height: 90vh;
@@ -22,7 +22,7 @@
         justify-content: space-around;
         padding-top: 10px;
     }
-    
+
     .image {
         width: 80px;
         margin-left: -80px;
@@ -33,35 +33,45 @@
         padding-left: 25vw;
     }
 
-    p{
+    p {
         font-size: 16px;
+    }
+
+    #hero_title {
+        font-size: 100px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    #project_image{
+    #project_image {
         height: 75vh;
     }
+
     .project_card {
         width: 50vw;
         height: 60vh;
     }
-    
+
     .image {
         width: 125px;
         margin-top: -70px;
         margin-left: -50px;
     }
-    #footer_logo{
+
+    #footer_logo {
         font-size: 150px;
     }
 
-    h2{
+    h2 {
         font-size: 50px;
     }
 
-    h3{
+    h3 {
         font-size: 35px;
+    }
+
+    #hero_title {
+        font-size: 120px;
     }
 }
 
@@ -70,75 +80,84 @@
         background: rgb(255, 255, 255);
         background: linear-gradient(180deg, rgba(255, 255, 255, 1) 70%, rgba(31, 41, 55, 1) 70%, rgba(31, 41, 55, 1) 100%);
     }
-    
+
     .image {
         width: 150px;
         margin-left: -10px;
     }
 
-    .project_headline{
+    .project_headline {
         height: 550px;
-      }
+    }
 
-      p{
+    p {
         font-size: 17px;
-      }
+    }
 
-    
+    #hero_title {
+        font-size: 140px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-    #project_image{
+    #project_image {
         width: 100vw;
         height: 75vh;
     }
 }
 
 /*MAX WIDTH*/
-
-
 @media screen and (max-width: 640px) {
-    #project_image{
+    #project_image {
         background-size: 200vw auto;
     }
-    p{
+
+    p {
         font-size: 15px;
+    }
+
+    #hero_title {
+        font-size: 80px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
-    #project_image{
+    #project_image {
         background-size: 150vw auto;
     }
-    
+
     .title_text::before {
         height: 7px;
         bottom: 5px;
     }
-    
+
     #interest {
         background: #fff;
     }
-    
-    #footer_logo{
+
+    #footer_logo {
         font-size: 100px;
     }
-    
-    h2{
+
+    h2 {
         font-size: 40px;
     }
-    
-    h3{
+
+    h3 {
         font-size: 25px;
     }
-    
 }
+
 /* FUTURE SECTION */
 
 
 @media screen and (max-width: 1024px) {
-    .project_headline{
+    .project_headline {
         height: 300px;
-      }
+    }
+
+    /* #hero_title{
+        font-size: 120px;
+    } */
 }

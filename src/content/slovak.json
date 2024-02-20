@@ -1,108 +1,54 @@
 {
-  "landingTitle": "Máličko o mne",
-  "landingInformation": "Vitajte na mojom portfóliu. Volám sa Richard a som študent Slovenskej Technickej Univerzity FIIT. Už je to vyše 5 rokov čo som sa prvý krát zoznámil s programovaním. Donedávna som väčšinu času trávil ako semi-profesionálny športovec. Svoj voľný čas venujem vzdelávaniu, alebo získavaniu nových skúseností.",
-  "workExperienceTitle": "Moje pracovné skúsenosti",
+  "landingTitle": "O mne",
+  "landingInformation": "Vítam vás na mojom portfóliu. Som Richard, študent Slovenskej technickej univerzity na Fakulte informatiky a informačných technológií (FIIT). Oboru informačných technológií sa venujem po dobu piatich rokov. Pred nástupom na univerzitu som dedikoval svoje úsilie semi-profesionálnemu športu. Vo voľnom čase sa venujem osobným projektom a aktívnemu zapájaniu do školských projektov.",
+  "workExperienceTitle": "Pracovné skúsenosti",
   "workInformation": [
     {
       "title": "Pracovné skúsenosti",
-      "description": "V priebehu prvého ročníku na vysokej škole som pracoval v Slovanete ako stážista. Venovali sme sa internému systému Odoo kde som vyvýjal moduly na mieru. Počas semestra som svoj čas strávil aj s nadstavbovým projektom zameraným na SEO. Vo svojom voľnom čase som pracoval na rôznych vlastných projektoch."
+      "description": "V priebehu mojich štúdií na vysokej škole som mohol získať skúsenosti, počas stáže v spoločnosti Slovanet. V rámci tejto príležitosti som mal možnosť priblížiť sa k praktickým aspektom informačných technológií. Mojou hlavnou úlohou bolo vývoj špeciálnych modulov pre interný ERP systém Odoo."
     },
     {
-      "title": "Znalosti v sucastnosti",
-      "description": "V súčasnej dobe ovládam jazyky ako Python, Javascript, C a deskriptývne jazyky html, css, xml. Takisto mám skúsenosť s frameworkami ako je FLask, Django, React, Bootstrap, Tailwind. V projektoch som sa stretol aj s kontajnerizáciou projektov, konkrétne Docker."
+      "title": "Osobné projekty",
+      "description": "Vďaka mojim štúdiám na univerzite som nadobudol významné množstvo cenných informácií, ktoré mi pomohli porozumieť základným princípom v mojom odbore. Momentálne sa zameriavam na viaceré projekty a neustále sa snažím rozširovať moje osobné vedomosti a schopnosti."
     }
   ],
   "interestReasonTitle": "Prečo práve ja",
   "interestInformation": [
     {
-      "title": "Hlavný zámer",
-      "description": "Mojim hlavným cieľom je zdokonalovať sa vo svojom obore. Svoj osobný rast zlepšujem nielen prácou na zadaní, ale pokúšam sa sledovať a naučiť dobré návyky od skúsenejších Inžinierov."
+      "title": "Hlavný dôvod",
+      "description": "Mojím hlavným cieľom je neustále sa zdokonaľovať vo svojom odbore. Okrem práce na konkrétnych úlohách sa snažím aktívne sledovať a absorbovať osvedčené postupy od skúsených inžinierov."
     },
     {
       "title": "Pracovné prostredie",
-      "description": "Od útleho veku som sa venoval tímovej športovej disciplíne, takže práca v tíme mi nerobí žiaden problém. Som schopný sa rýchlo prispôsobiť novému pracovnému prostrediu a nehanbím sa pýtať otázky na, ktoré odpoveď nepoznám."
+      "description": "Od útleho veku som sa aktívne venoval tímovej športovej disciplíne, čo mi pomohlo vyvinúť schopnosť efektívnej tímovej spolupráce. Som schopný rýchlo sa adaptovať na nové pracovné prostredie a aktívne komunikovať so svojimi kolegami."
     },
     {
       "title": "Práca pod stresom",
-      "description": "Úlohu na, ktorej robím sa vždy snažím odovzdať do deadlinu a dokončiť ju na 100%. Prácovať pod stresom nieje príjemné, ale taktiež to nieje nič čo by som nezvládol. Rozdeľujem si svoje povinnosti tak, aby som nemal problém s ich dokončením."
-    }
-  ],
-  "welcome": "Vitajte na mojom portfóliu!",
-  "about": "O mne",
-  "cardsOne": [
-    {
-      "title": "Kúsok o mne",
-      "description": "Ahojte, volám sa Richard. Som 21-ročný študent Slovenskej technickej univerzity. Rád sa učim novým schopnostiam a naberám nové znalosti. Som schopný prispôsobiť sa pracovním prostrediam z rôznych oborov. Brigádoval som na stavbe, ako čašník alebo pracoval som ako programátor v Slovanete."
-    },
-    {
-      "title": "Od športu k informatike",
-      "description": "Môj záujem o informatiku sa začal, keď som mal 17 rokov. Narazil som na 3D modelovací softvér Blender, počas sledovania videii o hrách. Kód v Blenderi som nepísal, ale začal ma zaujímať proces tvorby hier. Začal som sa učiť programovací jazyk C# a objavil som softvér Unity. To ma priviedlo k vytvoreniu hry s názvom „Mark Ball“, ktorá je dostupná na stiahnutie v obchode Google Play."
-    },
-    {
-      "title": "Prečo som si vybral štúdium informatiky",
-      "description": "Vybral som si štúdium informatiky a technológií, pretože mám k tomuto oboru vášeň. Zaujíma ma proces tvorby softvéru, webov a ďalších počítačových prostriedkov. Čo ma na tomto obore baví je, že sa stačí naučiť logické vzory a postupy, ktoré následne môžem používať na tvorbu komplexných projektov."
-    }
-  ],
-  "cardsTwo": [
-    {
-      "title": "Vzdelanie",
-      "description": "Ako malý som navštevoval základnú školu Tilgnerovú. Neskôr som prestúpil na Zš Svätej Uršule. Po základnej škole som sa rozhodol svoje vzdelanie smerovať na šport. Na Strednej Športovej škole v Ružinove som zmaturoval z povinných predmetov, angličtiny, trénerstva, matematiky. Maturoval som aj z informatiky ako dodatočný dobrovoľný predmet. Následne som nastúpil na STU FIIT, na ktorú som chcel nastúpiť už od tretieho ročníka strednej školy."
-    },
-    {
-      "title": "Rané skúsenosti",
-      "description": "Na strednej škole som sa začal zaujímať trocha viac o informatiku. V tom čase som študoval programovací jazyk Python a pracoval na niekoľkých projektoch. Používal som Flask a učil sa základným webovým technológiám ako HTML a CSS a experimentoval s rôznymi frameworkami."
-    },
-    {
-      "title": "Moje najnovšie skúsenosti",
-      "description": "Počas prvého roku na univerzite som získal veľa nových poznatkov z praxe a aj teoretických informácií. Učili sme sa napríklad, ako sa tvoria väčšie projekty, hlbšie sme sa venovali OOP a abstraktnejším častiam väčších projektov. To, čo som sa naučil na škole, som mohol vidieť v spoločnosti, kde som pracoval. Prax som si získal v oblasti pythonu, kde som sa prvýkrát stretol s xml. Počas školy sme pracovali na viacerých projektoch, kde sme používali C, JavaScript, Shell Scripting a spolupracoval som s jedným prednášajúcim na doplnkovom projekte zameranom na SEO."
+      "description": "Vždy sa snažím dokončiť úlohy včas a s maximálnou starostlivosťou, aby som splnil stanovené termíny a dosiahol vysokú kvalitu výsledkov. Aj keď práca pod stresom nie je príjemná, som schopný ju zvládnuť."
     }
   ],
   "projects": [
     {
       "title": "Vysoká škola",
-      "context": "Vysoká škola mi pomohla pochopiť viaceré podstatné kontexty. Naučil som sa tu C, ktorému som sa venoval vyše dvoch rokov. Taktiež som sa tu po prvý krát zoznámil s Javascriptom, v ktorom sme vypracovali semestrálny projekt."
+      "context": "Počas môjho štúdia na vysokej škole som získal dôležité poznatky, ktoré mi pomohli lepšie porozumieť základným kontextom v mojom odbore. Nadobudol som zručnosti v programovacom jazyku C, ktorý stále využívam v súčastnosti. Okrem toho som sa prvýkrát zoznámil s programovacím jazykom JavaScript, na ktorom sme pracovali pri semestrálnom projekte."
     },
     {
       "title": "Python",
-      "context":"OOP jazyku python sa venujem už dlhšiu dobu. Na strednej škole som maturoval z jazyku python, kde bola maturita zložená z rôznych úloh. Taktiež som pracoval na viacerých vlastných webstránkach, ktoré boli založené na flasku alebo djangu. Následne som pracoval v Slovanete ako stážista na budovaní interného ERP systému."
+      "context":"V oblasti objektovo orientovaného programovania s jazykom Python, som sa pohyboval už dlhšiu dobu. Na strednej škole som úspešne absolvoval maturitnú skúšku z tohto jazyka. Okrem toho som participoval na vytváraní viacerých vlastných webových stránok, ktoré boli implementované pomocou frameworkov Flask, alebo Django. Neskôr som sa zapojil do pracovnej stáže v spoločnosti Slovanet, kde som sa podieľal na vývoji interného ERP systému."
     },
     {
       "title": "Javascript",
-      "context":"Počas druhého semestra na vysokej škole sme pracovali na webovej hre za pomoci Javascriptu. Projekt je organizovaný do MVC modelu a spĺňa ďalšie rôzne kritéria podstatné pre OOP. Ďalej som rozvýjal svoje znalosti prácou na tomto portfóliu ktoré je založené na React frameworku. Taktiež mám rozpracovný projekt, ktorý je založený na MERN tech-stacku."
+      "context":"V priebehu druhého semestra na vysokej škole sme sa venovali vývoju webovej hry pomocou JavaScriptu. Tento projekt je riadený podľa model-view-controller (MVC) architektúry a spĺňa rôzne kritériá podstatné pre objektovo orientované programovanie (OOP). Okrem toho som ďalej rozširoval svoje znalosti prácou na tomto portfóliu, ktoré je postavené na React frameworku. Mám tiež rozpracovaný projekt, ktorý využíva MERN technologický zásobník."
     },
     {
       "title": "C Sharp",
-      "context": "Môj prvý projekt na ktorom som pracoval bola mobilná hra Mark Ball. Táto mobilná hra sa nachádza na Google play a je dostupná na sťiahnutie. Tento projekt bol spravený za pomoci C#, ale v súčastnosti tento jazyk neovládam."
+      "context": "Môj prvý projekt, na ktorom som pracoval, bol mobilná hra s názvom Mark Ball. Táto hra je k dispozícii na stiahnutie na platforme Google Play. Projekt bol implementovaný s využitím programovacieho jazyka C#, avšak v súčasnosti už tento jazyk neovládam."
     }
   ],
   "projects_outro_title":"Súhrn mojich projektov",
   "projects_outro_context":"V týchto projektoch som využil niekoľko technologí. Čo sa týka dizajnových technlógií bol použitý deskriptívny jazyk Html, CSS alebo som sa stretol aj s XML. Taktiež som použil frameworky ako Tailwind alebo Bootstrap a v jednom projekte som aj implementoval Wysivig editor. Čo sa týka knižníc využíval som Flask, Django, React, ExpressJs, Tkinter a iné. Jazyky s ktorými som sa stretol sú C, Python, Javascript, Bash. ",
-  "future_introduction_title": "Moje plány do budúcnosti",
-  "future_introduction": "Môžete si prečítať o projektoch na ktorých momentálne pracujem alebo čo plánujem podniknúť vo svojej budúcnosti. Článok prepnete kliknutím na odkaz alebo napísaním vhodného commandu. Príkazový riadok aktivujete kliknutím na kurzor.",
-  "future_command_help": "Displays system chosen article of projects that are being worked on or that are planned to be done in the future",
-  "future_error_msg": "Your input is spelled wrongly! Only possible option is article -[type]",
-  "future": [
-    {
-      "command": "mern -r",
-      "title": "Mern aplikácia ",
-      "command_des": "Načítate si text opisujúci aplikáciu založenú na MERN tech stacku.",
-      "description": "Tento projekt by mal byť dokončený v priebehu jedného až dvoch rokov. Vo finálnom výsledku by to mala byť aplikácia pre gastro podniky ktorá zjednoduchší organizáciu tímu v gastre. Taktiež bude použiteľná pre ľudí, ktorý si budú schopný objednať jedlo alebo rezervovať stôl. Aplikácia je založená hlavne na MERN tech stacku čo znamená Mongo databáza, Express js pre backend, React pre frontend a celá aplikácia beží za pomoci node js. Využívam pri tvorbe rôzne externé softwary ale spomínané technológie sú základ."
-    },
-    {
-      "command": "blog -i",
-      "title": "Blog",
-      "command_des": "Zobrazí sa článok o naplánovanom projekte blogu.",
-      "description": "Hlavný zámer blogu je rozšírť si znalosť v jazykoch, získať skúsenosť vo vedení tímu a opakovanie si tém preberaných v škole. V blogu by som chcel využiť materiály poskytované Fakultou a preskúmať preberané témy hlbšie o ktorých by som následne písal články. Články budú napísané aj v cudzích jazykoch čím by som si vylepšil slovník a upevnil základy cudzích jazykov."
-    },
-    {
-      "command": "education -n",
-      "title": "Vzdelávanie do budúcna",
-      "command_des": "Článok vysvetlí na čo sa chcem do budúcna zamerať",
-      "description": "Do budúcna sa plánujem naučiť plinulo rozprávať minimálne ďaľším jedným cudzím jazykom. Svoje vzdelanie by som chcel smerovať hlavne na inovatívnu časť informatiky ako AI, ML a podobné. Mojim cieľom je pomôcť ľudom zjednoduchšiť ich prácu."
-    }
-  ],
-  "contact_titel": "Kontaktujete ma!",
-  "contact_description": "Ak Vás moje portfólio zaujalo neváhajte ma kontaktovať prostredníctvom mailu. Rád Vám odpoviem na Vaše otázky alebo pomôžem s vašim projektom.",
+  "contact_titel": "Kontakt",
+  "contact_description": "Ak máte záujem o ďalšie informácie alebo potrebujete pomoc s Vaším projektom, neváhajte ma kontaktovať prostredníctvom e-mailu.",
   "navigation": [
     {
       "title": "Domov"
@@ -134,35 +80,10 @@
       "redirect": "/certificate"
     }
   ],
-  "freelanc_intro": "Ponuka Freelancingu",
-  "freelance_intro_title": "Prečo sa chcem venovať freelancingu",
-  "freelance_reasons": [
-    {
-      "title": "Nabrať nové skúsenosti a prax",
-      "context": "Hlavným zámerom je osobný rast. Freelancingu sa chcem venovať, aby som si rozšíril svoje vedomosti a upevnil prax. Rád sa pripojím na rozbehnutý projekt a pomôžem s vývojom alebo vytvorím nový projekt od základov podľa predstáv zákaznika."
-    },
-    {
-      "title": "Komunikácia a organizácia",
-      "context": "Keďže programovanie a práca na väčších projektoch nieje len o znalosti programovania ale aj organizácií a komunikácií v tíme, alebo komunikácií medzi sprostredkúvateľom a zákaznikom, rád by som sa v týchto kvalitách zlepšil. "
-    }
-  ],
-  "freelance_content": [
-    {
-      "title": "Pracovné skúsensoti",
-      "context": "Svoje programovacie skúsenosti som začal s jazykom C#, kde som vyvynul mobilnú hru za pomoci programu Unity. Následne sem sa venoval primárne Pythonu a deskriptívnym jazykom ako CSS, Html. Pri svojich projektoch zvyknem používať pre dizajn hlavne frameworky ako Bootstrap alebo Tailwind. Na vysokej škole som sa naučil programovací jazyk nižšej úrovni C. V priebehu semestra sme prebrali aj Javascript, s ktorým som následne rozšíril svoje znalosti v Reacte. Počas semestra som pracoval v ERP systéme Odoo kde som vyvýjal moduly pre firmu Slovanet. Svoje programovacie znalosti sa snažím smerovť hlavne na backendové časti programov."
-    },
-    {
-      "title": "Ako viem pomôcť Vášmu projektu",
-      "context": "Na základe Vašich požíadaviek viem posúdiť ako náročné je pre mňa takýto projekt vypracovať. Som schopný pracovať hlavne na developmenete webových stránkach, venujem sa primárne Backendovým častiam ale zvládnem aj Dizajnovú časť stránky. Mojim cieľom je uspokojiť na 100% zákaznikové požiadavky, alebo požiadavky môjho nadriadeného. Dokážem pracovať pod stresom alebo pod časovým limitom. Zákaznika alebo zamestnávateľa pravideľne infromujem o priebehu môjho progresu."
-    }
-  ],
-  "freelance_contact": "Neváhajte ma kontaktovať",
-  "freelance_contact_content": "Ak som Vás zaujal a chceli by ste aby som bol súčasťou Vášho projektu neváhajte ma kontaktovať. Zodpoviem všetky vaše dotazy a otázky prípadne sa môžeme spojiť pomocou online hovoru.",
-
   "project_intro": [
     {
       "title": "Moje projekty",
-      "context": "Môžete sa dozvedieť niečo viacej o mojich projektoch na ktorých som pracoval. Projekty sú dohľadateľné na mojom Githube, kde je rozpísaný popis projektu a návod na inštaláciu."
+      "context": "Bližšie informácie o mojich projektoch nájdete na mojom profile na platforme GitHub. Tam sú podrobne popísané jednotlivé projekty a poskytnuté návody na ich inštaláciu."
     }
   ]
 }

@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9596d17.css",
-    "main.js": "/static/js/main.1691d266.js",
+    "main.css": "/static/css/main.94d2b6df.css",
+    "main.js": "/static/js/main.a2ddf531.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/personal_transparent_min.png": "/static/media/personal_transparent_min.f9528a45618e7d38226c.png",
-    "static/media/minimalist-background-6948089.jpg": "/static/media/minimalist-background-6948089.40825fd02c71bcbe5e36.jpg",
+    "static/media/Transparent_bg_for_hero.png": "/static/media/Transparent_bg_for_hero.db30a696d32cdc9ffcc3.png",
     "static/media/freelance_intro_backgroun.jpg": "/static/media/freelance_intro_backgroun.40d7371ab6f1660a15f2.jpg",
     "static/media/Inconsolata-VariableFont_wdth,wght.ttf": "/static/media/Inconsolata-VariableFont_wdth,wght.f2f0207973661b7491ba.ttf",
+    "static/media/flask_course.png": "/static/media/flask_course.a3a1ae57ce1e8c468d5b.png",
     "static/media/stand_position_me_min.jpg": "/static/media/stand_position_me_min.51eb66effbd06f72bedc.jpg",
     "static/media/python_project.png": "/static/media/python_project.99029f7efb6dad2b177b.png",
     "static/media/game.png": "/static/media/game.d315aa3bec5527ce6a92.png",
@@ -19,6 +20,7 @@
     "static/media/seo1.png": "/static/media/seo1.98f29bb04b41e3535448.png",
     "static/media/flask.png": "/static/media/flask.27826384e565f59401b0.png",
     "static/media/stu_black.jpg": "/static/media/stu_black.8eea42cb0fc4e6ecdb9a.jpg",
+    "static/media/python_course.png": "/static/media/python_course.4dcec7033969fc81a965.png",
     "static/media/Gloock-Regular.ttf": "/static/media/Gloock-Regular.259ac34a35be5b3479e8.ttf",
     "static/media/react.png": "/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/python_logo.png": "/static/media/python_logo.41259ded83ae0f2a4243.png",
@@ -38,12 +40,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.33a7fe085bc5b2a7e44494ab37dfb9a5.svg",
     "static/media/gmail.svg": "/static/media/gmail.87cc67187afd3477d6c29ef768e48834.svg",
-    "main.a9596d17.css.map": "/static/css/main.a9596d17.css.map",
-    "main.1691d266.js.map": "/static/js/main.1691d266.js.map",
+    "main.94d2b6df.css.map": "/static/css/main.94d2b6df.css.map",
+    "main.a2ddf531.js.map": "/static/js/main.a2ddf531.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9596d17.css",
-    "static/js/main.1691d266.js"
+    "static/css/main.94d2b6df.css",
+    "static/js/main.a2ddf531.js"
   ]
 }
