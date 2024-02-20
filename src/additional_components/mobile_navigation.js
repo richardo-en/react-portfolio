@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import LanguageContext from '../additional_components/language_context';
 import MobileMenuButton from '../static/images/menu.png'
-import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 
 const MobileNavigation = ({ links, names } ) => {
     const [selectedElement, setSelectedElement] = useState(null);
@@ -60,9 +60,9 @@ const MobileNavigation = ({ links, names } ) => {
             </button>
             <div id='mobile_menu' className={`fixed h-screen py-32 flex flex-col justify-around items-center w-full ${ActiveMenu} fade-in-out ${DisplayMenu}`}>
                 {links && links.map((link, index) => (
-                    <Link key={index} onClick={MenuOpener} to={link} spy={true} smooth={true} offset={-70} duration={800} className={`text-4xl ${getButtonClass(index)}`} id={link + `_selector`}>
+                    <NavLink key={index} onClick={MenuOpener} to={link} spy={true} smooth={true} offset={-70} duration={800} className={`text-4xl ${getButtonClass(index)}`} id={link + `_selector`}>
                         {language === 'Slovak' ? names[index][0] : names[index][1] }
-                    </Link>
+                    </NavLink>
                 ))}
                 <button className={`text-2xl underline text-gray-300`} aria-label={`language button`} onClick={handleButtonClick}>
                     {`${language === 'Slovak' ? 'Sk' : 'En'}`}
