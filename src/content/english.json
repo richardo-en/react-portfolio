@@ -48,7 +48,7 @@
   "projects_outro_title":"My Projects Summary",
   "projects_outro_context":"I have used several technologies in these projects. As far as design technologies are concerned, I have used descriptive language Html, CSS or I have also encountered XML. I used frameworks like Tailwind or Bootstrap and in one project I did implement Wysivig editor. As for libraries I used Flask, Django, React, ExpressJs, Tkinter and others. The languages I've encountered are C, Python, Javascript, Bash.",
   "contact_titel": "Contact",
-  "contact_description": "If you are interested in more information or need help with project, please do not hesitate to contact me by e-mail.",
+  "contact_description": "If you are interested in more information, please do not hesitate to contact me by e-mail.",
   "navigation": [
     {
       "title": "Home"

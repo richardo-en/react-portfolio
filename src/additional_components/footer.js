@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className='self-center lg:mx-10 flex flex-col lg:grid grid-rows-2 w-full'>
                 <div className='text-center px-5 relative z-10 mb-5'>
-                    <h2 className='text-3xl lg:text-5xl xl:text-6xl font-gloock title_text'>Social media</h2>
+                    <h2 className='text-3xl lg:text-5xl xl:text-6xl font-gloock'>Social media</h2>
                 </div>
                 <div className='flex justify-around items-center'>
                     {logos.map((logo, index) => (

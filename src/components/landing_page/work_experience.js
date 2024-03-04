@@ -12,8 +12,8 @@ const WorkExperience = React.forwardRef((props, ref) => {
   const SubTitleClass = 'mb-5 z-10 w-full relative text-center text-extrawhite'
   const titelClass = 'flex h-full items-center justify-center'
   const pContainer = 'flex justify-end h-full items-center'
-  const mainContainer = 'border-solid border-b-2 border-white flex'
-  const subContainer = 'lg:grid grid-cols-2 lg:items-end h-72 sm:h-56 lg:h-72 lg:px-2'
+  const mainContainer = 'border-solid border-b-2 border-extrawhite flex'
+  const subContainer = 'lg:grid grid-cols-2 lg:items-end sm:h-56 lg:h-72 lg:px-2'
   useLayoutEffect(() => {
     const setCoverPositionsAndSizes = () => {
       const card_buttons = []
@@ -70,33 +70,26 @@ const WorkExperience = React.forwardRef((props, ref) => {
 
 
   return (
-    <section id="work_experience" ref={ref} className="work-experience fade-in-out bg-gray-800 mt-36 pb-20 px-5 lg:pb-0" >
-      <div className='lg:mx-2 bg-black grid grid-rows-4 px-2 py-5 relative lg:px-16' id='about_cards'>
-        {textContent.workExperienceTitle && (
-          <>
-            <div className="border-solid border-b-2 border-white flex justify-start items-end relative z-10">
-              <h2 className='px-2 text-extrawhite' id='about_title'>{textContent.workExperienceTitle}</h2>
-            </div>
-          </>
-        )}
+    <section id="work_experience" ref={ref} className="work-experience fade-in-out sm:mt-36 pb-20 px-5 lg:pb-0" >
+      <div className='lg:mx-2 grid grid-rows-4 px-5 py-5 relative lg:px-16' id='about_cards' style={{"background" : "#2f3440"}}>
         {textContent.workInformation.map((information, index) => (
           <>
             {index % 2 === 0 ? (
               <div key={index} className={`${mainContainer} flex-col ${subContainer}`}>
                 <div className={`${titelClass} lg:justify-start`}>
-                  <h3 className={SubTitleClass}>{information.title}</h3>
+                  <h2 className={SubTitleClass}>{information.title}</h2>
                 </div>
                 <div className={pContainer}>
-                  <p className='text-center text-extrawhite'>{information.description}</p>
+                  <p className='text-justify text-extrawhite'>{information.description}</p>
                 </div>
               </div>     
             ) : (
               <div key={index} className={mainContainer + " flex-col-reverse items-center text-right " + subContainer}>
                 <div className={pContainer}>
-                <p className='text-center text-extrawhite'>{information.description}</p>
+                <p className='text-justify text-extrawhite'>{information.description}</p>
                 </div>
                 <div className={`${titelClass} lg:justify-end`}>
-                  <h3 className={SubTitleClass}>{information.title}</h3>
+                  <h2 className={SubTitleClass}>{information.title}</h2>
                 </div>
               </div>     
             )}

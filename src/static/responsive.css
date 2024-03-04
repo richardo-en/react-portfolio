@@ -3,16 +3,25 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 100%, rgba(31, 41, 55, 1) 100%, rgba(31, 41, 55, 1) 100%);
 }
 
+#mobile_navigation{
+    height: 50px;
+}
+@media screen and (min-width: 550px) {
+
+    #introduction_text{
+        margin-top: 50px;
+    }
+}
 @media screen and (min-width: 640px) {
     #project_intro_p {
         margin-top: 400px;
     }
-
+    
     #background_image {
-
+        
         height: 120vh;
     }
-
+    
     .project_card {
         width: 90vw;
         height: 90vh;
@@ -22,21 +31,21 @@
         justify-content: space-around;
         padding-top: 10px;
     }
-
+    
     .image {
         width: 80px;
         margin-left: -80px;
         margin-top: -90px;
     }
-
+    
     #future {
         padding-left: 25vw;
     }
-
+    
     p {
         font-size: 16px;
     }
-
+    
     #hero_title {
         font-size: 100px;
     }
@@ -46,18 +55,18 @@
     #project_image {
         height: 75vh;
     }
-
+    
     .project_card {
         width: 50vw;
         height: 60vh;
     }
-
+    
     .image {
         width: 125px;
         margin-top: -70px;
         margin-left: -50px;
     }
-
+    
     #footer_logo {
         font-size: 150px;
     }
@@ -65,11 +74,11 @@
     h2 {
         font-size: 50px;
     }
-
+    
     h3 {
         font-size: 35px;
     }
-
+    
     #hero_title {
         font-size: 120px;
     }
@@ -80,20 +89,20 @@
         background: rgb(255, 255, 255);
         background: linear-gradient(180deg, rgba(255, 255, 255, 1) 70%, rgba(31, 41, 55, 1) 70%, rgba(31, 41, 55, 1) 100%);
     }
-
+    
     .image {
         width: 150px;
         margin-left: -10px;
     }
-
+    
     .project_headline {
         height: 550px;
     }
-
+    
     p {
         font-size: 17px;
     }
-
+    
     #hero_title {
         font-size: 140px;
     }
@@ -105,13 +114,17 @@
         height: 75vh;
     }
 }
-
+@media screen and (max-width: 550px) {
+    #introduction_text{
+        margin-top: 0;
+    }
+}
 /*MAX WIDTH*/
 @media screen and (max-width: 640px) {
     #project_image {
         background-size: 200vw auto;
     }
-
+    
     p {
         font-size: 15px;
     }
@@ -126,24 +139,24 @@
     #project_image {
         background-size: 150vw auto;
     }
-
+    
     .title_text::before {
         height: 7px;
         bottom: 5px;
     }
-
+    
     #interest {
         background: #fff;
     }
-
+    
     #footer_logo {
         font-size: 100px;
     }
-
+    
     h2 {
         font-size: 40px;
     }
-
+    
     h3 {
         font-size: 25px;
     }
@@ -156,7 +169,7 @@
     .project_headline {
         height: 300px;
     }
-
+    
     /* #hero_title{
         font-size: 120px;
     } */

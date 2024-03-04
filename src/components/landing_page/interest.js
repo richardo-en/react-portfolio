@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import slovakText from '../../content/slovak.json';
 import englishText from '../../content/english.json';
-import Ilustration from '../../static/images/personal_transparent_min.png'
+import Ilustration from '../../static/images/personal_image_optimized.jpg'
 import LanguageContext from '../../additional_components/language_context';
 
 const InterestSection = React.forwardRef((props, ref) => {
@@ -22,7 +22,6 @@ const InterestSection = React.forwardRef((props, ref) => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting && !entry.target.classList.contains('show')) {
-            // entry.target.classList.add('show'); 
             setClassShow("show")
           }
         });
@@ -56,7 +55,7 @@ const InterestSection = React.forwardRef((props, ref) => {
             <p className={point_description}>{textContent.interestInformation[0].description}</p>
         </div>
         <div className={`fade-in-out ${ClassShow} row-start-3 col-start-1 lg:row-start-2 lg:col-start-2 self-start lg:self-center`}>
-          <img src={Ilustration} alt="Personal photos" className='max-w-full rounded-2xl h-full' id='interest_image' />
+          <img src={Ilustration} alt="Personal photos" className='max-w-full rounded-2xl h-full w-3/4 m-10' id='interest_image' />
         </div>
         <div className={`slide_right ${ClassShow} row-start-3 lg:col-start-3 lg:row-start-2 self-center pr-3 border-solid border-b-2 border-black `}>
           <h3 className={subtitle_text}>{textContent.interestInformation[1].title}</h3>

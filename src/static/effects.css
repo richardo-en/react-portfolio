@@ -199,24 +199,23 @@
     max-height: 0;
     transition: max-height .5s ease-in-out;
   }
-  
-  /* Additional styles for the active state if needed */
+
   .animated_div.active {
     max-height: 1000px;
   }
 
 
   .fade-in-out {
-    opacity: 0; /* Initially, set the opacity to 0 (completely transparent) */
-    transition: opacity 1s ease; /* Apply a smooth transition for the opacity property over 0.5 seconds with ease timing function */
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 
 .fade-in-out.show {
-    opacity: 1; /* When the 'visible' class is added, set the opacity to 1 (fully visible) */
+    opacity: 1;
 }
 
 .fade-in-out.hide {
-    opacity: 0; /* When the 'hidden' class is added, set the opacity back to 0 */
+    opacity: 0;
 }
 
 .slide_left{
@@ -235,3 +234,32 @@
     transform: translateX(0px);
     opacity: 1;
   }
+
+  .wave {
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, .2));
+}
+
+.wave h1 {
+    position: relative;
+    display: inline-block;
+    /* font-size: 2em; */
+    text-transform: uppercase;
+    animation: animate 3s ease-in-out infinite;
+    animation-delay: calc(.1s*var(--i));
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+
+    60%,
+    100% {
+        transform: translateY(0px);
+    }
+}

@@ -54,7 +54,7 @@ const ProjectIntro = () => {
           {links.map((link, index) => (
             <div className='flex flex-col text-center xl:text-6xl'>
               <h1 className='text-3xl'>0{index+1}</h1>
-              <Link to={link} spy={true} smooth={true} offset={-70} duration={800} className='xl:text-xl border-2 border-black xl:m-10 m-2 p-5' style={{ cursor: 'pointer' }}>{LanguageContext === 'Slovak' ? names[index][1] : names[index][0]}</Link>
+              <Link to={link} spy={true} smooth={true} offset={-70} duration={800} className='xl:text-xl border-2 border-black xl:m-10 m-2 p-5' style={{ cursor: 'pointer' }}>{language === 'Slovak' ? names[index][0] : names[index][1]}</Link>
             </div>
           ))}
         </div>

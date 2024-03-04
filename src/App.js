@@ -1,5 +1,6 @@
 import React, { useReducer } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CookieConsent from "react-cookie-consent";
 
 import LanguageContext from './additional_components/language_context.js';
 import languageReducer from './additional_components/Language_reducer.js';
@@ -8,6 +9,7 @@ import languageReducer from './additional_components/Language_reducer.js';
 import Navbar from './additional_components/navbar.js';
 import MobileNavigation from './additional_components/mobile_navigation.js';
 import Footer from './additional_components/footer.js';
+import ScrollToTop from './additional_components/scrollToTop.js';
 // import Freelancing from './sites/freelancing_page.js';
 import LandingPage from './sites/landing_page.js';
 import Certificates from './sites/certificates_page.js';
@@ -25,11 +27,12 @@ const App = () => {
 
   const NavigationPicker = window.innerWidth < 768 ? true : false;
   const links = ["/", "/projects", "/certificate"];
-  const names = [["Domov", "Home"], ["Moje projekty", "My projects"], ["Certifikáty", "Certifikáty"]];
+  const names = [["Domov", "Home"], ["Moje projekty", "My projects"], ["Certifikáty", "Certificates"]];
 
   return (
     <LanguageContext.Provider value={{ language: state.language, dispatch }}>
       <BrowserRouter>
+        <ScrollToTop  />
         {NavigationPicker ?
           (<MobileNavigation links={links} names={names} />) :
           (<Navbar links={links} names={names} />)
@@ -40,8 +43,9 @@ const App = () => {
           <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-    </LanguageContext.Provider>
+        <CookieConsent expires={7}>This website uses cookies to enhance the user experience.</CookieConsent>
+    </BrowserRouter>
+    </LanguageContext.Provider >
   );
 };
 
