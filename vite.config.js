@@ -14,8 +14,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
       "@projects": path.resolve(__dirname, "src/static/images/projects"),
       },
-  },
-  base: "/react-portfolio/"
+  }
 })
 
 

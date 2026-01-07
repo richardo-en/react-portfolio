@@ -1,45 +1,45 @@
 {
     "hero": {
-        "available": "Available for work",
-        "title": "Designing Digital Experiences that",
-        "highlight": "Matter",
-        "subtitle": "I design accessible, human-centered products.",
-        "ctaProjects": "View Projects",
-        "ctaResume": "Get Resume",
+        "available": "Available for collaboration",
+        "title": "Full-stack developer with experience from",
+        "highlight": "real-world projects",
+        "subtitle": "I gained experience through university studies, personal projects, and work in an enterprise environment.",
+        "ctaProjects": "View projects",
+        "ctaResume": "Download resume",
         "stats": [
             {
-                "label": "Rokov skúseností",
+                "label": "Years of experience",
                 "value": "6+"
             },
             {
-                "label": "Reálnych projektov",
+                "label": "Real-world projects",
                 "value": "5+"
             },
             {
-                "label": "Roky práce na interných systémoch",
+                "label": "Years working on internal systems",
                 "value": "2"
             }
         ]
     },
     "projects": {
-        "title": "Selected Works",
-        "subtitle": "A glimpse into my recent work.",
+        "title": "Selected projects",
+        "subtitle": "A showcase of my recent work.",
         "items": [
             {
-                "title": "Fintech Dashboard",
-                "category": "UI/UX Design",
+                "title": "Financial dashboard",
+                "category": "UI/UX design",
                 "image": "/images/p1.jpg"
             }
         ]
     },
     "trustedBy": {
-        "title": "Worked with companies",
+        "title": "Worked with",
         "companies": [
             {
                 "id": "slovanet",
                 "name": "Slovanet",
                 "logo": "/logos/slovanet.png",
-                "url": "https://www.slovanet.net"
+                "url": "https://www.slovanet.sk"
             },
             {
                 "id": "itaps",
@@ -51,7 +51,7 @@
                 "id": "slsp",
                 "name": "Slovak Savings Bank",
                 "logo": "/logos/slsp.ico",
-                "url": "https://www.slsp.sk/en"
+                "url": "https://www.slsp.sk"
             }
         ]
     },
@@ -59,85 +59,83 @@
         "hero": {
             "badge": "The person behind the screen",
             "title": "More than just a developer",
-            "subtitle": "I am Richard, a software-oriented developer with a strong technical background gained through university studies, personal projects, and real-world experience. I enjoy building practical solutions and continuously improving my skills.",
-            "ctaPrimary": "View Projects",
-            "ctaSecondary": "Contact Me"
+            "subtitle": "My name is Richard and I am a full-stack developer with experience in building internal systems and production-ready applications. During my studies and professional career, I worked on both backend and frontend solutions, with a strong focus on clean code, maintainability, and system reliability."
         },
         "drives": {
-            "title": "What drives me",
-            "subtitle": "Principles and values that shape the way I work and think.",
+            "title": "My working mindset",
+            "subtitle": "Values and principles I apply in development and everyday work",
             "items": [
                 {
-                    "title": "Continuous Improvement",
-                    "text": "I am strongly motivated to keep learning and improving my technical and problem-solving skills. I actively observe best practices and apply them in my own projects.",
-                    "icon": "growth"
+                    "title": "Continuous improvement",
+                    "text": "I continuously improve my technical skills and understanding of complex systems. I follow proven software development practices and strive to apply them in real-world projects, not just in theory.",
+                    "icon": "/logos/improvment.png"
                 },
                 {
-                    "title": "Team Collaboration",
-                    "text": "My background in team sports helped me develop discipline, responsibility, and the ability to work effectively with others in collaborative environments.",
-                    "icon": "team"
+                    "title": "Team collaboration",
+                    "text": "I have experience working in teams on internal projects where communication, responsibility, and the ability to understand existing codebases and architecture were essential.",
+                    "icon": "/logos/teamwork.png"
                 },
                 {
-                    "title": "Responsibility Under Pressure",
-                    "text": "I focus on delivering tasks on time and with high quality. Even under pressure, I stay focused and reliable when meeting deadlines.",
-                    "icon": "focus"
+                    "title": "Responsibility & code quality",
+                    "text": "I focus on writing clean, structured, and maintainable code. It is important to me that the result is understandable for other developers and can be extended long-term without unnecessary technical debt.",
+                    "icon": "/logos/responsibility.png"
                 }
             ]
         },
         "timeline": {
-            "title": "Personal & Professional Milestones",
+            "title": "Personal and professional milestones",
             "items": [
                 {
-                    "period": "2019 – 2023",
-                    "title": "Computer Science Studies – FIIT STU",
-                    "subtitle": "Faculty of Informatics and Information Technologies",
-                    "description": "Completed three years of a four-year bachelor's program, gaining strong foundations in programming, algorithms, software engineering, and system design."
+                    "period": "10/2024 – 12/2025",
+                    "title": "Slovak Savings Bank",
+                    "subtitle": "External full-stack developer – Slovak Savings Bank (via ITAPS)",
+                    "description": "I worked as an external developer on internal systems at Slovak Savings Bank. My responsibilities included backend and frontend development, integrations, and improvements of existing solutions in an enterprise environment with a strong focus on stability, security, and code readability."
                 },
                 {
-                    "period": "2022",
-                    "title": "Internship – Slovanet",
-                    "subtitle": "ERP System Development",
-                    "description": "Worked on the development of custom modules for an internal ERP system based on Odoo, gaining insight into real-world enterprise software development."
+                    "period": "2022 – 2025",
+                    "title": "FIIT STU",
+                    "subtitle": "Computer Science – FIIT STU",
+                    "description": "During my studies, I completed three years of a four-year bachelor's program focused on programming, algorithms, and system design. The studies provided me with strong theoretical foundations that I continuously applied in practice."
                 },
                 {
-                    "period": "2020 – Present",
-                    "title": "Personal & Academic Projects",
-                    "subtitle": "Web & Software Development",
-                    "description": "Actively working on personal and university projects using technologies such as Python, JavaScript, React, and various backend frameworks."
+                    "period": "2022 – 2023",
+                    "title": "Slovanet",
+                    "subtitle": "Full-stack developer – Slovanet",
+                    "description": "I worked on the development and enhancement of internal systems, primarily ERP solutions built on the Odoo platform. I gained hands-on experience with module development, working with existing architectures, and team collaboration in a real corporate environment."
+                },
+                {
+                    "period": "2009 – 2019",
+                    "title": "Semi-professional sprint canoeing",
+                    "subtitle": "Achievements",
+                    "description": "For ten years, I competed in sprint canoeing at a competitive level. I represented Slovakia at international events including European and World Championships, achieving multiple fourth-place finishes. I also participated in the European Youth Olympic Festival (EYOF), where I won several medals. Sport taught me discipline, consistency, handling pressure, and long-term performance focus—skills I apply in my professional life today."
                 }
             ]
         },
-        "cta": {
-            "title": "Let’s work together",
-            "text": "If you are interested in collaboration or would like to know more about my work, feel free to reach out.",
-            "primary": "Get in touch",
-            "secondary": "View resume"
-        },
         "favorites": {
-            "title": "My Favorites",
+            "title": "My free-time activities",
             "items": [
                 {
-                    "title": "Current Read",
-                    "description": "\"Born to Run\" by Christopher McDougall",
-                    "icon": "menu_book",
+                    "title": "Reading & learning",
+                    "description": "I mainly read books focused on economics and social dynamics. Current reads: The Trading Game (Gary Stevenson), The 48 Laws of Power.",
+                    "icon": "/logos/book.png",
                     "colorClass": "bg-red-100 text-red-600"
                 },
                 {
-                    "title": "On Repeat",
-                    "description": "Classic Rock & 90s Hip Hop Mix",
-                    "icon": "music_note",
-                    "colorClass": "bg-green-100 text-green-600"
-                },
-                {
-                    "title": "Go-To Meal",
-                    "description": "Homemade Paella on Sundays",
-                    "icon": "restaurant",
+                    "title": "Sports & movement",
+                    "description": "In my free time, I enjoy sports activities with friends—ice skating, skiing, padel, and other recreational sports.",
+                    "icon": "/logos/sport.png",
                     "colorClass": "bg-yellow-100 text-yellow-600"
                 },
                 {
-                    "title": "Next Trip",
-                    "description": "Cycling tour through Tuscany",
-                    "icon": "flight",
+                    "title": "Nature & relaxation",
+                    "description": "I enjoy spending time in nature, especially fishing or hiking. It helps me disconnect from screens and reset mentally.",
+                    "icon": "/logos/nature.png",
+                    "colorClass": "bg-green-100 text-green-600"
+                },
+                {
+                    "title": "Traveling",
+                    "description": "I see traveling as a way to broaden my perspective by discovering new environments, cultures, and ways of thinking.",
+                    "icon": "/logos/travelling.png",
                     "colorClass": "bg-purple-100 text-purple-600"
                 }
             ]
@@ -145,62 +143,68 @@
     },
     "work": {
         "hero": {
-            "title": "My Professional Journey",
-            "subtitle": "A snapshot of my experience, roles, and projects across different stages of my development. Focused on building reliable software and continuously improving my skills.",
-            "download": "Download Resume (PDF)"
+            "title": "Professional journey",
+            "subtitle": "Experience gained across academic projects and real-world internal systems in production environments."
         },
         "timeline": {
+            "keyAchievments": "Key skills gained",
             "items": [
                 {
-                    "title": "Software Developer",
-                    "company": "Internal Projects & Freelance",
-                    "period": "2022 – Present",
-                    "description": "Working on personal and academic projects with a strong focus on backend logic, system design, and practical problem solving. Gaining hands-on experience through real-world inspired applications.",
-                    "achievements": [
-                        "Designed and implemented several full-stack applications for learning and experimentation.",
-                        "Worked with REST APIs, databases, and authentication flows.",
-                        "Improved code quality by applying clean architecture principles."
-                    ],
-                    "skills": [
-                        "Java",
-                        "Python",
-                        "React",
-                        "Spring Boot",
-                        "PostgreSQL"
-                    ]
-                },
-                {
-                    "title": "Intern – Software Development",
+                    "title": "Intern – Full-stack Developer",
                     "company": "Slovanet",
-                    "period": "2022",
-                    "description": "Internship focused on enterprise software development within an internal ERP system. Exposure to production codebases, real business requirements, and team workflows.",
+                    "period": "2022 – 2023",
+                    "description": "During my internship at Slovanet, I worked on custom module development for an internal ERP system built on Odoo. My main responsibility was designing and implementing a module for managing internal processes such as vacation and parental leave tracking. Development took place in a local environment using Python and Docker, with evolving requirements that required iterative refinement.",
                     "achievements": [
-                        "Developed custom modules for the internal Odoo-based ERP system.",
-                        "Collaborated with senior developers on feature implementation.",
-                        "Learned basics of enterprise-level deployment and maintenance."
+                        "Understanding the importance of proper requirement analysis before implementation",
+                        "Designing flexible modules capable of adapting to changing requirements",
+                        "Navigating and contributing to an existing production codebase"
                     ],
                     "skills": [
                         "Python",
                         "Odoo",
-                        "SQL",
+                        "Docker",
                         "Git"
                     ]
                 },
                 {
-                    "title": "Computer Science Student",
-                    "company": "FIIT STU",
-                    "period": "2019 – 2023",
-                    "description": "Completed three years of a four-year bachelor's program focused on computer science fundamentals, algorithms, and software engineering concepts.",
+                    "title": "Software Developer (External)",
+                    "company": "Slovak Savings Bank",
+                    "period": "10/2024 – 12/2025",
+                    "description": "At Slovak Savings Bank, I worked on internal process-driven applications in an enterprise environment. Based on analytical specifications, I implemented processes such as business trip requests, company vehicle reservations, and access rights management. The project emphasized strict internal standards, structured code, and continuous improvement through code reviews.",
                     "achievements": [
-                        "Gained strong foundations in programming, algorithms, and data structures.",
-                        "Worked on semester projects using C, JavaScript, and Python.",
-                        "Participated in team-based academic projects."
+                        "Implementation of internal processes based on analytical specifications",
+                        "Working in a reactive enterprise environment with a strong focus on code quality",
+                        "Active participation in architectural discussions and regular code reviews"
+                    ],
+                    "skills": [
+                        "Kotlin",
+                        "Java",
+                        "Kafka",
+                        "Elasticsearch",
+                        "PostgreSQL",
+                        "Docker",
+                        "WSL",
+                        "SOAP UI",
+                        "Camunda"
+                    ]
+                },
+                {
+                    "title": "University studies",
+                    "company": "FIIT STU",
+                    "period": "2022 – 2025",
+                    "description": "During my studies, I completed multiple technically focused courses and projects centered on programming, system design, and software engineering. A significant part of the curriculum consisted of practical team projects.",
+                    "achievements": [
+                        "Hands-on projects focused on programming, algorithms, and system design",
+                        "Team-based development of larger applications including architectural design in Java",
+                        "Foundations of networking, server environments, and Linux"
                     ],
                     "skills": [
                         "C",
                         "Algorithms",
                         "Data Structures",
-                        "JavaScript"
+                        "JavaScript",
+                        "Enterprise Architect",
+                        "Java"
                     ]
                 }
             ]
@@ -208,35 +212,30 @@
         "skills": {
             "title": "Core Technologies & Skills",
             "items": [
-                "Java",
-                "Spring Boot",
                 "Python",
+                "Java",
+                "JavaScript",
+                "C",
                 "React",
-                "TypeScript",
-                "PostgreSQL",
+                "HTML/CSS",
+                "Bootstrap / Tailwind",
+                "Django",
+                "Flask",
+                "WordPress",
                 "Docker",
-                "Git",
-                "REST APIs",
-                "Linux",
-                "Agile"
+                "Linux"
             ]
-        },
-        "cta": {
-            "title": "Want to Work Together?",
-            "text": "If you are interested in my work or would like to discuss potential opportunities, feel free to reach out or download my resume.",
-            "primary": "Contact Me",
-            "secondary": "View Projects"
         }
     },
     "myProjects": {
         "hero": {
-            "title": "Selected Work",
-            "subtitle": "A collection of projects exploring full-stack development and software design.",
-            "cta": "Start a Project"
+            "title": "My personal and academic projects",
+            "subtitle": "A collection of my more interesting applications"
         },
+        "linkLabel": "Learn more",
         "filters": [
             {
-                "label": "All Projects",
+                "label": "All projects",
                 "value": "all"
             },
             {
@@ -248,47 +247,96 @@
                 "value": "university"
             },
             {
-                "label": "Other projects",
+                "label": "Other",
                 "value": "other"
             }
         ],
         "items": [
             {
-                "title": "E-Commerce Dashboard",
-                "description": "Analytics tool for managing sales and customer insights.",
-                "image": "/images/p1.jpg",
+                "title": "Personal portfolio",
+                "description": "Personal portfolio built using React and TypeScript",
+                "image": "portfolio",
                 "tags": [
-                    "Vue",
-                    "D3",
-                    "UX"
+                    "Vite",
+                    "React",
+                    "Typescipt"
                 ],
-                "linkLabel": "View Project"
+                "category": "web",
+                "slug": "personal-portfolio"
             },
             {
-                "title": "FinTech Mobile App",
-                "description": "Secure mobile banking app with analytics.",
-                "image": "/images/p2.jpg",
+                "title": "Web game",
+                "description": "A web-based game built in JavaScript",
+                "image": "webGame",
                 "tags": [
-                    "React Native",
-                    "Firebase"
+                    "Javascript",
+                    ""
                 ],
-                "linkLabel": "View Case Study"
+                "category": "university",
+                "slug": "web-game"
+            },
+            {
+                "title": "Deligo",
+                "description": "University group project. An application for restaurants.",
+                "image": "deligo",
+                "tags": [
+                    "Java",
+                    "Cloud"
+                ],
+                "category": "university",
+                "slug": "deligo"
+            },
+            {
+                "title": "OCR Shop receipt",
+                "description": "Optical character recognition from physical receipts",
+                "image": "",
+                "tags": [
+                    "Python",
+                    "Mern"
+                ],
+                "category": "other",
+                "slug": "ocr-shop-receipt"
+            },
+            {
+                "title": "Web applications built with Flask and Django",
+                "description": "A collection of my web applications built using Python frameworks",
+                "image": "",
+                "tags": [
+                    "Python",
+                    "Flask",
+                    "Django",
+                    "Html/CSS",
+                    "Bootstrap/Tailwind"
+                ],
+                "category": "web"
+            },
+            {
+                "title": "Mobile game",
+                "description": "A simple indie mobile game built using the Unity engine and C#. The game was published on Google Play.",
+                "image": "",
+                "tags": [
+                    "Python",
+                    "Flask",
+                    "Django",
+                    "Html/CSS",
+                    "Bootstrap/Tailwind"
+                ],
+                "category": "other",
+                "slug": "mobile-game-unity"
             }
         ],
         "cta": {
             "title": "Like what you see?",
-            "text": "I'm currently open for new opportunities.",
-            "primary": "Contact Me",
-            "secondary": "See Resume"
+            "text": "I'm currently open to new opportunities.",
+            "primary": "Contact me",
+            "secondary": "See resume"
         }
     },
     "certifications": {
         "hero": {
-            "badge": "Verified credentials",
-            "title": "Education & Certifications",
-            "subtitle": "A collection of degrees, courses and certificates that shaped my technical background.",
-            "ctaPrimary": "Download Resume",
-            "ctaSecondary": "Verify on Credly"
+            "badge": "Verified course provider",
+            "title": "Certifications",
+            "subtitle": "A collection of my courses"
         },
         "items": [
             {
@@ -298,25 +346,25 @@
                 "img": "sql"
             },
             {
-                "title": "SEO pre začiatočníkov",
+                "title": "SEO for beginners",
                 "issuer": "Skillmea",
                 "year": "2022",
                 "img": "seoBeginner"
             },
             {
-                "title": "SEO pre pokročilých",
+                "title": "SEO for advanced users",
                 "issuer": "Skillmea",
                 "year": "2022",
                 "img": "seoAdvanced"
             },
             {
-                "title": "WP pre používateľov",
+                "title": "WordPress for users",
                 "issuer": "Skillmea",
                 "year": "2022",
                 "img": "wpBeginner"
             },
             {
-                "title": "Tvorba webov vo wordpress a DIVI",
+                "title": "Website creation with WordPress and DIVI",
                 "issuer": "Skillmea",
                 "year": "2022",
                 "img": "wpAdvanced"
@@ -338,33 +386,36 @@
     "contact": {
         "hero": {
             "title": "Let's work together",
-            "subtitle": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you."
+            "subtitle": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll do my best to get back to you."
         }
     },
     "projectsDetail": {
+        "backToProjectsButton": "Back to projects",
         "items": [
             {
                 "slug": "personal-portfolio",
-                "status": "Live Project",
-                "title": "Personal Developer Portfolio",
-                "subtitle": "A modern, performance-focused portfolio built to showcase my projects, experience and technical background.",
-                "heroImage": "/images/portfolio/hero.png",
+                "status": [
+                    "Live project",
+                    true
+                ],
+                "title": "Personal developer portfolio",
+                "subtitle": "A modern, performance-optimized portfolio designed to showcase my projects, experience, and technical background.",
+                "heroImage": "portfolio",
                 "links": {
-                    "live": "https://yourdomain.com",
-                    "github": "https://github.com/yourname/portfolio"
+                    "github": "https://github.com/richardo-en/react-portfolio"
                 },
                 "details": [
                     {
                         "label": "Role",
-                        "value": "Full-stack Developer"
+                        "value": "Full-stack developer"
                     },
                     {
-                        "label": "Timeline",
+                        "label": "Period",
                         "value": "2024"
                     },
                     {
                         "label": "Type",
-                        "value": "Personal Project"
+                        "value": "Personal project"
                     }
                 ],
                 "tech": [
@@ -377,32 +428,315 @@
                 ],
                 "sections": [
                     {
-                        "title": "The Challenge",
+                        "title": "Challenge",
                         "text": [
-                            "I wanted a portfolio that goes beyond a static presentation and clearly communicates my technical depth, design thinking, and real-world experience.",
-                            "The challenge was to keep the design clean while still supporting more complex content like project case studies, certifications, and multilingual support."
+                            "The goal was to create a portfolio that goes beyond a static showcase and clearly communicates my technical level, way of thinking, and real-world development experience.",
+                            "The main challenge was maintaining a clean and simple design while still supporting richer content such as detailed project descriptions, certifications, and multilingual support."
                         ]
                     },
                     {
-                        "title": "The Approach",
+                        "title": "Approach",
                         "text": [
-                            "I designed the portfolio as a modular React application with reusable components and a clear content structure driven by i18n.",
-                            "Special focus was put on performance, accessibility, responsive behavior and smooth user experience across devices."
+                            "The portfolio was designed as a modular React application with a strong focus on reusable components and a clearly separated content structure managed through i18n.",
+                            "Special attention was given to performance, responsive behavior, accessibility, and a smooth user experience across different devices."
                         ]
                     },
                     {
-                        "title": "The Result",
+                        "title": "Result",
                         "text": [
-                            "The result is a scalable and maintainable portfolio that can easily grow with new projects and content.",
-                            "It serves both as a presentation tool and as a real-world example of how I approach frontend architecture and UX decisions."
+                            "The result is a scalable and maintainable portfolio that can be easily extended with new projects and content without changes to the core architecture.",
+                            "The portfolio serves not only as a presentation tool but also as a practical demonstration of my approach to frontend architecture and UX decisions."
                         ]
                     }
                 ],
                 "gallery": [
-                    "/images/portfolio/screen1.png",
-                    "/images/portfolio/screen2.png",
-                    "/images/portfolio/screen3.png"
+                    "portfolio1",
+                    "portfolio2",
+                    "portfolio3"
                 ]
+            },
+            {
+                "slug": "web-game",
+                "status": [
+                    "Inactive project",
+                    false
+                ],
+                "title": "Web racing game",
+                "subtitle": "A 2D browser-based racing game built in pure JavaScript, focused on game logic, collision handling, and movement mathematics.",
+                "heroImage": "webGame",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Role",
+                        "value": "Frontend developer"
+                    },
+                    {
+                        "label": "Period",
+                        "value": "2023"
+                    },
+                    {
+                        "label": "Type",
+                        "value": "University project"
+                    }
+                ],
+                "tech": [
+                    "JavaScript",
+                    "HTML Canvas",
+                    "CSS",
+                    "MVC architecture"
+                ],
+                "sections": [
+                    {
+                        "title": "Challenge",
+                        "text": [
+                            "The goal of the project was to design and implement an interactive web game without using external game libraries or frameworks.",
+                            "A key challenge was handling game logic, object collisions, smooth animations, and realistic vehicle movement in real time."
+                        ]
+                    },
+                    {
+                        "title": "Approach",
+                        "text": [
+                            "The game was designed using the MVC (Model–View–Controller) architecture, ensuring a clear separation between game logic, rendering, and user input.",
+                            "A significant part of the implementation involved calculating vehicle rotation angles using sine and cosine functions, enabling realistic turning and accurate collision detection for rotated objects.",
+                            "The game world was rendered using HTML canvas along with a custom scene system (menu, gameplay, pause, win, lose)."
+                        ]
+                    },
+                    {
+                        "title": "Result",
+                        "text": [
+                            "The result is a fully functional 2D racing game with multiple difficulty levels, in-game currency collection, and simple power-ups.",
+                            "The project provided me with a deep understanding of mathematics in games, animations, collision handling, and the architecture of interactive JavaScript applications."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "webGame1",
+                    "webGame2",
+                    "webGame3"
+                ]
+            },
+            {
+                "slug": "deligo",
+                "status": [
+                    "Inactive project",
+                    false
+                ],
+                "title": "DeliGo – multi-layer backend system",
+                "subtitle": "A group project focused on designing and implementing a complex backend system simulating a real production environment, including networking, servers, and security.",
+                "heroImage": "deligo",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Role",
+                        "value": "Backend developer / system architecture"
+                    },
+                    {
+                        "label": "Period",
+                        "value": "2023"
+                    },
+                    {
+                        "label": "Type",
+                        "value": "University group project"
+                    }
+                ],
+                "tech": [
+                    "Java",
+                    "Maven",
+                    "REST API",
+                    "Reverse proxy",
+                    "Network communication",
+                    "Modular architecture"
+                ],
+                "sections": [
+                    {
+                        "title": "Challenge",
+                        "text": [
+                            "The goal of the project was not only to implement a working application but also to understand how a real backend system operates within a networked environment.",
+                            "The challenge was to design an architecture that was clear, extensible, and closely aligned with production-grade solutions used in real companies."
+                        ]
+                    },
+                    {
+                        "title": "System architecture and design",
+                        "text": [
+                            "The system was designed as a multi-layer application with clearly separated responsibilities between the presentation layer, business logic, and persistence.",
+                            "The presentation layer exposed REST APIs, handled HTTP requests, and validated input data, while the business logic remained isolated from infrastructure concerns.",
+                            "The persistence layer was abstracted using interfaces, allowing it to be replaced without impacting the rest of the system."
+                        ]
+                    },
+                    {
+                        "title": "Network, server, and infrastructure",
+                        "text": [
+                            "An important part of the project was simulating a real network environment where individual components communicated over the network using IP addresses and ports.",
+                            "I worked on diagnosing service availability issues, proper request routing, and troubleshooting scenarios where services could not reach each other.",
+                            "The server infrastructure was manually configured and enhanced with a reverse proxy acting as a central entry point and protecting internal services from direct access."
+                        ]
+                    },
+                    {
+                        "title": "Security and extensibility",
+                        "text": [
+                            "Security was considered from the beginning, including input validation, access restriction to sensitive parts of the system, and minimizing the attack surface.",
+                            "The use of modular architecture, interfaces, and clear contracts enabled further system expansion without rewriting existing code.",
+                            "The project helped me transition from solving isolated tasks to thinking systemically about applications as a whole."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "deligo1",
+                    "deligo2",
+                    "deligo2"
+                ]
+            },
+            {
+                "slug": "ocr-shop-receipt",
+                "status": [
+                    "Live project",
+                    true
+                ],
+                "title": "OCR Shop Receipt – desktop application",
+                "subtitle": "A desktop application focused on automated processing of receipts using OCR, AI data extraction, and live camera input.",
+                "heroImage": "ocr",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Role",
+                        "value": "Solution author / architecture / backend"
+                    },
+                    {
+                        "label": "Period",
+                        "value": "2024"
+                    },
+                    {
+                        "label": "Type",
+                        "value": "Personal experimental project"
+                    }
+                ],
+                "tech": [
+                    "Electron",
+                    "Python",
+                    "OpenCV",
+                    "OCR",
+                    "AI data extraction",
+                    "Desktop applications"
+                ],
+                "sections": [
+                    {
+                        "title": "Project goal",
+                        "text": [
+                            "The goal of the project was not only to recognize text from images but to build a complete receipt-processing workflow—from camera capture and image preprocessing to OCR, AI-based data extraction, normalization, and presentation within the application.",
+                            "The project aimed to simulate a real-world usable system rather than a one-off script or demo model."
+                        ]
+                    },
+                    {
+                        "title": "Solution architecture",
+                        "text": [
+                            "The solution was split into an Electron desktop application serving as the GUI layer and a Python backend responsible for all heavy processing logic.",
+                            "Electron acted as a cross-platform UI, launching Python processes, sending inputs, and receiving structured outputs.",
+                            "The Python backend was gradually refactored into a modular architecture with separate logic for camera handling, image processing, OCR, and AI extraction."
+                        ]
+                    },
+                    {
+                        "title": "Camera and hardware handling",
+                        "text": [
+                            "One of the biggest challenges was working with an external camera designed for close-range receipt capture.",
+                            "Standard manufacturer tools did not support the camera, and automatic focus was unusable for macro capture.",
+                            "The solution involved manual camera initialization in OpenCV, identifying the device using the Device Instance Path, and experimenting with custom Python scripts for manual focus and camera parameter tuning."
+                        ]
+                    },
+                    {
+                        "title": "Image preprocessing and OCR",
+                        "text": [
+                            "Before running OCR, image quality had to be addressed due to varying lighting conditions, blur, wrinkled paper, and inconsistent fonts.",
+                            "Techniques such as grayscale conversion, thresholding, contrast enhancement, and region-of-interest cropping were applied.",
+                            "The project demonstrated that OCR output quality is highly dependent on input image quality, with most effort spent on preprocessing rather than the OCR model itself."
+                        ]
+                    },
+                    {
+                        "title": "AI data extraction and system challenges",
+                        "text": [
+                            "The project evolved from basic text recognition to AI-driven extraction of structured data such as store name, date, items, prices, and total amount.",
+                            "It became clear that OCR alone was insufficient—AI models needed to understand document context and layout.",
+                            "The project also revealed performance limitations of consumer hardware, including high RAM usage, CPU load, and challenges related to GPU acceleration."
+                        ]
+                    },
+                    {
+                        "title": "Key takeaways",
+                        "text": [
+                            "The project provided a very realistic insight into the challenges of combining a desktop application, Python backend, and AI models.",
+                            "It offered hands-on experience with debugging across OS, drivers, libraries, and hardware layers.",
+                            "Even though the project is not actively developed, it represents valuable experience in designing complex systems outside of traditional web applications."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "ocr1",
+                    "ocr2",
+                    "ocr3"
+                ]
+            },
+            {
+                "slug": "mobile-game-unity",
+                "status": [
+                    "Completed project",
+                    false
+                ],
+                "title": "Mobile game in Unity",
+                "subtitle": "A simple mobile game built in Unity and C# that represents my first independent IT project and my first experience with game development.",
+                "heroImage": "mobileGame",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Role",
+                        "value": "Project author"
+                    },
+                    {
+                        "label": "Period",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "Type",
+                        "value": "Personal / first IT project"
+                    }
+                ],
+                "tech": [
+                    "Unity",
+                    "C#",
+                    "Android",
+                    "Blender",
+                    "Google Play"
+                ],
+                "sections": [
+                    {
+                        "title": "Project beginnings",
+                        "text": [
+                            "This project started as my very first independent IT project, which I began without any prior experience in game development.",
+                            "Initially, I worked with Blender, experimenting with simple 3D objects and scenes, which eventually led to the idea of creating my own game."
+                        ]
+                    },
+                    {
+                        "title": "Game development in Unity",
+                        "text": [
+                            "The game was developed in Unity using C#. It was a simple yet fully playable mobile game built on physics-based movement and precise controls.",
+                            "The player controlled a ball moving left and right via touch input, with the goal of avoiding obstacles and reaching the finish line."
+                        ]
+                    },
+                    {
+                        "title": "Game mechanics and levels",
+                        "text": [
+                            "The game featured approximately 20 levels with gradually increasing difficulty.",
+                            "After completing a level, the next one was unlocked, creating a simple but motivating progression system.",
+                            "The project helped me understand fundamental principles of game logic, collision handling, physics, and game state management."
+                        ]
+                    },
+                    {
+                        "title": "Publishing and experience",
+                        "text": [
+                            "The game was successfully published on Google Play, where it was publicly available for some time.",
+                            "Although the game is no longer available on Google Play and the source code has been lost, the project remains a significant milestone for me.",
+                            "It taught me how to take a project from an initial idea to real-world release and gave me my first practical exposure to software development as a whole."
+                        ]
+                    }
+                ],
+                "gallery": []
             }
         ]
     }
