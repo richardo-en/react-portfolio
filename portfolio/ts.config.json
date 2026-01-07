@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@projects/*": ["src/static/images/projects/*"]
+    }
+  }
+}

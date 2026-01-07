@@ -1,0 +1,741 @@
+{
+    "hero": {
+        "available": "K dispozícii na spoluprácu",
+        "title": "Full-stack vývojár so skúsenosťami z ",
+        "highlight": "reálnych projektov",
+        "subtitle": "Skúsenosti som získal počas štúdia, vlastných projektov a práce v enterprise prostredí.",
+        "ctaProjects": "Zobraziť projekty",
+        "ctaResume": "Stiahnuť životopis",
+        "stats": [
+            {
+                "label": "Rokov skúseností",
+                "value": "6+"
+            },
+            {
+                "label": "Reálnych projektov",
+                "value": "5+"
+            },
+            {
+                "label": "Roky práce na interných systémoch",
+                "value": "2"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Vybrané projekty",
+        "subtitle": "Ukážka mojej nedávnej práce.",
+        "items": [
+            {
+                "title": "Finančný dashboard",
+                "category": "UI/UX dizajn",
+                "image": "/images/p1.jpg"
+            }
+        ]
+    },
+    "trustedBy": {
+        "title": "Spolupracoval som s",
+        "companies": [
+            {
+                "id": "slovanet",
+                "name": "Slovanet",
+                "logo": "/logos/slovanet.png",
+                "url": "https://www.slovanet.sk"
+            },
+            {
+                "id": "itaps",
+                "name": "Itaps",
+                "logo": "/logos/itaps.svg",
+                "url": "https://www.itaps.sk"
+            },
+            {
+                "id": "slsp",
+                "name": "Slovenská sporiteľňa",
+                "logo": "/logos/slsp.ico",
+                "url": "https://www.slsp.sk"
+            }
+        ]
+    },
+    "about": {
+        "hero": {
+            "badge": "Osoba za obrazovkou",
+            "title": "Viac než len vývojár",
+            "subtitle": "Volám sa Richard a som full-stack vývojár so skúsenosťami z vývoja interných systémov a produkčných aplikácií. Počas štúdia aj pracovnej praxe som sa podieľal na implementácii backendových a frontendových riešení, pričom kladiem dôraz na čitateľný kód, udržiavateľnosť a funkčnosť systému."
+        },
+        "drives": {
+            "title": "Môj pracovný prístup",
+            "subtitle": "Hodnoty a princípy, ktoré uplatňujem pri vývoji a práci",
+            "items": [
+                {
+                    "title": "Neustále napredovanie",
+                    "text": "Neustále sa zlepšujem v technických zručnostiach a chápaní systémov. Sledujem osvedčené postupy vo vývoji softvéru a snažím sa ich aplikovať v reálnych projektoch, nie len v teórii.",
+                    "icon": "/logos/improvment.png"
+                },
+                {
+                    "title": "Práca v týme",
+                    "text": "Mám skúsenosti s prácou v tíme na interných projektoch, kde bola dôležitá komunikácia, zodpovednosť a schopnosť nadviazať na existujúci kód a architektúru.",
+                    "icon": "/logos/teamwork.png"
+                },
+                {
+                    "title": "Zodpovednosť & kvalita kodu",
+                    "text": "Kladiem dôraz na písanie čitateľného, štruktúrovaného a udržiavateľného kódu. Záleží mi na tom, aby bol výsledok zrozumiteľný aj pre ďalších vývojárov a aby sa dal dlhodobo rozvíjať bez zbytočného technického dlhu.",
+                    "icon": "/logos/responsibility.png"
+                }
+            ]
+        },
+        "timeline": {
+            "title": "Osobné a profesionálne míľniky",
+            "items": [
+                {
+                    "period": "10/2024 – 12/2025",
+                    "title": "Slovenská sporiteľňa",
+                    "subtitle": "Externý full-stack vývojár – Slovenská sporiteľňa (cez ITAPS)",
+                    "description": "Pôsobil som ako externý vývojár na interných systémoch Slovenskej sporiteľne. Pracoval som na backendových aj frontendových častiach aplikácií, integráciách a úpravách existujúcich riešení v enterprise prostredí s dôrazom na stabilitu, bezpečnosť a čitateľnosť kódu."
+                },
+                {
+                    "period": "2022 – 2025",
+                    "title": "FIIT STU",
+                    "subtitle": "Informatika – FIIT STU",
+                    "description": "Počas štúdia som absolvoval tri roky štvorročného bakalárskeho programu so zameraním na programovanie, algoritmy a návrh systémov. Štúdium mi poskytlo silné teoretické základy, ktoré som paralelne uplatňoval v praxi."
+                },
+                {
+                    "period": "2022 – 2023",
+                    "title": "Slovanet",
+                    "subtitle": "Full-stack vývojár – Slovanet",
+                    "description": "Pracoval som na vývoji a úpravách interných systémov, najmä na ERP riešeniach postavených na platforme Odoo. Získal som praktické skúsenosti s vývojom modulov, prácou s existujúcou architektúrou a tímovou spoluprácou v reálnom firemnom prostredí."
+                },
+                {
+                    "period": "2009 – 2019",
+                    "title": "Semi-profesionálna rýchlostná kanoistika",
+                    "subtitle": "Úspechy",
+                    "description": "Počas desiatich rokov som sa venoval rýchlostnej kanoistike na súťažnej úrovni. Reprezentoval som Slovensko na medzinárodných podujatiach vrátane Majstrovstiev Európy a sveta, kde som sa viackrát umiestnil na štvrtom mieste. Zúčastnil som sa aj Európskeho olympijského festivalu mládeže (EYOF), z ktorého som si odniesol niekoľko medailí. Šport ma naučil systematickej práci, disciplíne, zvládaniu tlaku a dlhodobému zameraniu na výkon – vlastnosti, ktoré dnes uplatňujem v profesionálnom živote."
+                }
+            ]
+        },
+        "favorites": {
+            "title": "Moje voľnočasové aktivity",
+            "items": [
+                {
+                    "title": "Čítanie & vzdelávanie",
+                    "description": "Čítam najmä literatúru z oblasti ekonomiky a spoločenských vzťahov. Aktuálne knihy: The Trading Game (Gary Stevenson), The 48 Laws of Power.",
+                    "icon": "/logos/book.png",
+                    "colorClass": "bg-red-100 text-red-600"
+                },
+                {
+                    "title": "Šport & pohyb",
+                    "description": "Vo voľnom čase sa venujem športovým aktivitám s priateľmi – korčuľovanie, lyžovanie, padel či rekreačné športy.",
+                    "icon": "/logos/sport.png",
+                    "colorClass": "bg-yellow-100 text-yellow-600"
+                },
+                {
+                    "title": "Príroda & oddych",
+                    "description": "Rád trávim čas v prírode, najmä pri rybačke alebo na výletoch. Je to pre mňa spôsob, ako si oddýchnuť od obrazoviek a získať odstup od každodennej práce.",
+                    "icon": "/logos/nature.png",
+                    "colorClass": "bg-green-100 text-green-600"
+                },
+                {
+                    "title": "Cestovanie",
+                    "description": "Cestovanie beriem ako spôsob rozširovania obzorov – spoznávanie nových prostredí, kultúr a pohľadov na svet.",
+                    "icon": "/logos/travelling.png",
+                    "colorClass": "bg-purple-100 text-purple-600"
+                }
+            ]
+        }
+    },
+    "work": {
+        "hero": {
+            "title": "Profesionálna cesta",
+            "subtitle": "Skúsenosti z vývoja naprieč akademickými projektmi a reálnymi internými systémami v produkčnom prostredí."
+        },
+        "timeline": {
+            "keyAchievments": "Získané kľúčové znalosti",
+            "items": [
+                {
+                    "title": "Intern – Full-stack Developer",
+                    "company": "Slovanet",
+                    "period": "2022 – 2023",
+                    "description": "Počas stáže v spoločnosti Slovanet som sa podieľal na vývoji custom modulov pre interný ERP systém postavený na Odoo. Mojou hlavnou úlohou bol návrh a implementácia modulu na správu interných procesov, ako napríklad evidencia dovoleniek a materských či rodičovských dovoleniek. Vývoj prebiehal v lokálnom prostredí s využitím Pythonu a Dockeru. Projekt mi poskytol praktickú skúsenosť s vývojom v situácii, kde neboli na začiatku jednoznačne definované požiadavky a bolo potrebné riešenie opakovane upravovať na základe spresňujúcich sa funkčných a procesných požiadaviek.",
+                    "achievements": [
+                        "Pochopenie významu analýzy požiadaviek pred samotnou implementáciou riešenia",
+                        "Návrh modulov s dôrazom na flexibilitu a schopnosť reagovať na meniace sa požiadavky",
+                        "Orientácia v existujúcej kódovej báze produkčného systému"
+                    ],
+                    "skills": [
+                        "Python",
+                        "Odoo",
+                        "Docker",
+                        "Git"
+                    ]
+                },
+                {
+                    "title": "Software Developer (External)",
+                    "company": "Slovenská sporiteľňa",
+                    "period": "10/2024 – 12/2025",
+                    "description": "Počas pôsobenia v Slovenskej sporiteľni som sa podieľal na vývoji interných procesných aplikácií v organizovanom. Na základe analytických špecifikácií som implementoval procesy ako žiadosti o služobné cesty, výpožičky firemných vozidiel či správu prístupových oprávnení. Vývoj prebiehal v komplexnejšom technickom prostredí, kde bol kladený dôraz na dodržiavanie interných štandardov a štruktúry kódu. Na projekte som sa podieľal od jeho začiatku, pričom architektúra a implementácia sa priebežne upravovali na základe pravidelných code reviews a spresňujúcich sa požiadaviek. Kód bol vyvíjaný v jazykoch Kotlin a Java v reaktívnom prostredí s využitím integračných a databázových systémov.",
+                    "achievements": [
+                        "Implementácia interných procesov na základe analytických špecifikácií",
+                        "Práca v reaktívnom enterprise prostredí s dôrazom na štruktúru a kvalitu kódu",
+                        "Spolupráca na vývoji a úpravách architektúry počas pravidelných code reviews"
+                    ],
+                    "skills": [
+                        "Kotlin",
+                        "Java",
+                        "Kafka",
+                        "Elasticsearch",
+                        "PostgreSQL",
+                        "Docker",
+                        "WSL",
+                        "SOAP UI",
+                        "Camunda"
+                    ]
+                },
+                {
+                    "title": "Vysoká škola",
+                    "company": "FIIT STU",
+                    "period": "2022 – 2025",
+                    "description": "Počas štúdia som absolvoval viacero technicky zameraných predmetov a projektov so zameraním na programovanie, návrh systémov a softvérové inžinierstvo. Významnú časť štúdia tvorili praktické projekty, kde som si overil prácu s rôznymi jazykmi, architektonickými prístupmi a tímovou spoluprácou.",
+                    "achievements": [
+                        "Praktické projekty zamerané na programovanie, algoritmy a návrh softvérových systémov",
+                        "Tímová práca na rozsiahlejších aplikáciách vrátane návrhu architektúry a implementácie v Jave",
+                        "Základy sieťových technológií, práce so servermi a Linux prostredím"
+                    ],
+                    "skills": [
+                        "C",
+                        "Algorithms",
+                        "Data Structures",
+                        "JavaScript",
+                        "Enterprise Architect",
+                        "Java"
+                    ]
+                }
+            ]
+        },
+        "skills": {
+            "title": "Core Technologies & Skills",
+            "items": [
+                "Python",
+                "Java",
+                "JavaScript",
+                "C",
+                "React",
+                "Html/Css",
+                "Bootstrap/ Tailwind",
+                "Django",
+                "Flask",
+                "WordpPress",
+                "Docker",
+                "Linux"
+            ]
+        }
+    },
+    "myProjects": {
+        "hero": {
+            "title": "Moje osobné a školské projekty",
+            "subtitle": "Kolekcia mojich zaujimávejších aplikáciach"
+        },
+        "linkLabel": "Zistiť viacej",
+        "filters": [
+            {
+                "label": "Všetky projekty",
+                "value": "all"
+            },
+            {
+                "label": "Web",
+                "value": "web"
+            },
+            {
+                "label": "Univertiné projekty",
+                "value": "university"
+            },
+            {
+                "label": "Ostatné",
+                "value": "other"
+            }
+        ],
+        "items": [
+            {
+                "title": "Osobné portfólio",
+                "description": "Osobné portfólio vytvorené pomocou Reactu a Typescriptu",
+                "image": "portfolio",
+                "tags": [
+                    "Vite",
+                    "React",
+                    "Typescipt"
+                ],
+                "category": "web",
+                "slug": "personal-portfolio"
+            },
+            {
+                "title": "Webová hra",
+                "description": "Webová hra vytvorená v Javascripte",
+                "image": "webGame",
+                "tags": [
+                    "Javascript",
+                    ""
+                ],
+                "category": "university",
+                "slug": "web-game"
+            },
+            {
+                "title": "Deligo",
+                "description": "Vysokoškolský skupinový projekt. Aplikácia pre reštaurácie.",
+                "image": "deligo",
+                "tags": [
+                    "Java",
+                    "Cloud"
+                ],
+                "category": "university",
+                "slug": "deligo"
+            },
+            {
+                "title": "OCR Shop receipt",
+                "description": "Rekognizácia charakterov z fyzických blokov",
+                "image": "",
+                "tags": [
+                    "Python",
+                    "Mern"
+                ],
+                "category": "other",
+                "slug": "ocr-shop-receipt"
+            },
+            {
+                "title": "Webové aplikácie vytvorené vo Flasku a Djangu",
+                "description": "Všetky moje webové aplikácie vytvorené v Python frameworkoch",
+                "image": "",
+                "tags": [
+                    "Python",
+                    "Flask",
+                    "Django",
+                    "Html/CSS",
+                    "Bootstrap/Tailwind"
+                ],
+                "category": "web"
+            },
+            {
+                "title": "Mobilná hra",
+                "description": "Jednoduchá indie mobilná hra, vytvorená cez unity engine a C#. Hra boli zverejnená na Google Play.",
+                "image": "",
+                "tags": [
+                    "Python",
+                    "Flask",
+                    "Django",
+                    "Html/CSS",
+                    "Bootstrap/Tailwind"
+                ],
+                "category": "other",
+                "slug": "mobile-game-unity"
+            }
+        ],
+        "cta": {
+            "title": "Like what you see?",
+            "text": "I'm currently open for new opportunities.",
+            "primary": "Contact Me",
+            "secondary": "See Resume"
+        }
+    },
+    "certifications": {
+        "hero": {
+            "badge": "Overený sprostredkovateľia kurzov",
+            "title": "Certifikáty",
+            "subtitle": "Zbierka mojich kurzov"
+        },
+        "items": [
+            {
+                "title": "SQL, MySQL, SQLite",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "sql"
+            },
+            {
+                "title": "SEO pre začiatočníkov",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "seoBeginner"
+            },
+            {
+                "title": "SEO pre pokročilých",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "seoAdvanced"
+            },
+            {
+                "title": "WP pre používateľov",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "wpBeginner"
+            },
+            {
+                "title": "Tvorba webov vo wordpress a DIVI",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "wpAdvanced"
+            },
+            {
+                "title": "Python is easy",
+                "issuer": "Pirple",
+                "year": "2021",
+                "img": "python"
+            },
+            {
+                "title": "Full-stack development with Flask",
+                "issuer": "Pirple",
+                "year": "2022",
+                "img": "flask"
+            }
+        ]
+    },
+    "contact": {
+        "hero": {
+            "title": "Let's work together",
+            "subtitle": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you."
+        }
+    },
+    "projectsDetail": {
+        "backToProjectsButton": "Späť na projekty",
+        "items": [
+            {
+                "slug": "personal-portfolio",
+                "status": [
+                    "Live projekt",
+                    true
+                ],
+                "title": "Osobné vývojárske portfólio",
+                "subtitle": "Moderné a výkonnostne optimalizované portfólio slúžiace na prezentáciu mojich projektov, skúseností a technického zázemia.",
+                "heroImage": "portfolio",
+                "links": {
+                    "github": "https://github.com/richardo-en/react-portfolio"
+                },
+                "details": [
+                    {
+                        "label": "Rola",
+                        "value": "Full-stack vývojár"
+                    },
+                    {
+                        "label": "Obdobie",
+                        "value": "2024"
+                    },
+                    {
+                        "label": "Typ",
+                        "value": "Osobný projekt"
+                    }
+                ],
+                "tech": [
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Vite",
+                    "i18n",
+                    "React Router"
+                ],
+                "sections": [
+                    {
+                        "title": "Výzva",
+                        "text": [
+                            "Cieľom bolo vytvoriť portfólio, ktoré nepôsobí len ako statická vizitka, ale jasne komunikuje moju technickú úroveň, spôsob uvažovania a reálne skúsenosti z vývoja.",
+                            "Výzvou bolo zachovať čistý a prehľadný dizajn, no zároveň podporiť komplexnejší obsah, ako sú detailné popisy projektov, certifikáty a viacjazyčná podpora."
+                        ]
+                    },
+                    {
+                        "title": "Prístup",
+                        "text": [
+                            "Portfólio som navrhol ako modulárnu React aplikáciu s dôrazom na znovupoužiteľné komponenty a jasne oddelenú obsahovú štruktúru riadenú cez i18n.",
+                            "Osobitná pozornosť bola venovaná výkonu, responzívnemu správaniu, prístupnosti a plynulému používateľskému zážitku naprieč zariadeniami."
+                        ]
+                    },
+                    {
+                        "title": "Výsledok",
+                        "text": [
+                            "Výsledkom je škálovateľné a udržiavateľné portfólio, ktoré je možné jednoducho rozširovať o nové projekty a obsah bez zásahu do základnej architektúry.",
+                            "Portfólio slúži nielen ako prezentačný nástroj, ale aj ako praktická ukážka môjho prístupu k frontendovej architektúre a UX rozhodnutiam."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "portfolio1",
+                    "portfolio2",
+                    "portfolio3"
+                ]
+            },
+            {
+                "slug": "web-game",
+                "status": [
+                    "Neaktívny projekt",
+                    false
+                ],
+                "title": "Webová závodná hra",
+                "subtitle": "2D závodná hra v prehliadači vytvorená v čistom JavaScripte so zameraním na hernú logiku, kolízie a matematiku pohybu.",
+                "heroImage": "webGame",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Rola",
+                        "value": "Frontend vývojár"
+                    },
+                    {
+                        "label": "Obdobie",
+                        "value": "2023"
+                    },
+                    {
+                        "label": "Typ",
+                        "value": "Školský projekt"
+                    }
+                ],
+                "tech": [
+                    "JavaScript",
+                    "HTML Canvas",
+                    "CSS",
+                    "MVC architektúra"
+                ],
+                "sections": [
+                    {
+                        "title": "Výzva",
+                        "text": [
+                            "Cieľom projektu bolo navrhnúť a implementovať interaktívnu webovú hru bez použitia externých herných knižníc alebo frameworkov.",
+                            "Výzvou bolo správne zvládnuť hernú logiku, kolízie objektov, plynulé animácie a realistický pohyb vozidla v reálnom čase."
+                        ]
+                    },
+                    {
+                        "title": "Prístup",
+                        "text": [
+                            "Hru som navrhol pomocou architektúry MVC (Model–View–Controller), ktorá zabezpečuje prehľadné oddelenie hernej logiky, vykresľovania a vstupov používateľa.",
+                            "Významnou časťou implementácie bolo prepočítavanie uhlov rotácie auta pomocou sínusových a kosínusových funkcií, čo umožnilo realistické zatáčanie a presnejšiu detekciu kolízií aj pri rotovaných objektoch.",
+                            "Na vykresľovanie herného sveta bol použitý HTML canvas a vlastný systém scén (menu, hra, pauza, výhra, prehra)."
+                        ]
+                    },
+                    {
+                        "title": "Výsledok",
+                        "text": [
+                            "Výsledkom je plne funkčná 2D závodná hra s viacerými úrovňami obtiažnosti, zberom hernej meny a jednoduchými power-upmi.",
+                            "Projekt mi poskytol hlboké pochopenie práce s matematikou v hrách, animáciami, kolíziami a návrhom architektúry interaktívnych aplikácií v JavaScripte."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "webGame1",
+                    "webGame2",
+                    "webGame3"
+                ]
+            },
+            {
+                "slug": "deligo",
+                "status": [
+                    "Neaktívny projekt",
+                    false
+                ],
+                "title": "DeliGo – viacvrstvový backendový systém",
+                "subtitle": "Skupinový projekt zameraný na návrh a implementáciu komplexného backendového systému simulujúceho reálne produkčné prostredie vrátane siete, servera a bezpečnosti.",
+                "heroImage": "deligo",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Rola",
+                        "value": "Backend vývojár / architektúra systému"
+                    },
+                    {
+                        "label": "Obdobie",
+                        "value": "2023"
+                    },
+                    {
+                        "label": "Typ",
+                        "value": "Vysokoškolský skupinový projekt"
+                    }
+                ],
+                "tech": [
+                    "Java",
+                    "Maven",
+                    "REST API",
+                    "Reverse proxy",
+                    "Sieťová komunikácia",
+                    "Modulárna architektúra"
+                ],
+                "sections": [
+                    {
+                        "title": "Výzva",
+                        "text": [
+                            "Cieľom projektu nebolo len implementovať funkčnú aplikáciu, ale pochopiť fungovanie reálneho backendového systému v sieťovom prostredí.",
+                            "Výzvou bolo navrhnúť architektúru, ktorá by bola prehľadná, rozšíriteľná a zároveň blízka produkčným riešeniam používaným vo firmách."
+                        ]
+                    },
+                    {
+                        "title": "Architektúra a návrh systému",
+                        "text": [
+                            "Systém bol navrhnutý ako viacvrstvová aplikácia s jasne oddelenými zodpovednosťami medzi prezentačnou vrstvou, biznis logikou a perzistenciou.",
+                            "Prezentačná vrstva vystavovala REST API, spracúvala HTTP požiadavky a riešila validáciu vstupných dát, zatiaľ čo biznis logika bola oddelená od infraštruktúrnych detailov.",
+                            "Perzistenčná vrstva bola abstrahovaná pomocou rozhraní, čo umožňovalo jej jednoduchú výmenu bez zásahu do zvyšku systému."
+                        ]
+                    },
+                    {
+                        "title": "Sieť, server a infraštruktúra",
+                        "text": [
+                            "Dôležitou súčasťou projektu bola simulácia reálneho sieťového prostredia, kde jednotlivé komponenty komunikovali cez sieť pomocou IP adries a portov.",
+                            "Riešil som problémy dostupnosti služieb, správne routovanie requestov a diagnostiku situácií, keď jedna služba nevidela druhú.",
+                            "Serverová infraštruktúra bola manuálne konfigurovaná a doplnená o reverse proxy, ktorá slúžila ako centrálny vstupný bod a chránila interné služby pred priamym prístupom."
+                        ]
+                    },
+                    {
+                        "title": "Bezpečnosť a rozšíriteľnosť",
+                        "text": [
+                            "Bezpečnosť bola súčasťou návrhu už od začiatku – riešila sa validácia vstupov, obmedzenie prístupu k citlivým častiam systému a minimalizácia útokovej plochy.",
+                            "Použitie modulárnej architektúry, rozhraní a jasných kontraktov umožňovalo systém ďalej rozširovať bez potreby prepisovania existujúceho kódu.",
+                            "Projekt mi pomohol prejsť od riešenia izolovaných úloh k systémovému mysleniu nad aplikáciou ako celkom."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "deligo1",
+                    "deligo2",
+                    "deligo2"
+                ]
+            },
+            {
+                "slug": "ocr-shop-receipt",
+                "status": [
+                    "Live projekt",
+                    true
+                ],
+                "title": "OCR Shop Receipt – desktopová aplikácia",
+                "subtitle": "Desktopová aplikácia zameraná na automatizované spracovanie pokladničných blokov a účteniek pomocou OCR, AI extrakcie a obrazu zo skutočnej kamery.",
+                "heroImage": "ocr",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Rola",
+                        "value": "Autor riešenia / architektúra / backend"
+                    },
+                    {
+                        "label": "Obdobie",
+                        "value": "2024"
+                    },
+                    {
+                        "label": "Typ",
+                        "value": "Osobný experimentálny projekt"
+                    }
+                ],
+                "tech": [
+                    "Electron",
+                    "Python",
+                    "OpenCV",
+                    "OCR",
+                    "AI extrakcia dát",
+                    "Desktop aplikácie"
+                ],
+                "sections": [
+                    {
+                        "title": "Cieľ projektu",
+                        "text": [
+                            "Cieľom projektu nebolo len rozpoznať text z obrázka, ale vytvoriť kompletný workflow spracovania účteniek – od snímania kamery, cez predspracovanie obrazu, OCR, AI extrakciu dát až po ich normalizáciu a zobrazenie v aplikácii.",
+                            "Projekt sa snažil simulovať reálny použiteľný systém, nie jednorazový skript alebo demo model."
+                        ]
+                    },
+                    {
+                        "title": "Architektúra riešenia",
+                        "text": [
+                            "Riešenie bolo rozdelené na Electron desktopovú aplikáciu ako GUI vrstvu a Python backend, ktorý riešil všetku ťažkú logiku.",
+                            "Electron fungoval ako multiplatformové UI, spúšťal Python procesy, odosielal im vstupy a prijímal spracované výstupy vo forme štruktúrovaných dát.",
+                            "Python backend bol postupne refaktorovaný do modulárnej architektúry s oddelenou logikou pre kameru, obrazové spracovanie, OCR a AI extrakciu."
+                        ]
+                    },
+                    {
+                        "title": "Práca s kamerou a hardvérom",
+                        "text": [
+                            "Jednou z najväčších výziev projektu bola práca s externou kamerou určenou na snímanie účteniek z malej vzdialenosti.",
+                            "Štandardné nástroje výrobcu kameru nepodporovali a automatické zaostrovanie bolo pre makro snímanie nepoužiteľné.",
+                            "Riešením bola manuálna inicializácia kamery v OpenCV, identifikácia zariadenia pomocou Device Instance Path a experimentovanie s vlastnými Python skriptmi na manuálne nastavovanie focusu a parametrov kamery."
+                        ]
+                    },
+                    {
+                        "title": "Predspracovanie obrazu a OCR",
+                        "text": [
+                            "Pred samotným OCR bolo nutné riešiť kvalitu vstupného obrazu, keďže účtenky mali rôzne osvetlenie, rozmazanie, pokrčený papier a nekonzistentné fonty.",
+                            "Použité boli techniky ako grayscale konverzia, thresholding, zvyšovanie kontrastu a orezanie oblasti záujmu.",
+                            "Projekt ukázal, že kvalita OCR výstupu je extrémne citlivá na vstupný obraz a veľká časť úsilia je v image preprocessing pipeline, nie v samotnom OCR modeli."
+                        ]
+                    },
+                    {
+                        "title": "AI extrakcia dát a systémové výzvy",
+                        "text": [
+                            "Projekt postupne prešiel od jednoduchého rozpoznania textu k AI extrakcii štruktúrovaných dát, ako sú názov obchodu, dátum, položky, ceny a celková suma.",
+                            "Ukázalo sa, že OCR samo o sebe nestačí – AI modely museli pracovať s kontextom a layoutom dokumentu.",
+                            "Projekt zároveň odkryl výkonnostné limity bežných zariadení, vysokú spotrebu RAM, zaťaženie CPU a otázky okolo GPU akcelerácie."
+                        ]
+                    },
+                    {
+                        "title": "Získané skúsenosti",
+                        "text": [
+                            "Projekt poskytol veľmi reálny pohľad na problémy kombinácie desktopovej aplikácie, Python backendu a AI modelov.",
+                            "Priniesol skúsenosti s debugovaním na úrovni OS, driverov, knižníc a hardvéru.",
+                            "Aj napriek tomu, že projekt nie je aktívne rozvíjaný, predstavuje cennú skúsenosť s návrhom komplexného systému mimo klasického webového prostredia."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "ocr1",
+                    "ocr2",
+                    "ocr3"
+                ]
+            },
+            {
+                "slug": "mobile-game-unity",
+                "status": ["Ukončený projekt", false],
+                "title": "Mobilná hra v Unity",
+                "subtitle": "Jednoduchá mobilná hra vytvorená v Unity a C#, ktorá predstavovala môj prvý samostatný IT projekt a prvú skúsenosť s herným vývojom.",
+                "heroImage": "mobileGame",
+                "links": {},
+                "details": [
+                    {
+                        "label": "Rola",
+                        "value": "Autor projektu"
+                    },
+                    {
+                        "label": "Obdobie",
+                        "value": "2020"
+                    },
+                    {
+                        "label": "Typ",
+                        "value": "Osobný / prvý IT projekt"
+                    }
+                ],
+                "tech": [
+                    "Unity",
+                    "C#",
+                    "Android",
+                    "Blender",
+                    "Google Play"
+                ],
+                "sections": [
+                    {
+                        "title": "Začiatok projektu",
+                        "text": [
+                            "Tento projekt vznikol ako môj úplne prvý samostatný IT projekt, do ktorého som sa pustil bez predchádzajúcich skúseností s vývojom hier.",
+                            "Pôvodne som sa venoval práci v Blenderi, kde som experimentoval s jednoduchými 3D objektmi a scénami, čo ma postupne priviedlo k myšlienke vytvoriť vlastnú hru."
+                        ]
+                    },
+                    {
+                        "title": "Vývoj hry v Unity",
+                        "text": [
+                            "Hru som vyvíjal v Unity pomocou jazyka C#. Išlo o jednoduchú, ale plne hrateľnú mobilnú hru postavenú na fyzike a presnom ovládaní.",
+                            "Hráč ovládal guľu, ktorá sa pohybovala doľava a doprava na základe dotykového vstupu. Cieľom bolo vyhýbať sa prekážkam a dostať sa do cieľa."
+                        ]
+                    },
+                    {
+                        "title": "Herná mechanika a levely",
+                        "text": [
+                            "Hra obsahovala približne 20 levelov s postupne rastúcou obtiažnosťou.",
+                            "Po úspešnom dokončení levelu sa hráčovi odomkol ďalší level, čo vytváralo jednoduchý, ale motivujúci progres.",
+                            "Projekt mi umožnil pochopiť základné princípy hernej logiky, kolízií, práce s fyzikou a riadenia herného stavu."
+                        ]
+                    },
+                    {
+                        "title": "Publikovanie a skúsenosti",
+                        "text": [
+                            "Hru sa mi podarilo úspešne publikovať na Google Play, kde bola určitý čas verejne dostupná.",
+                            "Aj keď sa hra dnes už na Google Play nenachádza a zdrojový kód sa nezachoval, projekt bol pre mňa zásadným míľnikom.",
+                            "Naučil ma dotiahnuť projekt od nápadu až po reálne vydanie a dal mi prvý praktický kontakt s vývojom softvéru ako celku."
+                        ]
+                    }
+                ],
+                "gallery":[]
+            }
+
+        ]
+    }
+}

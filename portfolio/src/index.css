@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+
+@keyframes slideDownMenu {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpMenu {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.animate-menu-in {
+  animation: slideDownMenu 0.35s ease-out forwards;
+}
+
+.animate-menu-out {
+  animation: slideUpMenu 0.3s ease-in forwards;
+}

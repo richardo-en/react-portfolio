@@ -1,0 +1,409 @@
+{
+    "hero": {
+        "available": "Available for work",
+        "title": "Designing Digital Experiences that",
+        "highlight": "Matter",
+        "subtitle": "I design accessible, human-centered products.",
+        "ctaProjects": "View Projects",
+        "ctaResume": "Get Resume",
+        "stats": [
+            {
+                "label": "Rokov skúseností",
+                "value": "6+"
+            },
+            {
+                "label": "Reálnych projektov",
+                "value": "5+"
+            },
+            {
+                "label": "Roky práce na interných systémoch",
+                "value": "2"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Selected Works",
+        "subtitle": "A glimpse into my recent work.",
+        "items": [
+            {
+                "title": "Fintech Dashboard",
+                "category": "UI/UX Design",
+                "image": "/images/p1.jpg"
+            }
+        ]
+    },
+    "trustedBy": {
+        "title": "Worked with companies",
+        "companies": [
+            {
+                "id": "slovanet",
+                "name": "Slovanet",
+                "logo": "/logos/slovanet.png",
+                "url": "https://www.slovanet.net"
+            },
+            {
+                "id": "itaps",
+                "name": "Itaps",
+                "logo": "/logos/itaps.svg",
+                "url": "https://www.itaps.sk"
+            },
+            {
+                "id": "slsp",
+                "name": "Slovak Savings Bank",
+                "logo": "/logos/slsp.ico",
+                "url": "https://www.slsp.sk/en"
+            }
+        ]
+    },
+    "about": {
+        "hero": {
+            "badge": "The person behind the screen",
+            "title": "More than just a developer",
+            "subtitle": "I am Richard, a software-oriented developer with a strong technical background gained through university studies, personal projects, and real-world experience. I enjoy building practical solutions and continuously improving my skills.",
+            "ctaPrimary": "View Projects",
+            "ctaSecondary": "Contact Me"
+        },
+        "drives": {
+            "title": "What drives me",
+            "subtitle": "Principles and values that shape the way I work and think.",
+            "items": [
+                {
+                    "title": "Continuous Improvement",
+                    "text": "I am strongly motivated to keep learning and improving my technical and problem-solving skills. I actively observe best practices and apply them in my own projects.",
+                    "icon": "growth"
+                },
+                {
+                    "title": "Team Collaboration",
+                    "text": "My background in team sports helped me develop discipline, responsibility, and the ability to work effectively with others in collaborative environments.",
+                    "icon": "team"
+                },
+                {
+                    "title": "Responsibility Under Pressure",
+                    "text": "I focus on delivering tasks on time and with high quality. Even under pressure, I stay focused and reliable when meeting deadlines.",
+                    "icon": "focus"
+                }
+            ]
+        },
+        "timeline": {
+            "title": "Personal & Professional Milestones",
+            "items": [
+                {
+                    "period": "2019 – 2023",
+                    "title": "Computer Science Studies – FIIT STU",
+                    "subtitle": "Faculty of Informatics and Information Technologies",
+                    "description": "Completed three years of a four-year bachelor's program, gaining strong foundations in programming, algorithms, software engineering, and system design."
+                },
+                {
+                    "period": "2022",
+                    "title": "Internship – Slovanet",
+                    "subtitle": "ERP System Development",
+                    "description": "Worked on the development of custom modules for an internal ERP system based on Odoo, gaining insight into real-world enterprise software development."
+                },
+                {
+                    "period": "2020 – Present",
+                    "title": "Personal & Academic Projects",
+                    "subtitle": "Web & Software Development",
+                    "description": "Actively working on personal and university projects using technologies such as Python, JavaScript, React, and various backend frameworks."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Let’s work together",
+            "text": "If you are interested in collaboration or would like to know more about my work, feel free to reach out.",
+            "primary": "Get in touch",
+            "secondary": "View resume"
+        },
+        "favorites": {
+            "title": "My Favorites",
+            "items": [
+                {
+                    "title": "Current Read",
+                    "description": "\"Born to Run\" by Christopher McDougall",
+                    "icon": "menu_book",
+                    "colorClass": "bg-red-100 text-red-600"
+                },
+                {
+                    "title": "On Repeat",
+                    "description": "Classic Rock & 90s Hip Hop Mix",
+                    "icon": "music_note",
+                    "colorClass": "bg-green-100 text-green-600"
+                },
+                {
+                    "title": "Go-To Meal",
+                    "description": "Homemade Paella on Sundays",
+                    "icon": "restaurant",
+                    "colorClass": "bg-yellow-100 text-yellow-600"
+                },
+                {
+                    "title": "Next Trip",
+                    "description": "Cycling tour through Tuscany",
+                    "icon": "flight",
+                    "colorClass": "bg-purple-100 text-purple-600"
+                }
+            ]
+        }
+    },
+    "work": {
+        "hero": {
+            "title": "My Professional Journey",
+            "subtitle": "A snapshot of my experience, roles, and projects across different stages of my development. Focused on building reliable software and continuously improving my skills.",
+            "download": "Download Resume (PDF)"
+        },
+        "timeline": {
+            "items": [
+                {
+                    "title": "Software Developer",
+                    "company": "Internal Projects & Freelance",
+                    "period": "2022 – Present",
+                    "description": "Working on personal and academic projects with a strong focus on backend logic, system design, and practical problem solving. Gaining hands-on experience through real-world inspired applications.",
+                    "achievements": [
+                        "Designed and implemented several full-stack applications for learning and experimentation.",
+                        "Worked with REST APIs, databases, and authentication flows.",
+                        "Improved code quality by applying clean architecture principles."
+                    ],
+                    "skills": [
+                        "Java",
+                        "Python",
+                        "React",
+                        "Spring Boot",
+                        "PostgreSQL"
+                    ]
+                },
+                {
+                    "title": "Intern – Software Development",
+                    "company": "Slovanet",
+                    "period": "2022",
+                    "description": "Internship focused on enterprise software development within an internal ERP system. Exposure to production codebases, real business requirements, and team workflows.",
+                    "achievements": [
+                        "Developed custom modules for the internal Odoo-based ERP system.",
+                        "Collaborated with senior developers on feature implementation.",
+                        "Learned basics of enterprise-level deployment and maintenance."
+                    ],
+                    "skills": [
+                        "Python",
+                        "Odoo",
+                        "SQL",
+                        "Git"
+                    ]
+                },
+                {
+                    "title": "Computer Science Student",
+                    "company": "FIIT STU",
+                    "period": "2019 – 2023",
+                    "description": "Completed three years of a four-year bachelor's program focused on computer science fundamentals, algorithms, and software engineering concepts.",
+                    "achievements": [
+                        "Gained strong foundations in programming, algorithms, and data structures.",
+                        "Worked on semester projects using C, JavaScript, and Python.",
+                        "Participated in team-based academic projects."
+                    ],
+                    "skills": [
+                        "C",
+                        "Algorithms",
+                        "Data Structures",
+                        "JavaScript"
+                    ]
+                }
+            ]
+        },
+        "skills": {
+            "title": "Core Technologies & Skills",
+            "items": [
+                "Java",
+                "Spring Boot",
+                "Python",
+                "React",
+                "TypeScript",
+                "PostgreSQL",
+                "Docker",
+                "Git",
+                "REST APIs",
+                "Linux",
+                "Agile"
+            ]
+        },
+        "cta": {
+            "title": "Want to Work Together?",
+            "text": "If you are interested in my work or would like to discuss potential opportunities, feel free to reach out or download my resume.",
+            "primary": "Contact Me",
+            "secondary": "View Projects"
+        }
+    },
+    "myProjects": {
+        "hero": {
+            "title": "Selected Work",
+            "subtitle": "A collection of projects exploring full-stack development and software design.",
+            "cta": "Start a Project"
+        },
+        "filters": [
+            {
+                "label": "All Projects",
+                "value": "all"
+            },
+            {
+                "label": "Web",
+                "value": "web"
+            },
+            {
+                "label": "University projects",
+                "value": "university"
+            },
+            {
+                "label": "Other projects",
+                "value": "other"
+            }
+        ],
+        "items": [
+            {
+                "title": "E-Commerce Dashboard",
+                "description": "Analytics tool for managing sales and customer insights.",
+                "image": "/images/p1.jpg",
+                "tags": [
+                    "Vue",
+                    "D3",
+                    "UX"
+                ],
+                "linkLabel": "View Project"
+            },
+            {
+                "title": "FinTech Mobile App",
+                "description": "Secure mobile banking app with analytics.",
+                "image": "/images/p2.jpg",
+                "tags": [
+                    "React Native",
+                    "Firebase"
+                ],
+                "linkLabel": "View Case Study"
+            }
+        ],
+        "cta": {
+            "title": "Like what you see?",
+            "text": "I'm currently open for new opportunities.",
+            "primary": "Contact Me",
+            "secondary": "See Resume"
+        }
+    },
+    "certifications": {
+        "hero": {
+            "badge": "Verified credentials",
+            "title": "Education & Certifications",
+            "subtitle": "A collection of degrees, courses and certificates that shaped my technical background.",
+            "ctaPrimary": "Download Resume",
+            "ctaSecondary": "Verify on Credly"
+        },
+        "items": [
+            {
+                "title": "SQL, MySQL, SQLite",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "sql"
+            },
+            {
+                "title": "SEO pre začiatočníkov",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "seoBeginner"
+            },
+            {
+                "title": "SEO pre pokročilých",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "seoAdvanced"
+            },
+            {
+                "title": "WP pre používateľov",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "wpBeginner"
+            },
+            {
+                "title": "Tvorba webov vo wordpress a DIVI",
+                "issuer": "Skillmea",
+                "year": "2022",
+                "img": "wpAdvanced"
+            },
+            {
+                "title": "Python is easy",
+                "issuer": "Pirple",
+                "year": "2021",
+                "img": "python"
+            },
+            {
+                "title": "Full-stack development with Flask",
+                "issuer": "Pirple",
+                "year": "2022",
+                "img": "flask"
+            }
+        ]
+    },
+    "contact": {
+        "hero": {
+            "title": "Let's work together",
+            "subtitle": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you."
+        }
+    },
+    "projectsDetail": {
+        "items": [
+            {
+                "slug": "personal-portfolio",
+                "status": "Live Project",
+                "title": "Personal Developer Portfolio",
+                "subtitle": "A modern, performance-focused portfolio built to showcase my projects, experience and technical background.",
+                "heroImage": "/images/portfolio/hero.png",
+                "links": {
+                    "live": "https://yourdomain.com",
+                    "github": "https://github.com/yourname/portfolio"
+                },
+                "details": [
+                    {
+                        "label": "Role",
+                        "value": "Full-stack Developer"
+                    },
+                    {
+                        "label": "Timeline",
+                        "value": "2024"
+                    },
+                    {
+                        "label": "Type",
+                        "value": "Personal Project"
+                    }
+                ],
+                "tech": [
+                    "React",
+                    "TypeScript",
+                    "Tailwind CSS",
+                    "Vite",
+                    "i18n",
+                    "React Router"
+                ],
+                "sections": [
+                    {
+                        "title": "The Challenge",
+                        "text": [
+                            "I wanted a portfolio that goes beyond a static presentation and clearly communicates my technical depth, design thinking, and real-world experience.",
+                            "The challenge was to keep the design clean while still supporting more complex content like project case studies, certifications, and multilingual support."
+                        ]
+                    },
+                    {
+                        "title": "The Approach",
+                        "text": [
+                            "I designed the portfolio as a modular React application with reusable components and a clear content structure driven by i18n.",
+                            "Special focus was put on performance, accessibility, responsive behavior and smooth user experience across devices."
+                        ]
+                    },
+                    {
+                        "title": "The Result",
+                        "text": [
+                            "The result is a scalable and maintainable portfolio that can easily grow with new projects and content.",
+                            "It serves both as a presentation tool and as a real-world example of how I approach frontend architecture and UX decisions."
+                        ]
+                    }
+                ],
+                "gallery": [
+                    "/images/portfolio/screen1.png",
+                    "/images/portfolio/screen2.png",
+                    "/images/portfolio/screen3.png"
+                ]
+            }
+        ]
+    }
+}
