@@ -8,7 +8,7 @@ export default function AboutHero() {
   return (
     <section className="bg-background-light">
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-24">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           
           {/* Text */}
           <div className="space-y-6">
