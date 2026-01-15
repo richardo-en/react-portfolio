@@ -14,6 +14,8 @@ export default function ContactForm() {
             data-netlify="true"
             netlify-honeypot="bot-field"
           >
+            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="bot-field" />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <label className="flex flex-col gap-2">
                 <span className="text-sm font-medium">Your Name</span>
@@ -62,8 +64,6 @@ export default function ContactForm() {
               </button>
             </div>
           </form>
-          <input type="hidden" name="form-name" value="contact" />
-          <input type="hidden" name="bot-field" />
         </div>
       </div>
     </section>
