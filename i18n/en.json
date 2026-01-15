@@ -289,7 +289,7 @@
             {
                 "title": "OCR Shop receipt",
                 "description": "Optical character recognition from physical receipts",
-                "image": "",
+                "image": "ocr",
                 "tags": [
                     "Python",
                     "Mern"
@@ -298,28 +298,15 @@
                 "slug": "ocr-shop-receipt"
             },
             {
-                "title": "Web applications built with Flask and Django",
-                "description": "A collection of my web applications built using Python frameworks",
-                "image": "",
-                "tags": [
-                    "Python",
-                    "Flask",
-                    "Django",
-                    "Html/CSS",
-                    "Bootstrap/Tailwind"
-                ],
-                "category": "web"
-            },
-            {
                 "title": "Mobile game",
                 "description": "A simple indie mobile game built using the Unity engine and C#. The game was published on Google Play.",
-                "image": "",
+                "image": "mobileGame",
                 "tags": [
-                    "Python",
-                    "Flask",
-                    "Django",
-                    "Html/CSS",
-                    "Bootstrap/Tailwind"
+                    "Unity",
+                    "C#",
+                    "Android",
+                    "Blender",
+                    "Google Play"
                 ],
                 "category": "other",
                 "slug": "mobile-game-unity"
@@ -386,7 +373,7 @@
     "contact": {
         "hero": {
             "title": "Let's work together",
-            "subtitle": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll do my best to get back to you."
+            "subtitle": "I'm currently open to new opportunities."
         }
     },
     "projectsDetail": {
@@ -464,7 +451,9 @@
                 "title": "Web racing game",
                 "subtitle": "A 2D browser-based racing game built in pure JavaScript, focused on game logic, collision handling, and movement mathematics.",
                 "heroImage": "webGame",
-                "links": {},
+                "links": {
+                    "github": "https://github.com/richardo-en/Javascript-browser-game"
+                },
                 "details": [
                     {
                         "label": "Role",
@@ -524,7 +513,9 @@
                 "title": "DeliGo – multi-layer backend system",
                 "subtitle": "A group project focused on designing and implementing a complex backend system simulating a real production environment, including networking, servers, and security.",
                 "heroImage": "deligo",
-                "links": {},
+                "links": {
+                    "github" : "https://github.com/VAVA-tim-Sme-carovny/DeliGo"
+                },
                 "details": [
                     {
                         "label": "Role",
@@ -595,7 +586,9 @@
                 "title": "OCR Shop Receipt – desktop application",
                 "subtitle": "A desktop application focused on automated processing of receipts using OCR, AI data extraction, and live camera input.",
                 "heroImage": "ocr",
-                "links": {},
+                "links": {
+                    "github": "https://github.com/richardo-en/OCR_shop_receipt"
+                },
                 "details": [
                     {
                         "label": "Role",
@@ -677,7 +670,7 @@
                 "slug": "mobile-game-unity",
                 "status": [
                     "Completed project",
-                    false
+                    true
                 ],
                 "title": "Mobile game in Unity",
                 "subtitle": "A simple mobile game built in Unity and C# that represents my first independent IT project and my first experience with game development.",
@@ -736,7 +729,9 @@
                         ]
                     }
                 ],
-                "gallery": []
+                "gallery": [
+                    "mobileGame"
+                ]
             }
         ]
     }

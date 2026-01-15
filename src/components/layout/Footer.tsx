@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex gap-6">
           {/* LinkedIn */}
           <a
-            href="#"
+            href="https://www.linkedin.com/in/richard-nemeth-40b144241/"
             className="text-gray-500 hover:text-primary transition-colors"
             aria-label="LinkedIn"
           >
@@ -29,7 +29,7 @@ export default function Footer() {
 
           {/* GitHub */}
           <a
-            href="#"
+            href="https://github.com/richardo-en"
             className="text-gray-500 hover:text-primary transition-colors"
             aria-label="GitHub"
           >

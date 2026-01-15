@@ -9,12 +9,16 @@ export default function ContactForm() {
 
           <form
             className="flex flex-col gap-5"
-            onSubmit={(e) => e.preventDefault()}
+             name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <label className="flex flex-col gap-2">
                 <span className="text-sm font-medium">Your Name</span>
                 <input
+                  name="name"
                   type="text"
                   placeholder="John Doe"
                   className="h-12 rounded-lg border border-gray-200 bg-slate-50 px-4 focus:border-primary focus:ring-1 focus:ring-primary"
@@ -24,6 +28,7 @@ export default function ContactForm() {
               <label className="flex flex-col gap-2">
                 <span className="text-sm font-medium">Your Email</span>
                 <input
+                  name="email"
                   type="email"
                   placeholder="john@example.com"
                   className="h-12 rounded-lg border border-gray-200 bg-slate-50 px-4 focus:border-primary focus:ring-1 focus:ring-primary"
@@ -33,17 +38,16 @@ export default function ContactForm() {
 
             <label className="flex flex-col gap-2">
               <span className="text-sm font-medium">Subject</span>
-              <select className="h-12 rounded-lg border border-gray-200 bg-slate-50 px-4 focus:border-primary focus:ring-1 focus:ring-primary">
+              <select className="h-12 rounded-lg border border-gray-200 bg-slate-50 px-4 focus:border-primary focus:ring-1 focus:ring-primary" name="subject">
                 <option>General Inquiry</option>
                 <option>Job Opportunity</option>
-                <option>Freelance Project</option>
-                <option>Just saying hi</option>
               </select>
             </label>
 
             <label className="flex flex-col gap-2">
               <span className="text-sm font-medium">Message</span>
               <textarea
+                name="message"
                 placeholder="Write your message here..."
                 className="min-h-[160px] rounded-lg border border-gray-200 bg-slate-50 p-4 resize-y focus:border-primary focus:ring-1 focus:ring-primary"
               />
@@ -58,6 +62,8 @@ export default function ContactForm() {
               </button>
             </div>
           </form>
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
         </div>
       </div>
     </section>

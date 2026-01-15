@@ -2,12 +2,16 @@ import ProjectCard from "./ProjectCard";
 import portfolioImage from "@projects/portfolio/portfolio.png"
 import webGame from "@projects/webGame/webGame.png"
 import deligo from "@projects/deligo/deligo.png"
+import mobileGame from "@projects/mobileGame/mobileGame.png"
+import ocr from "@projects/ocr/ocr.png"
 import { useLang } from "../../../i18n/LanguageContext";
 
 export const projectImages: Record<string, string> = {
   portfolio: portfolioImage,
   webGame: webGame,
   deligo: deligo,
+  mobileGame: mobileGame,
+  ocr: ocr
 };
 
 

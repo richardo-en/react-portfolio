@@ -289,7 +289,7 @@
             {
                 "title": "OCR Shop receipt",
                 "description": "Rekognizácia charakterov z fyzických blokov",
-                "image": "",
+                "image": "ocr",
                 "tags": [
                     "Python",
                     "Mern"
@@ -298,28 +298,15 @@
                 "slug": "ocr-shop-receipt"
             },
             {
-                "title": "Webové aplikácie vytvorené vo Flasku a Djangu",
-                "description": "Všetky moje webové aplikácie vytvorené v Python frameworkoch",
-                "image": "",
-                "tags": [
-                    "Python",
-                    "Flask",
-                    "Django",
-                    "Html/CSS",
-                    "Bootstrap/Tailwind"
-                ],
-                "category": "web"
-            },
-            {
                 "title": "Mobilná hra",
                 "description": "Jednoduchá indie mobilná hra, vytvorená cez unity engine a C#. Hra boli zverejnená na Google Play.",
-                "image": "",
+                "image": "mobileGame",
                 "tags": [
-                    "Python",
-                    "Flask",
-                    "Django",
-                    "Html/CSS",
-                    "Bootstrap/Tailwind"
+                    "Unity",
+                    "C#",
+                    "Android",
+                    "Blender",
+                    "Google Play"
                 ],
                 "category": "other",
                 "slug": "mobile-game-unity"
@@ -385,8 +372,8 @@
     },
     "contact": {
         "hero": {
-            "title": "Let's work together",
-            "subtitle": "I'm currently open to new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you."
+            "title": "Poďme spolupracovať",
+            "subtitle": "Momentálne som otvorený novým pracovným možnoostiam. Neváhajte ma kontaktovať."
         }
     },
     "projectsDetail": {
@@ -464,7 +451,9 @@
                 "title": "Webová závodná hra",
                 "subtitle": "2D závodná hra v prehliadači vytvorená v čistom JavaScripte so zameraním na hernú logiku, kolízie a matematiku pohybu.",
                 "heroImage": "webGame",
-                "links": {},
+                "links": {
+                    "github": "https://github.com/richardo-en/Javascript-browser-game"
+                },
                 "details": [
                     {
                         "label": "Rola",
@@ -524,7 +513,9 @@
                 "title": "DeliGo – viacvrstvový backendový systém",
                 "subtitle": "Skupinový projekt zameraný na návrh a implementáciu komplexného backendového systému simulujúceho reálne produkčné prostredie vrátane siete, servera a bezpečnosti.",
                 "heroImage": "deligo",
-                "links": {},
+                "links": {
+                    "github" : "https://github.com/VAVA-tim-Sme-carovny/DeliGo"
+                },
                 "details": [
                     {
                         "label": "Rola",
@@ -595,7 +586,9 @@
                 "title": "OCR Shop Receipt – desktopová aplikácia",
                 "subtitle": "Desktopová aplikácia zameraná na automatizované spracovanie pokladničných blokov a účteniek pomocou OCR, AI extrakcie a obrazu zo skutočnej kamery.",
                 "heroImage": "ocr",
-                "links": {},
+                "links": {
+                    "github": "https://github.com/richardo-en/OCR_shop_receipt"
+                },
                 "details": [
                     {
                         "label": "Rola",
@@ -675,7 +668,7 @@
             },
             {
                 "slug": "mobile-game-unity",
-                "status": ["Ukončený projekt", false],
+                "status": ["Ukončený projekt", true],
                 "title": "Mobilná hra v Unity",
                 "subtitle": "Jednoduchá mobilná hra vytvorená v Unity a C#, ktorá predstavovala môj prvý samostatný IT projekt a prvú skúsenosť s herným vývojom.",
                 "heroImage": "mobileGame",
@@ -733,7 +726,9 @@
                         ]
                     }
                 ],
-                "gallery":[]
+                "gallery":[
+                    "mobileGame"
+                ]
             }
 
         ]

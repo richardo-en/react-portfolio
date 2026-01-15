@@ -9,19 +9,6 @@ type Props = {
   slug: string; 
 };
 
-// export default function ProjectCard({ title, description, image, tags, linkLabel, slug }: Props) {
-//   return (
-//     <div className="group cursor-pointer">
-//       <div
-//         className="aspect-[4/3] rounded-xl bg-cover shadow-md mb-4"
-//         style={{ backgroundImage: `url(${image})` }}
-//       />
-//       <h4 className="font-bold group-hover:text-primary">{title}</h4>
-//       <p className="text-sm text-slate-500">{category}</p>
-//     </div>
-//   );
-// }
-
 
 export default function ProjectCard({ title, description, image, tags, linkLabel, slug }: Props) { 
   return ( 
