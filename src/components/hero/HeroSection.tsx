@@ -32,7 +32,14 @@ export default function HeroSection() {
           <Link to="/projects" className="hover:text-primary transition">
              <Button >{t.hero.ctaProjects}</Button>
           </Link>
-          <Button variant="outline">{t.hero.ctaResume}</Button>
+          <a
+            href="/cv/Richard_Nemeth_CV.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="outline">{t.hero.ctaResume}</Button>
+          </a>
         </div>
 
         <HeroStats />
